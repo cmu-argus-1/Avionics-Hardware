@@ -1,0 +1,194 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BSS138DWQ-7-symbols
+#
+DEF BSS138DWQ-7-symbols Q 0 30 Y N 2 L N
+F0 "Q" -100 200 50 H V L CNN
+F1 "BSS138DWQ-7-symbols" 150 250 50 H V L CNN
+F2 "custom-footprints:BSS138DWQ-7" 150 150 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/BSS138DWQ.pdf" 750 0 50 H I L CNN
+F4 "MOSFET BSS Family" 150 -50 50 H I L CNN "Description"
+F5 "1.1" 150 -150 50 H I L CNN "Height"
+F6 "Diodes Inc." 150 -250 50 H I L CNN "Manufacturer_Name"
+F7 "BSS138DWQ-7" 150 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-BSS138DWQ-7" 150 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BSS138DWQ-7?qs=nJRy1mI8RR9wz3YdMQOQIA%3D%3D" 150 -550 50 H I L CNN "Mouser Price/Stock"
+DRAW
+C 15 0 110 1 1 10 N
+C 50 -70 10 1 1 0 F
+C 50 70 10 1 1 0 F
+C 15 0 110 2 1 10 N
+C 50 -70 10 2 1 0 F
+C 50 70 10 2 1 0 F
+P 2 1 1 0 -40 0 -150 0 N
+P 2 1 1 10 -40 75 -40 -75 N
+P 2 1 1 10 -20 -50 -20 -90 N
+P 2 1 1 10 -20 20 -20 -20 N
+P 2 1 1 10 -20 90 -20 50 N
+P 2 1 1 0 50 100 50 70 N
+P 3 1 1 0 50 -100 50 0 -20 0 N
+P 4 1 1 0 -20 -70 80 -70 80 70 -20 70 N
+P 4 1 1 0 -10 0 30 15 30 -15 -10 0 F
+P 4 1 1 0 60 20 65 15 95 15 100 10 N
+P 4 1 1 0 80 15 65 -10 95 -10 80 15 N
+P 2 2 1 0 -40 0 -150 0 N
+P 2 2 1 10 -40 75 -40 -75 N
+P 2 2 1 10 -20 -50 -20 -90 N
+P 2 2 1 10 -20 20 -20 -20 N
+P 2 2 1 10 -20 90 -20 50 N
+P 2 2 1 0 50 100 50 70 N
+P 3 2 1 0 50 -100 50 0 -20 0 N
+P 4 2 1 0 -20 -70 80 -70 80 70 -20 70 N
+P 4 2 1 0 -10 0 30 15 30 -15 -10 0 F
+P 4 2 1 0 60 20 65 15 95 15 100 10 N
+P 4 2 1 0 80 15 65 -10 95 -10 80 15 N
+X S2 1 50 -200 100 U 50 50 1 1 P
+X G2 2 -250 0 100 R 50 50 1 1 I
+X D1 3 50 200 100 D 50 50 1 1 P
+X S1 4 50 -200 100 U 50 50 2 1 P
+X G1 5 -250 0 100 R 50 50 2 1 I
+X D2 6 50 200 100 D 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# DRV8830DGQR-symbols
+#
+DEF DRV8830DGQR-symbols U 0 30 Y Y 1 F N
+F0 "U" 0 400 50 H V L CNN
+F1 "DRV8830DGQR-symbols" -300 -300 50 H V L CNN
+F2 "custom-footprints:DRV8830DGQR" 1250 100 50 H I L CNN
+F3 "" 1250 0 50 H I L CNN
+F4 "DRV8830DGQR, Motor Driver, 1A Low Voltage Motor Driver, 2.75 to 6.8V, 10-Pin MSOP PowerPAD" 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DRV8830DGQR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-DRV8830DGQR" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-DRV8830DGQR" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7300559P" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7300559P" 1250 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+S -500 300 500 -250 0 1 0 N
+X OUT2 1 -700 100 200 R 50 50 0 0 O
+X SCL 10 700 200 200 L 50 50 0 0 U
+X EP 11 -700 -200 200 R 50 50 0 0 U N
+X ISENSE 2 -700 -100 200 R 50 50 0 0 U
+X OUT1 3 -700 0 200 R 50 50 0 0 O
+X VCC 4 -700 200 200 R 50 50 0 0 W
+X GND 5 -700 -200 200 R 50 50 0 0 W
+X FAULTN 6 700 -200 200 L 50 50 0 0 U
+X A0 7 700 -100 200 L 50 50 0 0 U
+X A1 8 700 0 200 L 50 50 0 0 U
+X SDA 9 700 100 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# IL5xx-symbols
+#
+DEF IL5xx-symbols U 0 40 Y Y 1 F N
+F0 "U" 0 500 50 H V C CNN
+F1 "IL5xx-symbols" 0 -450 50 H V C CNN
+F2 "custom-footprints:SOIC-16_IL5xx" -50 500 50 H I C CNN
+F3 "" -50 500 50 H I C CNN
+DRAW
+S -250 450 300 -400 0 1 0 N
+X NC 10 400 -250 100 L 50 50 0 0 N
+X NC 11 400 -150 100 L 50 50 0 0 N
+X IN3 12 400 -50 100 L 50 50 0 0 U
+X OUT2 13 400 50 100 L 50 50 0 0 U
+X OUT1 14 400 150 100 L 50 50 0 0 U
+X GND2 15 400 250 100 L 50 50 0 0 U
+X VDD2 16 400 350 100 L 50 50 0 0 U
+X IN1 3 -350 150 100 R 50 50 0 0 I
+X IN2 4 -350 50 100 R 50 50 0 0 U
+X OUT3 5 -350 -50 100 R 50 50 0 0 U
+X NC 6 -350 -150 100 R 50 50 0 0 N
+X ~VOE 7 -350 -250 100 R 50 50 0 0 U
+X GND1 8 -350 -350 100 R 50 50 0 0 U
+X GND2 9 400 -350 100 L 50 50 0 0 U
+X VDD1 1 -350 350 100 R 50 50 1 1 I
+X GND1 2 -350 250 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MMCX_SMD-symbols
+#
+DEF MMCX_SMD-symbols J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "MMCX_SMD-symbols" 115 0 50 V V C CNN
+F2 "custom-footprints:0734152063" -50 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+X 3 3 0 -200 100 U 50 50 1 1 P N
+X 4 4 0 -200 100 U 50 50 1 1 P N
+X 5 5 0 -200 100 U 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+# TSL2561-symbols
+#
+DEF TSL2561-symbols U 0 30 Y Y 1 F N
+F0 "U" 1150 300 50 H V L CNN
+F1 "TSL2561-symbols" 1150 200 50 H V L CNN
+F2 "custom-footprints:TSL2561" 1150 100 50 H I L CNN
+F3 "" 1150 0 50 H I L CNN
+F4 "Light-to-Digital Converter" 1150 -100 50 H I L CNN "Description"
+F5 "1.55" 1150 -200 50 H I L CNN "Height"
+F6 "ams" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSL2561" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 U
+X ADDR_SEL 2 0 -100 200 R 50 50 0 0 U
+X GND 3 0 -200 200 R 50 50 0 0 U
+X SCL 4 1300 0 200 L 50 50 0 0 U
+X INT 5 1300 -100 200 L 50 50 0 0 U
+X SDA 6 1300 -200 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# XF3M(1)-0815-1B-symbols
+#
+DEF XF3M(1)-0815-1B-symbols J 0 30 Y Y 1 F N
+F0 "J" -50 450 50 H V L CNN
+F1 "XF3M(1)-0815-1B-symbols" 200 -350 50 V V L CNN
+F2 "custom-footprints:XF3M108151B" 450 -150 50 H I L CNN
+F3 "" 450 -250 50 H I L CNN
+F4 "FFC & FPC Connectors 6 Pins 1.0mm Pitch" 450 -350 50 H I L CNN "Description"
+F5 "2" 450 -450 50 H I L CNN "Height"
+F6 "Omron Electronics" 450 -550 50 H I L CNN "Manufacturer_Name"
+F7 "XF3M(1)-0615-1B" 450 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "653-XF3M(1)-0615-1B" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF3M%281%29-0615-1B" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+S -200 400 150 -450 0 1 0 N
+X 1 1 -400 300 200 R 50 50 0 0 U
+X 2 2 -400 200 200 R 50 50 0 0 U
+X 3 3 -400 100 200 R 50 50 0 0 U
+X 4 4 -400 0 200 R 50 50 0 0 U
+X 5 5 -400 -100 200 R 50 50 0 0 U
+X 6 6 -400 -200 200 R 50 50 0 0 U
+X MP1 MP1 10 -330 200 U 50 50 0 0 U N
+X MP2 MP2 10 -330 200 U 50 50 0 0 U N
+X 7 7 -400 -300 200 R 50 50 1 1 U
+X 8 8 -400 -400 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

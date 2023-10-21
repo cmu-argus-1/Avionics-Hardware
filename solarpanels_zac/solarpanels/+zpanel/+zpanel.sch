@@ -1,0 +1,1256 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "+Z Panel"
+Date "2020-06-27"
+Rev "v03"
+Comp "V-R3X"
+Comment1 "Max Holliday"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2250 2200
+Connection ~ 2250 2500
+Connection ~ 2250 2600
+Connection ~ 2250 2900
+Connection ~ 2250 3050
+Connection ~ 2250 3350
+Connection ~ 2250 3550
+Connection ~ 2250 3850
+Connection ~ 2350 5450
+Connection ~ 2450 5250
+Connection ~ 2450 5550
+Connection ~ 2450 5750
+Connection ~ 4400 5750
+Connection ~ 4550 5750
+Connection ~ 5200 3550
+Connection ~ 5200 3950
+Connection ~ 5250 4950
+Connection ~ 5450 3550
+Connection ~ 5450 3750
+Connection ~ 5450 3950
+Connection ~ 5550 4950
+Connection ~ 5550 5100
+Connection ~ 5550 5250
+Connection ~ 5750 5250
+Connection ~ 5750 5750
+Connection ~ 7150 2100
+Connection ~ 7550 2800
+Connection ~ 7550 3300
+Connection ~ 7650 2300
+Connection ~ 7750 5650
+Connection ~ 7850 1150
+Connection ~ 7850 1450
+Connection ~ 8050 1750
+Connection ~ 8050 2500
+Connection ~ 8050 3000
+Connection ~ 8250 5650
+Connection ~ 8450 2100
+Connection ~ 8850 2800
+Connection ~ 8850 3300
+Connection ~ 8950 2250
+Connection ~ 9150 1150
+Connection ~ 9150 1450
+Connection ~ 9350 1750
+Connection ~ 9350 2500
+Connection ~ 9350 3000
+NoConn ~ 2900 5650
+NoConn ~ 3900 3750
+Wire Wire Line
+	2000 2200 2250 2200
+Wire Wire Line
+	2000 2500 2250 2500
+Wire Wire Line
+	2000 2600 2250 2600
+Wire Wire Line
+	2000 2900 2250 2900
+Wire Wire Line
+	2000 3050 2250 3050
+Wire Wire Line
+	2000 3350 2250 3350
+Wire Wire Line
+	2000 3550 2250 3550
+Wire Wire Line
+	2000 3850 2250 3850
+Wire Wire Line
+	2250 2200 2400 2200
+Wire Wire Line
+	2250 2600 2250 2500
+Wire Wire Line
+	2250 3050 2250 2900
+Wire Wire Line
+	2250 3550 2250 3350
+Wire Wire Line
+	2350 5450 2900 5450
+Wire Wire Line
+	2350 5650 2350 5750
+Wire Wire Line
+	2350 5750 2450 5750
+Wire Wire Line
+	2450 5250 2350 5250
+Wire Wire Line
+	2450 5350 2450 5250
+Wire Wire Line
+	2700 2200 2900 2200
+Wire Wire Line
+	2800 5250 2900 5250
+Wire Wire Line
+	2800 5350 2900 5350
+Wire Wire Line
+	2900 5550 2450 5550
+Wire Wire Line
+	3850 3650 3900 3650
+Wire Wire Line
+	3850 3850 3900 3850
+Wire Wire Line
+	4300 5250 5550 5250
+Wire Wire Line
+	4300 5650 4300 5750
+Wire Wire Line
+	4300 5750 4400 5750
+Wire Wire Line
+	4400 5750 4550 5750
+Wire Wire Line
+	4550 5550 4300 5550
+Wire Wire Line
+	4600 5350 5600 5350
+Wire Wire Line
+	5050 4950 5250 4950
+Wire Wire Line
+	5200 3550 5450 3550
+Wire Wire Line
+	5200 3650 5200 3550
+Wire Wire Line
+	5200 3750 5450 3750
+Wire Wire Line
+	5200 3950 5200 3850
+Wire Wire Line
+	5200 3950 5450 3950
+Wire Wire Line
+	5250 1950 5400 1950
+Wire Wire Line
+	5250 2050 5400 2050
+Wire Wire Line
+	5250 5100 5250 4950
+Wire Wire Line
+	5300 5100 5250 5100
+Wire Wire Line
+	5500 5100 5550 5100
+Wire Wire Line
+	5550 2250 5250 2250
+Wire Wire Line
+	5550 2350 5250 2350
+Wire Wire Line
+	5550 5100 5550 4950
+Wire Wire Line
+	5550 5100 5550 5250
+Wire Wire Line
+	5550 5250 5750 5250
+Wire Wire Line
+	5600 5350 5600 5450
+Wire Wire Line
+	5600 5450 4600 5450
+Wire Wire Line
+	5750 5250 6200 5250
+Wire Wire Line
+	5750 5550 5750 5750
+Wire Wire Line
+	5750 5750 4550 5750
+Wire Wire Line
+	5800 3550 5450 3550
+Wire Wire Line
+	5800 3600 5800 3550
+Wire Wire Line
+	5800 3900 5800 3950
+Wire Wire Line
+	5800 3950 5450 3950
+Wire Wire Line
+	6200 5550 6200 5750
+Wire Wire Line
+	6200 5750 5750 5750
+Wire Wire Line
+	7150 1450 7150 2100
+Wire Wire Line
+	7150 1450 7850 1450
+Wire Wire Line
+	7150 2600 7150 2100
+Wire Wire Line
+	7150 3000 7150 3300
+Wire Wire Line
+	7150 3300 7550 3300
+Wire Wire Line
+	7550 2100 7150 2100
+Wire Wire Line
+	7550 2800 7450 2800
+Wire Wire Line
+	7550 3300 7550 3200
+Wire Wire Line
+	7550 3300 8050 3300
+Wire Wire Line
+	7600 2300 7650 2300
+Wire Wire Line
+	7650 1750 7650 2300
+Wire Wire Line
+	7650 2300 7650 2500
+Wire Wire Line
+	7750 5550 7750 5650
+Wire Wire Line
+	7750 5650 8250 5650
+Wire Wire Line
+	7850 2200 7850 2100
+Wire Wire Line
+	7850 3000 8050 3000
+Wire Wire Line
+	7950 5350 8250 5350
+Wire Wire Line
+	8050 1150 7850 1150
+Wire Wire Line
+	8050 1450 8050 1150
+Wire Wire Line
+	8050 1750 8050 2500
+Wire Wire Line
+	8050 2700 8050 2500
+Wire Wire Line
+	8050 3800 7950 3800
+Wire Wire Line
+	8050 3950 7950 3950
+Wire Wire Line
+	8100 2500 8050 2500
+Wire Wire Line
+	8250 5650 8250 5550
+Wire Wire Line
+	8250 5650 9450 5650
+Wire Wire Line
+	8450 1450 9150 1450
+Wire Wire Line
+	8450 2100 8450 1450
+Wire Wire Line
+	8450 2600 8450 2100
+Wire Wire Line
+	8450 3000 8450 3300
+Wire Wire Line
+	8450 3300 8850 3300
+Wire Wire Line
+	8500 3800 8350 3800
+Wire Wire Line
+	8500 3950 8350 3950
+Wire Wire Line
+	8850 2100 8450 2100
+Wire Wire Line
+	8850 2800 8750 2800
+Wire Wire Line
+	8850 3300 8850 3200
+Wire Wire Line
+	8900 2250 8950 2250
+Wire Wire Line
+	8950 1750 8950 2250
+Wire Wire Line
+	8950 2250 8950 2500
+Wire Wire Line
+	9150 2200 9150 2100
+Wire Wire Line
+	9150 3000 9350 3000
+Wire Wire Line
+	9350 1150 9150 1150
+Wire Wire Line
+	9350 1450 9350 1150
+Wire Wire Line
+	9350 1750 9350 2500
+Wire Wire Line
+	9350 2700 9350 2500
+Wire Wire Line
+	9350 3300 8850 3300
+Wire Wire Line
+	9400 2500 9350 2500
+Wire Wire Line
+	9450 5450 9700 5450
+Wire Wire Line
+	9450 5650 9450 5550
+Wire Wire Line
+	9700 5350 9450 5350
+Text Notes 2500 1950 2    100  ~ 0
+Solar Cells
+Text Notes 3950 4850 2    100  ~ 0
+H-Bridge
+Text Notes 4900 3250 2    100  ~ 0
+Sun Sensor
+Text Notes 5800 1350 2    100  ~ 0
+Flat Flex Connector
+Text Notes 8400 5000 0    50   ~ 0
+Balun 880MHZ-960MHZ
+Text Notes 8750 3550 2    85   ~ 0
+Isolation Bypass
+Text Notes 9000 900  2    85   ~ 0
+I2C Bus Protection
+Text Notes 9700 4700 2    100  ~ 0
+Antenna, Balun, & RF Connector
+Text Label 2900 2200 2    50   ~ 0
+VSOLAR
+Text Label 4850 5450 0    50   ~ 0
+torque-coil
+Text Label 5550 2250 2    50   ~ 0
+VSOLAR
+Text Label 5550 2350 2    50   ~ 0
+VBURN
+Text GLabel 2800 5250 0    50   BiDi ~ 0
+SCL
+Text GLabel 2800 5350 0    50   BiDi ~ 0
+SDA
+Text GLabel 3850 3650 0    50   BiDi ~ 0
+SCL
+Text GLabel 3850 3850 0    50   BiDi ~ 0
+SDA
+Text GLabel 5250 1750 2    50   BiDi ~ 0
+VBATT
+Text GLabel 5400 1950 2    50   BiDi ~ 0
+SCL1_b4iso
+Text GLabel 5400 2050 2    50   BiDi ~ 0
+SDA1_b4iso
+Text GLabel 5850 4950 2    50   BiDi ~ 0
+VBATT
+Text GLabel 7600 2300 0    50   BiDi ~ 0
+SCL1_b4iso
+Text GLabel 7950 3800 0    50   BiDi ~ 0
+SCL1_b4iso
+Text GLabel 7950 3950 0    50   BiDi ~ 0
+SDA1_b4iso
+Text GLabel 8100 2500 2    50   BiDi ~ 0
+SCL
+Text GLabel 8500 3800 2    50   BiDi ~ 0
+SCL
+Text GLabel 8500 3950 2    50   BiDi ~ 0
+SDA
+Text GLabel 8900 2250 0    50   BiDi ~ 0
+SDA1_b4iso
+Text GLabel 9400 2500 2    50   BiDi ~ 0
+SDA
+$Comp
+L +zpanel-eagle-import:FRAME_A_L #FRAME1
+U 1 1 CC96BE83
+P 900 8600
+F 0 "#FRAME1" H 900 8600 50  0001 C CNN
+F 1 "FRAME_A_L" H 900 8600 50  0001 C CNN
+F 2 "" H 900 8600 50  0001 C CNN
+F 3 "" H 900 8600 50  0001 C CNN
+	1    900  8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 5DEEA952
+P 2450 5250
+F 0 "#PWR07" H 2450 5100 50  0001 C CNN
+F 1 "+3.3V" H 2350 5450 50  0000 L CNN
+F 2 "" H 2450 5250 50  0001 C CNN
+F 3 "" H 2450 5250 50  0001 C CNN
+	1    2450 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR010
+U 1 1 5EAF3546
+P 5050 4950
+F 0 "#PWR010" H 5050 4800 50  0001 C CNN
+F 1 "+3.3V" H 4950 5150 50  0000 L CNN
+F 2 "" H 5050 4950 50  0001 C CNN
+F 3 "" H 5050 4950 50  0001 C CNN
+	1    5050 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5DF8571D
+P 5200 3550
+F 0 "#PWR05" H 5200 3400 50  0001 C CNN
+F 1 "+3.3V" H 5100 3750 50  0000 L CNN
+F 2 "" H 5200 3550 50  0001 C CNN
+F 3 "" H 5200 3550 50  0001 C CNN
+	1    5200 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5DF856F6
+P 5250 1650
+F 0 "#PWR03" H 5250 1500 50  0001 C CNN
+F 1 "+3.3V" V 5265 1778 50  0000 L CNN
+F 2 "" H 5250 1650 50  0001 C CNN
+F 3 "" H 5250 1650 50  0001 C CNN
+	1    5250 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR012
+U 1 1 5ECE1509
+P 7550 2500
+F 0 "#PWR012" H 7550 2350 50  0001 C CNN
+F 1 "+3.3V" H 7600 2550 50  0000 L CNN
+F 2 "" H 7550 2500 50  0001 C CNN
+F 3 "" H 7550 2500 50  0001 C CNN
+	1    7550 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5ECE2EAA
+P 7850 1150
+F 0 "#PWR04" H 7850 1000 50  0001 C CNN
+F 1 "+3.3V" H 7900 1200 50  0000 L CNN
+F 2 "" H 7850 1150 50  0001 C CNN
+F 3 "" H 7850 1150 50  0001 C CNN
+	1    7850 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR013
+U 1 1 5ECE43FB
+P 8850 2500
+F 0 "#PWR013" H 8850 2350 50  0001 C CNN
+F 1 "+3.3V" H 8900 2550 50  0000 L CNN
+F 2 "" H 8850 2500 50  0001 C CNN
+F 3 "" H 8850 2500 50  0001 C CNN
+	1    8850 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR011
+U 1 1 5ECE3686
+P 9150 1150
+F 0 "#PWR011" H 9150 1000 50  0001 C CNN
+F 1 "+3.3V" H 9200 1200 50  0000 L CNN
+F 2 "" H 9150 1150 50  0001 C CNN
+F 3 "" H 9150 1150 50  0001 C CNN
+	1    9150 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5DF08B4E
+P 5850 7100
+F 0 "FID1" H 5935 7146 50  0000 L CNN
+F 1 "Fiducial" H 5935 7055 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 5850 7100 50  0001 C CNN
+F 3 "~" H 5850 7100 50  0001 C CNN
+	1    5850 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5DF0A6E4
+P 5850 7300
+F 0 "FID2" H 5935 7346 50  0000 L CNN
+F 1 "Fiducial" H 5935 7255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 5850 7300 50  0001 C CNN
+F 3 "~" H 5850 7300 50  0001 C CNN
+	1    5850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5DF0A905
+P 5850 7500
+F 0 "FID3" H 5935 7546 50  0000 L CNN
+F 1 "Fiducial" H 5935 7455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 5850 7500 50  0001 C CNN
+F 3 "~" H 5850 7500 50  0001 C CNN
+	1    5850 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF14259
+P 2250 3850
+F 0 "#PWR0101" H 2250 3600 50  0001 C CNN
+F 1 "GND" H 2255 3677 50  0000 C CNN
+F 2 "" H 2250 3850 50  0001 C CNN
+F 3 "" H 2250 3850 50  0001 C CNN
+	1    2250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5DEEEBD5
+P 2450 5750
+F 0 "#PWR08" H 2450 5500 50  0001 C CNN
+F 1 "GND" H 2500 5600 50  0000 R CNN
+F 2 "" H 2450 5750 50  0001 C CNN
+F 3 "" H 2450 5750 50  0001 C CNN
+	1    2450 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5DECC683
+P 4400 5750
+F 0 "#PWR09" H 4400 5500 50  0001 C CNN
+F 1 "GND" H 4450 5600 50  0000 R CNN
+F 2 "" H 4400 5750 50  0001 C CNN
+F 3 "" H 4400 5750 50  0001 C CNN
+	1    4400 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5DF85723
+P 5200 3950
+F 0 "#PWR06" H 5200 3700 50  0001 C CNN
+F 1 "GND" H 5250 3800 50  0000 R CNN
+F 2 "" H 5200 3950 50  0001 C CNN
+F 3 "" H 5200 3950 50  0001 C CNN
+	1    5200 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E234617
+P 5250 1850
+F 0 "#PWR0102" H 5250 1600 50  0001 C CNN
+F 1 "GND" V 5255 1722 50  0000 R CNN
+F 2 "" H 5250 1850 50  0001 C CNN
+F 3 "" H 5250 1850 50  0001 C CNN
+	1    5250 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E234B46
+P 5250 2150
+F 0 "#PWR0103" H 5250 1900 50  0001 C CNN
+F 1 "GND" V 5255 2022 50  0000 R CNN
+F 2 "" H 5250 2150 50  0001 C CNN
+F 3 "" H 5250 2150 50  0001 C CNN
+	1    5250 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5ECDA979
+P 7550 3300
+F 0 "#PWR014" H 7550 3050 50  0001 C CNN
+F 1 "GND" H 7600 3150 50  0000 R CNN
+F 2 "" H 7550 3300 50  0001 C CNN
+F 3 "" H 7550 3300 50  0001 C CNN
+	1    7550 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DF5EE84
+P 7750 5650
+F 0 "#PWR01" H 7750 5400 50  0001 C CNN
+F 1 "GND" H 7755 5477 50  0000 C CNN
+F 2 "" H 7750 5650 50  0001 C CNN
+F 3 "" H 7750 5650 50  0001 C CNN
+	1    7750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5ECDFDDC
+P 8850 3300
+F 0 "#PWR015" H 8850 3050 50  0001 C CNN
+F 1 "GND" H 8900 3150 50  0000 R CNN
+F 2 "" H 8850 3300 50  0001 C CNN
+F 3 "" H 8850 3300 50  0001 C CNN
+	1    8850 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5E1E8216
+P 4450 5350
+F 0 "L1" V 4269 5350 50  0000 C CNN
+F 1 "TBD" V 4360 5350 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 4450 5350 50  0001 C CNN
+F 3 "~" H 4450 5350 50  0001 C CNN
+	1    4450 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 5E1F1799
+P 4450 5450
+F 0 "L2" V 4269 5450 50  0000 C CNN
+F 1 "TBD" V 4360 5450 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 4450 5450 50  0001 C CNN
+F 3 "~" H 4450 5450 50  0001 C CNN
+	1    4450 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 5DED0E31
+P 2350 5350
+F 0 "R4" H 2417 5304 50  0000 L CNN
+F 1 "0" H 2417 5395 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2350 5350 50  0001 C CNN
+F 3 "~" H 2350 5350 50  0001 C CNN
+	1    2350 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 5DED041D
+P 2350 5550
+F 0 "R6" H 2417 5504 50  0000 L CNN
+F 1 "0" H 2417 5595 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2350 5550 50  0001 C CNN
+F 3 "~" H 2350 5550 50  0001 C CNN
+	1    2350 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 5DED16E1
+P 2450 5450
+F 0 "R5" H 2382 5404 50  0000 R CNN
+F 1 "0" H 2382 5495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2450 5450 50  0001 C CNN
+F 3 "~" H 2450 5450 50  0001 C CNN
+	1    2450 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 5DED16DB
+P 2450 5650
+F 0 "R7" H 2382 5604 50  0000 R CNN
+F 1 "0" H 2382 5695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2450 5650 50  0001 C CNN
+F 3 "~" H 2450 5650 50  0001 C CNN
+	1    2450 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 5DECBFBA
+P 4550 5650
+F 0 "R8" H 4482 5604 50  0000 R CNN
+F 1 "0" H 4482 5695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4550 5650 50  0001 C CNN
+F 3 "~" H 4550 5650 50  0001 C CNN
+	1    4550 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R15
+U 1 1 5EAF19D0
+P 5400 5100
+F 0 "R15" V 5287 5100 50  0000 C CNN
+F 1 "0" V 5400 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5400 5100 50  0001 C CNN
+F 3 "~" H 5400 5100 50  0001 C CNN
+F 4 "DNI" V 5300 5250 50  0000 C CNN "DNI"
+	1    5400 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5DF8572F
+P 5450 3650
+F 0 "R1" H 5382 3604 50  0000 R CNN
+F 1 "0" H 5382 3695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5450 3650 50  0001 C CNN
+F 3 "~" H 5450 3650 50  0001 C CNN
+	1    5450 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5DF85729
+P 5450 3850
+F 0 "R2" H 5382 3804 50  0000 R CNN
+F 1 "0" H 5382 3895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5450 3850 50  0001 C CNN
+F 3 "~" H 5450 3850 50  0001 C CNN
+	1    5450 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E4432F5
+P 5650 6850
+F 0 "H1" H 5750 6896 50  0000 L CNN
+F 1 "MountingHole" H 5750 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5650 6850 50  0001 C CNN
+F 3 "~" H 5650 6850 50  0001 C CNN
+	1    5650 6850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E44596E
+P 5650 7050
+F 0 "H2" H 5750 7096 50  0000 L CNN
+F 1 "MountingHole" H 5750 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5650 7050 50  0001 C CNN
+F 3 "~" H 5650 7050 50  0001 C CNN
+	1    5650 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E445B3F
+P 5650 7250
+F 0 "H3" H 5750 7296 50  0000 L CNN
+F 1 "MountingHole" H 5750 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5650 7250 50  0001 C CNN
+F 3 "~" H 5650 7250 50  0001 C CNN
+	1    5650 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E445E64
+P 5650 7450
+F 0 "H4" H 5750 7496 50  0000 L CNN
+F 1 "MountingHole" H 5750 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5650 7450 50  0001 C CNN
+F 3 "~" H 5650 7450 50  0001 C CNN
+	1    5650 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R89
+U 1 1 5ECB5BC0
+P 7550 2650
+F 0 "R89" H 7482 2604 50  0000 R CNN
+F 1 "10K" H 7482 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7590 2640 50  0001 C CNN
+F 3 "~" H 7550 2650 50  0001 C CNN
+	1    7550 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R88
+U 1 1 5ECB5C17
+P 7700 2100
+F 0 "R88" V 7900 2000 50  0000 C CNN
+F 1 "600" V 7800 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7740 2090 50  0001 C CNN
+F 3 "~" H 7700 2100 50  0001 C CNN
+	1    7700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R86
+U 1 1 5ECB5BF7
+P 7850 1300
+F 0 "R86" H 7782 1346 50  0000 R CNN
+F 1 "10K" H 7782 1255 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7890 1290 50  0001 C CNN
+F 3 "~" H 7850 1300 50  0001 C CNN
+	1    7850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 5ECB5BF0
+P 8050 1600
+F 0 "R10" H 7982 1554 50  0000 R CNN
+F 1 "10K" H 7982 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8090 1590 50  0001 C CNN
+F 3 "~" H 8050 1600 50  0001 C CNN
+	1    8050 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R90
+U 1 1 5ECB5BD5
+P 8050 2850
+F 0 "R90" H 8250 2850 50  0000 R CNN
+F 1 "100K" H 7982 2895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 2840 50  0001 C CNN
+F 3 "~" H 8050 2850 50  0001 C CNN
+	1    8050 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R79
+U 1 1 5F153C33
+P 8200 3800
+F 0 "R79" V 7995 3800 50  0000 C CNN
+F 1 "0" V 8086 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8240 3790 50  0001 C CNN
+F 3 "~" H 8200 3800 50  0001 C CNN
+	1    8200 3800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R80
+U 1 1 5F184017
+P 8200 3950
+F 0 "R80" V 8313 3950 50  0000 C CNN
+F 1 "0" V 8404 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8240 3940 50  0001 C CNN
+F 3 "~" H 8200 3950 50  0001 C CNN
+	1    8200 3950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_US R94
+U 1 1 5ED8DE18
+P 8850 2650
+F 0 "R94" H 8782 2604 50  0000 R CNN
+F 1 "10K" H 8782 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8890 2640 50  0001 C CNN
+F 3 "~" H 8850 2650 50  0001 C CNN
+	1    8850 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R93
+U 1 1 5ED8DE6C
+P 9000 2100
+F 0 "R93" V 8800 2200 50  0000 C CNN
+F 1 "600" V 8900 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9040 2090 50  0001 C CNN
+F 3 "~" H 9000 2100 50  0001 C CNN
+	1    9000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R91
+U 1 1 5ED8DE4D
+P 9150 1300
+F 0 "R91" H 9082 1346 50  0000 R CNN
+F 1 "10K" H 9082 1255 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9190 1290 50  0001 C CNN
+F 3 "~" H 9150 1300 50  0001 C CNN
+	1    9150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 5ED8DE46
+P 9350 1600
+F 0 "R11" H 9282 1554 50  0000 R CNN
+F 1 "10K" H 9282 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9390 1590 50  0001 C CNN
+F 3 "~" H 9350 1600 50  0001 C CNN
+	1    9350 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R95
+U 1 1 5ED8DE2D
+P 9350 2850
+F 0 "R95" H 9282 2804 50  0000 R CNN
+F 1 "100K" H 9282 2895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9390 2840 50  0001 C CNN
+F 3 "~" H 9350 2850 50  0001 C CNN
+	1    9350 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 5DEF5EF8
+P 2250 2350
+F 0 "D2" V 2204 2429 50  0000 L CNN
+F 1 "SBD" V 2295 2429 50  0000 L CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 2250 2350 50  0001 C CNN
+F 3 "~" H 2250 2350 50  0001 C CNN
+	1    2250 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 5DF00A67
+P 2250 2750
+F 0 "D3" V 2204 2829 50  0000 L CNN
+F 1 "SBD" V 2295 2829 50  0000 L CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 2250 2750 50  0001 C CNN
+F 3 "~" H 2250 2750 50  0001 C CNN
+	1    2250 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 5DF031F2
+P 2250 3200
+F 0 "D4" V 2204 3279 50  0000 L CNN
+F 1 "SBD" V 2295 3279 50  0000 L CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 2250 3200 50  0001 C CNN
+F 3 "~" H 2250 3200 50  0001 C CNN
+	1    2250 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D5
+U 1 1 5DF05CD6
+P 2250 3700
+F 0 "D5" V 2204 3779 50  0000 L CNN
+F 1 "SBD" V 2295 3779 50  0000 L CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 2250 3700 50  0001 C CNN
+F 3 "~" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5DF9E64C
+P 2550 2200
+F 0 "D1" H 2550 1984 50  0000 C CNN
+F 1 "SBD" H 2550 2075 50  0000 C CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 2550 2200 50  0001 C CNN
+F 3 "~" H 2550 2200 50  0001 C CNN
+	1    2550 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D7
+U 1 1 5ED07A92
+P 5400 4950
+F 0 "D7" H 5400 4734 50  0000 C CNN
+F 1 "SBD" H 5400 4825 50  0000 C CNN
+F 2 "custom-footprints:SOD-323HE" H 5400 4950 50  0001 C CNN
+F 3 "~" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D10
+U 1 1 5EACEC9F
+P 5700 4950
+F 0 "D10" H 5700 5256 50  0000 C CNN
+F 1 "SBD" H 5700 5166 50  0000 C CNN
+F 2 "custom-footprints:SOD-323HE" H 5700 4950 50  0001 C CNN
+F 3 "~" H 5700 4950 50  0001 C CNN
+F 4 "DNI" H 5700 5075 50  0000 C CNN "DNI"
+	1    5700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5DF06A7B
+P 5750 5400
+F 0 "C2" H 5865 5446 50  0000 L CNN
+F 1 "0.1uF" H 5865 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5788 5250 50  0001 C CNN
+F 3 "~" H 5750 5400 50  0001 C CNN
+	1    5750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DF8573D
+P 5800 3750
+F 0 "C1" H 5915 3796 50  0000 L CNN
+F 1 "0.1uF" H 5915 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5838 3600 50  0001 C CNN
+F 3 "~" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C3
+U 1 1 5DEF69F1
+P 6200 5400
+F 0 "C3" H 6315 5446 50  0000 L CNN
+F 1 "10uF" H 6315 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 5400 50  0001 C CNN
+F 3 "~" H 6200 5400 50  0001 C CNN
+	1    6200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5ECE0D4E
+P 8050 3150
+F 0 "C6" H 8165 3195 50  0000 L CNN
+F 1 "10nF" H 8165 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8088 3000 50  0001 C CNN
+F 3 "~" H 8050 3150 50  0001 C CNN
+	1    8050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5ECDE261
+P 9350 3150
+F 0 "C7" H 9465 3195 50  0000 L CNN
+F 1 "10nF" H 9465 3105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 3000 50  0001 C CNN
+F 3 "~" H 9350 3150 50  0001 C CNN
+	1    9350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC1
+U 1 1 5DEF4F3D
+P 2000 2400
+F 0 "SC1" H 2200 2550 50  0000 R CNN
+F 1 "SM141K06L" H 2450 2400 50  0000 R CNN
+F 2 "custom-footprints:SM141K06L" V 2000 2460 50  0001 C CNN
+F 3 "~" V 2000 2460 50  0001 C CNN
+F 4 "SM141K06L" H 2000 2400 50  0001 C CNN "Description"
+	1    2000 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC2
+U 1 1 5DF00A61
+P 2000 2800
+F 0 "SC2" H 2200 2950 50  0000 R CNN
+F 1 "SM141K06L" H 2450 2800 50  0000 R CNN
+F 2 "custom-footprints:SM141K06L" V 2000 2860 50  0001 C CNN
+F 3 "~" V 2000 2860 50  0001 C CNN
+	1    2000 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC3
+U 1 1 5DF031EC
+P 2000 3250
+F 0 "SC3" H 2200 3400 50  0000 R CNN
+F 1 "SM141K06L" H 2450 3250 50  0000 R CNN
+F 2 "custom-footprints:SM141K06L" V 2000 3310 50  0001 C CNN
+F 3 "~" V 2000 3310 50  0001 C CNN
+F 4 "SM141K06L" H 2000 3250 50  0001 C CNN "Description"
+	1    2000 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC4
+U 1 1 5DF05CD0
+P 2000 3750
+F 0 "SC4" H 2200 3900 50  0000 R CNN
+F 1 "SM141K06L" H 2450 3750 50  0000 R CNN
+F 2 "custom-footprints:SM141K06L" V 2000 3810 50  0001 C CNN
+F 3 "~" V 2000 3810 50  0001 C CNN
+F 4 "SM141K06L" H 2000 3750 50  0001 C CNN "Description"
+	1    2000 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +zpanel-eagle-import:ANTENNA U$3
+U 1 1 6E1B97F5
+P 9700 5150
+F 0 "U$3" H 9700 5150 50  0001 C CNN
+F 1 "ANTENNA" H 9700 5150 50  0001 C CNN
+F 2 "custom-footprints:TAPE_ANT_VR3X" H 9700 5150 50  0001 C CNN
+F 3 "" H 9700 5150 50  0001 C CNN
+	1    9700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +zpanel-eagle-import:ANTENNA U$2
+U 1 1 87B7DF34
+P 9700 5650
+F 0 "U$2" H 9700 5650 50  0001 C CNN
+F 1 "ANTENNA" H 9700 5650 50  0001 C CNN
+F 2 "custom-footprints:TAPE_ANT_VR3X" H 9700 5650 50  0001 C CNN
+F 3 "" H 9700 5650 50  0001 C CNN
+	1    9700 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L symbols:MMCX_SMD J2
+U 1 1 5E1FA1B8
+P 7750 5350
+F 0 "J2" H 7678 5588 50  0000 C CNN
+F 1 "MMCX_SMD" H 7678 5497 50  0000 C CNN
+F 2 "custom-footprints:0734152063" H 7700 5050 50  0001 C CNN
+F 3 " ~" H 7750 5350 50  0001 C CNN
+F 4 "0734152063" H 7750 5350 50  0001 C CNN "Description"
+	1    7750 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MBT2222ADW1T1 Q?
+U 2 1 5ED8DE66
+P 7850 1650
+AR Path="/5CEC5DDE/5ED8DE66" Ref="Q?"  Part="2" 
+AR Path="/5CEC5A72/5ED8DE66" Ref="Q14"  Part="2" 
+AR Path="/5ED8DE66" Ref="Q14"  Part="2" 
+F 0 "Q14" V 7750 1750 50  0000 C CNN
+F 1 "MBT2222ADW1T1" V 7100 1650 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8050 1750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" H 7850 1650 50  0001 C CNN
+	2    7850 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:MBT2222ADW1T1 Q?
+U 1 1 5ED8DE55
+P 7850 2400
+AR Path="/5CEC5DDE/5ED8DE55" Ref="Q?"  Part="1" 
+AR Path="/5CEC5A72/5ED8DE55" Ref="Q14"  Part="1" 
+AR Path="/5ED8DE55" Ref="Q14"  Part="1" 
+F 0 "Q14" V 7750 2500 50  0000 C CNN
+F 1 "MBT2222ADW1T1" H 8041 2355 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8050 2500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" H 7850 2400 50  0001 C CNN
+	1    7850 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:MBT2222ADW1T1 Q?
+U 2 1 5ECB5C11
+P 9150 1650
+AR Path="/5CEC5DDE/5ECB5C11" Ref="Q?"  Part="2" 
+AR Path="/5CEC5A72/5ECB5C11" Ref="Q9"  Part="2" 
+AR Path="/5ECB5C11" Ref="Q9"  Part="2" 
+F 0 "Q9" V 9050 1750 50  0000 C CNN
+F 1 "MBT2222ADW1T1" V 8400 1650 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9350 1750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" H 9150 1650 50  0001 C CNN
+	2    9150 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:MBT2222ADW1T1 Q?
+U 1 1 5ECB5BFF
+P 9150 2400
+AR Path="/5CEC5DDE/5ECB5BFF" Ref="Q?"  Part="1" 
+AR Path="/5CEC5A72/5ECB5BFF" Ref="Q9"  Part="1" 
+AR Path="/5ECB5BFF" Ref="Q9"  Part="1" 
+F 0 "Q9" V 9050 2500 50  0000 C CNN
+F 1 "MBT2222ADW1T1" H 9341 2355 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9350 2500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" H 9150 2400 50  0001 C CNN
+	1    9150 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L symbols:BSS138DWQ-7 Q13
+U 1 1 5ED0ABFE
+P 7200 2800
+F 0 "Q13" H 7000 2950 50  0000 L CNN
+F 1 "BSS138DWQ-7" H 7355 2755 50  0001 L CNN
+F 2 "custom-footprints:BSS138DWQ-7" H 7350 2950 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/BSS138DWQ.pdf" H 7950 2800 50  0001 L CNN
+F 4 "MOSFET BSS Family" H 7350 2750 50  0001 L CNN "Description"
+F 5 "1.1" H 7350 2650 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 7350 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "BSS138DWQ-7" H 7350 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-BSS138DWQ-7" H 7350 2350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BSS138DWQ-7?qs=nJRy1mI8RR9wz3YdMQOQIA%3D%3D" H 7350 2250 50  0001 L CNN "Mouser Price/Stock"
+	1    7200 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:BSS138DWQ-7 Q13
+U 2 1 5ED0C656
+P 7600 3000
+F 0 "Q13" H 7755 3046 50  0000 L CNN
+F 1 "BSS138DWQ-7" H 7450 2800 50  0000 L CNN
+F 2 "custom-footprints:BSS138DWQ-7" H 7750 3150 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/BSS138DWQ.pdf" H 8350 3000 50  0001 L CNN
+F 4 "MOSFET BSS Family" H 7750 2950 50  0001 L CNN "Description"
+F 5 "1.1" H 7750 2850 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 7750 2750 50  0001 L CNN "Manufacturer_Name"
+F 7 "BSS138DWQ-7" H 7750 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-BSS138DWQ-7" H 7750 2550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BSS138DWQ-7?qs=nJRy1mI8RR9wz3YdMQOQIA%3D%3D" H 7750 2450 50  0001 L CNN "Mouser Price/Stock"
+	2    7600 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:BSS138DWQ-7 Q15
+U 2 1 5ED8DE86
+P 8500 2800
+F 0 "Q15" H 8300 2950 50  0000 L CNN
+F 1 "BSS138DWQ-7" H 8350 2600 50  0000 L CNN
+F 2 "custom-footprints:BSS138DWQ-7" H 8650 2950 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/BSS138DWQ.pdf" H 9250 2800 50  0001 L CNN
+F 4 "MOSFET BSS Family" H 8650 2750 50  0001 L CNN "Description"
+F 5 "1.1" H 8650 2650 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 8650 2550 50  0001 L CNN "Manufacturer_Name"
+F 7 "BSS138DWQ-7" H 8650 2450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-BSS138DWQ-7" H 8650 2350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BSS138DWQ-7?qs=nJRy1mI8RR9wz3YdMQOQIA%3D%3D" H 8650 2250 50  0001 L CNN "Mouser Price/Stock"
+	2    8500 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:BSS138DWQ-7 Q15
+U 1 1 5ED8DE7A
+P 8900 3000
+F 0 "Q15" H 8650 3150 50  0000 L CNN
+F 1 "BSS138DWQ-7" H 9055 2955 50  0001 L CNN
+F 2 "custom-footprints:BSS138DWQ-7" H 9050 3150 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/BSS138DWQ.pdf" H 9650 3000 50  0001 L CNN
+F 4 "MOSFET BSS Family" H 9050 2950 50  0001 L CNN "Description"
+F 5 "1.1" H 9050 2850 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 9050 2750 50  0001 L CNN "Manufacturer_Name"
+F 7 "BSS138DWQ-7" H 9050 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-BSS138DWQ-7" H 9050 2550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BSS138DWQ-7?qs=nJRy1mI8RR9wz3YdMQOQIA%3D%3D" H 9050 2450 50  0001 L CNN "Mouser Price/Stock"
+	1    8900 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:HHM17139B2 U4
+U 1 1 5DFDE7F2
+P 8850 5450
+F 0 "U4" H 8850 5775 50  0000 C CNN
+F 1 "‎HHM1776B3‎" H 8850 5684 50  0000 C CNN
+F 2 "custom-footprints:balun0603" H 8850 5150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/400/tdk_11072016_HHM17139B2-1207097.pdf" H 8500 5350 50  0001 C CNN
+	1    8850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:XF3M(1)-0815-1B J1
+U 1 1 5E231B9D
+P 4850 1950
+F 0 "J1" H 5028 1971 50  0000 L CNN
+F 1 "XF3M(1)-0815-1B" H 5028 1880 50  0000 L CNN
+F 2 "custom-footprints:XF3M108151B" H 5300 1800 50  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-xf3m.pdf" H 5300 1700 50  0001 L CNN
+F 4 "FFC & FPC Connectors 6 Pins 1.0mm Pitch" H 5300 1600 50  0001 L CNN "Description"
+F 5 "2" H 5300 1500 50  0001 L CNN "Height"
+F 6 "Omron Electronics" H 5300 1400 50  0001 L CNN "Manufacturer_Name"
+F 7 "XF3M(1)-0615-1B" H 5300 1300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "653-XF3M(1)-0615-1B" H 5700 1450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF3M%281%29-0615-1B" H 5700 1350 50  0001 L CNN "Mouser Price/Stock"
+	1    4850 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:TSL2561 U2
+U 1 1 5DF85712
+P 5200 3650
+F 0 "U2" H 5850 3915 50  0000 C CNN
+F 1 "TSL2561" H 5850 3824 50  0000 C CNN
+F 2 "custom-footprints:TSL2561" H 6350 3750 50  0001 L CNN
+F 3 "https://ams.com/documents/20143/36005/TSL2561_DS000110_3-00.pdf/18a41097-2035-4333-c70e-bfa544c0a98b" H 6350 3650 50  0001 L CNN
+F 4 "Light-to-Digital Converter" H 6350 3550 50  0001 L CNN "Description"
+F 5 "1.55" H 6350 3450 50  0001 L CNN "Height"
+F 6 "ams" H 6350 3350 50  0001 L CNN "Manufacturer_Name"
+F 7 "TSL2561" H 6350 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 6350 3150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 6350 3050 50  0001 L CNN "Mouser Price/Stock"
+	1    5200 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:DRV8830DGQR U1
+U 1 1 5DEC2E10
+P 3600 5450
+F 0 "U1" H 3600 5915 50  0000 C CNN
+F 1 "DRV8830DGQR" H 3600 5824 50  0000 C CNN
+F 2 "custom-footprints:DRV8830DGQR" H 4850 5550 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8830.pdf" H 4850 5450 50  0001 L CNN
+F 4 "DRV8830DGQR, Motor Driver, 1A Low Voltage Motor Driver, 2.75 to 6.8V, 10-Pin MSOP PowerPAD" H 4850 5350 50  0001 L CNN "Description"
+F 5 "1.1" H 4850 5250 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4850 5150 50  0001 L CNN "Manufacturer_Name"
+F 7 "DRV8830DGQR" H 4850 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-DRV8830DGQR" H 4850 4950 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-DRV8830DGQR" H 4850 4850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "7300559P" H 4850 4750 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7300559P" H 4850 4650 50  0001 L CNN "RS Price/Stock"
+	1    3600 5450
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
