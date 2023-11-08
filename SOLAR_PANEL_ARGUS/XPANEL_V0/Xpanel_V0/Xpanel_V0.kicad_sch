@@ -1942,7 +1942,7 @@
     (effects (font (size 1.016 1.016)) (justify right bottom))
     (uuid 3574a67b-53c2-474d-a4ca-28b7b743db64)
   )
-  (label "torque-coil" (at 107.95 144.018 0) (fields_autoplaced)
+  (label "coils" (at 107.95 144.018 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 79cd5397-2c7d-45f0-bd8e-5aa29d9219e2)
   )
