@@ -48,8 +48,23 @@
           "min_clearance": 0.15239999999999998
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "copper_edge_clearance|142405813|136318528|f89c1e2e-441d-46b1-bc45-18ff3eea1a14|f0700d7c-586a-41e9-94e0-f7e58e5637ae",
+        "copper_edge_clearance|142405813|62658528|adbae0a2-e681-4109-b7b4-71e80081ba4f|09d6695f-4cdc-4874-a025-69c014e9b646",
+        "copper_edge_clearance|56680813|138858528|366adf1a-fc95-4091-ada5-72af775549dd|9641e9d2-f9df-48b0-a279-9e18f4c690a3",
+        "copper_edge_clearance|56680813|58858528|0a86f307-c37d-4aa6-8a35-d8079a475f78|b82be4b5-641b-4223-8464-0500e3345f59",
+        "hole_near_hole|128717400|116844800|8d359f1b-88bc-416c-8727-a412ddddd03a|f59aca7d-c325-47d5-9400-d6abf86713fe",
+        "hole_near_hole|137072800|80945000|99cfb87c-f752-4ed4-819d-5427e8d056d8|64f0cbfc-ffff-4bba-92c6-8812e6dbfe1c",
+        "hole_near_hole|65187400|116844800|3d301dc4-ab2d-4a2f-a3e7-364c055ef0eb|813c6848-6708-4de6-971a-3c3438cb1bac",
+        "hole_near_hole|73542800|80945000|223a96ca-15a4-4a38-9613-0bd7fb5970dd|8d23d004-aae0-43ba-bcf3-2116864acad0"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -170,6 +185,7 @@
         0.0,
         0.27178,
         0.2794,
+        0.3048,
         0.508,
         0.6096,
         1.27
