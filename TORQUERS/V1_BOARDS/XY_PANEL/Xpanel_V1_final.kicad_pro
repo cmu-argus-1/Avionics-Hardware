@@ -525,6 +525,18 @@
     [
       "97119169-578f-44be-8822-faf8f0e4fcd6",
       ""
+    ],
+    [
+      "db306d3f-1ab7-4e38-afab-c78bdb56c587",
+      "solar_panel_electronics"
+    ],
+    [
+      "6ee29482-1d20-4563-80a8-1ef8780df18b",
+      "TORQUE_COIL"
+    ],
+    [
+      "06756695-4e8e-4b7d-905d-85546769f1f1",
+      "SUN_SENSOR"
     ]
   ],
   "text_variables": {}
