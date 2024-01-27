@@ -1955,6 +1955,7 @@
   )
 
   (no_connect (at 121.92 92.71) (uuid 2dc604d9-9ed6-4963-974f-33dd3be96854))
+  (no_connect (at 72.39 173.99) (uuid 3d4d3dae-03d8-4d97-a8c3-39f0ba211141))
   (no_connect (at 121.92 90.17) (uuid 406eebc9-ae99-4198-bb0f-d1936df18663))
   (no_connect (at 106.68 173.99) (uuid ee9e9eea-d4f7-46c1-81ce-31a3c68ffcd8))
 
@@ -2635,15 +2636,6 @@
   (text "\"One Shot\" Regulator Reset" (at 127 27.94 0)
     (effects (font (size 2.159 2.159)) (justify left bottom))
     (uuid f2f911a8-0bd7-4ec2-9833-9b566f95051d)
-  )
-
-  (label "3V3_EN" (at 130.81 50.8 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8a7083e6-5f25-4297-8c30-234e65eebe95)
-  )
-  (label "3V3_EN" (at 130.81 50.8 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c2444c97-f2bd-457d-991e-dc57e86d42d9)
   )
 
   (global_label "JETSON_PWR_SENSE" (shape bidirectional) (at 54.61 165.1 180)
