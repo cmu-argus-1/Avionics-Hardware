@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 4172ecfd-1c22-4de9-8e35-a444760268cf)
+  (uuid 243f9c7d-dafd-4c5d-914e-463e1656a936)
 
   (paper "A4")
 
@@ -1100,8 +1100,8 @@
     (property "Datasheet" "~" (at 216.154 87.376 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b8f15da7-8dbd-40a5-a882-1f0ca7eaeb47))
-    (pin "2" (uuid aa89c7b0-a48d-46fb-b5a2-78ed4db4865f))
+    (pin "1" (uuid fa9e4fb1-f890-439a-8728-3ed7bd8f86bc))
+    (pin "2" (uuid 163c73e3-90b6-4ba6-9202-b04e71ca3bd2))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1137,12 +1137,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 223.774 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9162a9ee-50f7-483e-a35a-b6b3608486c9))
-    (pin "2" (uuid 494c5929-cb34-42e0-9c82-85957a127ae2))
-    (pin "6" (uuid 0f414d68-1058-46da-a3b1-ade406081368))
-    (pin "3" (uuid f1471e1e-7a55-4f40-851c-7ee31780790a))
-    (pin "4" (uuid 923c4b3b-8322-490a-b5f5-3a2f4fe89f65))
-    (pin "5" (uuid d960973d-88e2-4d91-b398-4a404344fd68))
+    (pin "1" (uuid b4246e4e-e57b-4247-8b15-e7173f07daa8))
+    (pin "2" (uuid ff0b08ff-921d-46ab-bd30-2fa249fec9a2))
+    (pin "6" (uuid 74f215fb-6e6a-4406-b286-279133953b9b))
+    (pin "3" (uuid ca89eee0-175c-48ad-b29a-6018ed5d51e2))
+    (pin "4" (uuid e71866ff-7923-49f5-be48-138cf7d28df4))
+    (pin "5" (uuid 0a9d7491-1900-4adf-af5b-4d186e8ff340))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -1184,9 +1184,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 185.674 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 3240e456-d127-4a7f-a5d9-8e1501fc3f73))
-    (pin "2" (uuid 75b4219a-c0fa-41fb-b55b-1457075f33e5))
-    (pin "3" (uuid 1be50e60-c911-492b-90ef-bacbf1df2d6b))
+    (pin "1" (uuid 50f6237f-1a39-45b0-908c-7cdfaf34849d))
+    (pin "2" (uuid 7f3494b9-dbed-4b8d-962a-3771c510b96d))
+    (pin "3" (uuid b699f763-d745-4f2c-baa3-d5d0745747a6))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1217,12 +1217,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 190.754 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abfc39d8-d0fb-4205-86be-10d48a80456d))
-    (pin "2" (uuid ca435700-6c80-4e25-bdcb-4f8bd774f088))
-    (pin "6" (uuid 8fd3a359-4bb1-4617-878a-6e2c99a5c5f9))
-    (pin "3" (uuid b39470db-1191-4a41-9825-133a729bc038))
-    (pin "4" (uuid f28b56e2-3e4f-4f2d-871b-66980a99e4b3))
-    (pin "5" (uuid 752f1666-d5d8-445b-8632-32a477aa6eaf))
+    (pin "1" (uuid 274af7e5-618b-43e8-907b-7f85b63a5e5b))
+    (pin "2" (uuid 21e7e6ec-7aca-41e1-b4ca-e198a37fcbb1))
+    (pin "6" (uuid baa0b1f7-844c-40a9-b140-72df4517a8d8))
+    (pin "3" (uuid 9852c9ce-4ee4-4d2c-ad5e-4b7c4bfe28da))
+    (pin "4" (uuid 56edeb42-4389-45d8-a66a-fe9b0b946e7a))
+    (pin "5" (uuid 6591c7e4-e2be-4a47-81f6-87463f609e38))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -1264,8 +1264,8 @@
     (property "Datasheet" "~" (at 223.774 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aeed89cf-a478-4296-81b9-3170831866db))
-    (pin "2" (uuid 90aa2549-78b0-4da9-977c-5d9eaa48b576))
+    (pin "1" (uuid 9f634283-95c6-4240-817d-e9342358b24d))
+    (pin "2" (uuid b25fef5a-0e2a-4ed5-8119-158ddaa82fba))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1301,9 +1301,9 @@
     (property "Datasheet" "~" (at 64.516 86.614 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f009c782-ee62-4832-8b17-cff482b028e5))
-    (pin "2" (uuid 5f3272c5-e1ab-446c-bafe-e6480cc357fd))
-    (pin "3" (uuid 4403cf26-4004-4c95-a970-9df5f406a9b1))
+    (pin "1" (uuid e538a324-5b33-4de6-8e74-97e8f0b56cf3))
+    (pin "2" (uuid 0ffbcd27-28e9-4cdb-bc05-45754b3faa9a))
+    (pin "3" (uuid 07fe6778-aef3-4b6c-9fdb-3a29523a66bb))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1334,8 +1334,8 @@
     (property "Datasheet" "~" (at 195.834 100.076 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c672dee-76f6-4127-909c-1a8102ca949f))
-    (pin "2" (uuid aa77536d-8cb7-4487-a079-cdfe4c41806e))
+    (pin "1" (uuid 9b8dde60-1c5c-4a9c-b3b6-be740a0312eb))
+    (pin "2" (uuid 4cc85237-7999-4275-bd35-bacf53ebd632))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1371,8 +1371,8 @@
     (property "Datasheet" "~" (at 228.854 60.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4950ca6-aba6-4290-9cad-9d87b80e7fd4))
-    (pin "2" (uuid 2d902eeb-30ba-49ca-ba09-640644b51d85))
+    (pin "1" (uuid 76cc9c6f-d55b-4298-b87d-cfa084a34728))
+    (pin "2" (uuid 0d094e4b-caaa-427f-a0b1-25e6687137bc))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1408,8 +1408,8 @@
     (property "Datasheet" "~" (at 199.644 120.396 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 508d2852-b283-4851-b4e9-9004151eb544))
-    (pin "2" (uuid e4b83e43-5646-4e08-904b-091f0a4029cc))
+    (pin "1" (uuid 20986c34-34d8-4839-8a90-055d27d7df55))
+    (pin "2" (uuid 0992a7ff-4326-412f-b4cb-9df660ae3e02))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1445,9 +1445,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 218.948 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid d539490c-8841-44bf-a882-7ba8ab313dbd))
-    (pin "2" (uuid 997f4aff-6afd-44a0-8c67-d51325bff50c))
-    (pin "3" (uuid 47179744-938b-4d4b-8bb9-75b6ec94b66b))
+    (pin "1" (uuid d17d7b03-54b2-4305-8954-bd5335914234))
+    (pin "2" (uuid 062f5f23-019a-4774-910f-74826f9eeee5))
+    (pin "3" (uuid f99a35b4-4316-47fb-a6f5-7dabcdd8c5b4))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1478,8 +1478,8 @@
     (property "Datasheet" "~" (at 186.944 73.406 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2ed04f3-7163-4505-8334-77357d739d3c))
-    (pin "2" (uuid 838ca326-d06a-4ba6-a9cc-4cbc41af7e86))
+    (pin "1" (uuid 308e6fb5-a829-4e80-8952-b515d277b3a0))
+    (pin "2" (uuid 04187373-3280-46db-a51e-76e72eb645b0))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1515,9 +1515,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 208.534 91.186 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 69889e38-4e84-4c83-9dee-8a16ef529f04))
-    (pin "2" (uuid d85ab476-cfa0-4fe4-908c-ba4133c19957))
-    (pin "3" (uuid 662fd42a-bd12-48ee-8ddc-bf09de72a689))
+    (pin "1" (uuid fa31c37b-8046-4c58-8123-7cfdfe0c681d))
+    (pin "2" (uuid a52f3797-d95e-4b66-9593-bd373132670d))
+    (pin "3" (uuid 41137aeb-b6d8-4eea-87f2-7d5f2abd1628))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1548,7 +1548,7 @@
     (property "Datasheet" "" (at 216.154 83.566 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4e576f9-21c9-4326-acf1-1146518ee07a))
+    (pin "1" (uuid 43648b85-98f9-4007-b54a-6cd726d92027))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1584,8 +1584,8 @@
     (property "Datasheet" "~" (at 183.134 87.376 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c95ac3d4-063e-4b5e-b5f1-ea7ffbc77884))
-    (pin "2" (uuid 79d372bb-e01a-4f9e-b9bd-f90948762924))
+    (pin "1" (uuid 7ea9c70d-fa32-4a6b-bb6a-b3d662728610))
+    (pin "2" (uuid 8c55ca2e-22ea-4a79-8bd8-30751db79d81))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1621,8 +1621,8 @@
     (property "Datasheet" "~" (at 199.644 116.586 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc3cda1f-7130-44c2-a779-3756798f4418))
-    (pin "2" (uuid 5b446a69-c643-4c9b-8e89-04cc513e45b9))
+    (pin "1" (uuid 9a8e2e56-7de1-4e56-837b-f06c1b355d83))
+    (pin "2" (uuid e3bc667d-bce8-4e38-8669-e77d158e2005))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1658,9 +1658,9 @@
     (property "Datasheet" "~" (at 54.356 76.962 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71b1b4cc-1d12-4a88-84d9-ecd16c25d360))
-    (pin "2" (uuid 9f78374b-bbf4-43ba-8ffd-ef04487afda9))
-    (pin "3" (uuid f05abf91-c805-4724-a036-644c5c383831))
+    (pin "1" (uuid 68ac4e17-6964-4af0-8319-25726150876d))
+    (pin "2" (uuid 1dd93d8d-0437-42ff-89e6-c61c6acfa3dd))
+    (pin "3" (uuid 4d5572b4-218b-47be-8b88-b2224c7f054e))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1691,7 +1691,7 @@
     (property "Datasheet" "" (at 108.966 76.962 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83673055-53e6-43eb-ad05-866f2eb0968e))
+    (pin "1" (uuid 115cafb6-25f0-439e-86e6-739ebeda4ac6))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1727,7 +1727,7 @@
     (property "Datasheet" "" (at 216.154 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fbf045e-852e-4284-a979-564f792bcf9e))
+    (pin "1" (uuid e1ea4d07-eaba-402f-8199-9f317e679e22))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1763,7 +1763,7 @@
     (property "Datasheet" "" (at 190.754 49.276 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e97b42a3-d759-4e19-851a-3e9725fd034a))
+    (pin "1" (uuid 12f0dc4c-c71a-453c-aff4-746c1ff2c401))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1799,12 +1799,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 190.754 81.026 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7e7699d-c528-4a63-8435-f0ce59c66759))
-    (pin "2" (uuid 82dd6660-8d08-4675-941c-7bc966d892ab))
-    (pin "6" (uuid 3d614f30-2311-40f4-b377-ebdcebe51a8d))
-    (pin "3" (uuid d9ea58b3-b600-437c-a703-901843f02a36))
-    (pin "4" (uuid a8faf2bd-3b4a-4878-b375-7f2c9783f56d))
-    (pin "5" (uuid a426a913-92df-4abe-8781-6a1f40d89c9c))
+    (pin "1" (uuid 2b376c69-0b74-4063-8d16-d90694659eb8))
+    (pin "2" (uuid 94a4515f-9275-4899-b56c-b48c9e99bcae))
+    (pin "6" (uuid 4ab334f9-dfbe-4ab1-a39c-78acf71370b4))
+    (pin "3" (uuid 6a181aa7-ae68-4d8e-8b0d-e91738f0a6b1))
+    (pin "4" (uuid dd1afec0-20ca-48f6-8158-6e9c91b0106e))
+    (pin "5" (uuid 7418958d-124a-4152-8beb-c751f5bb9220))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -1846,14 +1846,14 @@
     (property "Datasheet" "OPT4001DTST" (at 65.532 64.262 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 9a4c8c19-25c5-4a16-a79d-a0c26c495acb))
-    (pin "2" (uuid 949761c3-dbf7-4e02-9f83-5f73e710ce9f))
-    (pin "3" (uuid af046ec5-f47f-4fb1-9f36-f9d88bc0bba6))
-    (pin "4" (uuid 4c366833-eba7-466b-a927-3827bab6ca33))
-    (pin "5" (uuid b104f182-9e84-487d-aef0-d8d0f3662ba3))
-    (pin "6" (uuid 56bdf781-74e6-4377-8d92-9db587411fc5))
-    (pin "7" (uuid 306205ce-eca0-468c-9141-78f47012c21e))
-    (pin "8" (uuid 970dcc19-1823-4ff2-9980-1be808d6b8b8))
+    (pin "1" (uuid ead6f25d-f521-46d0-88d0-ca97890e0227))
+    (pin "2" (uuid c6779e19-addd-46c1-bd21-8b420016c497))
+    (pin "3" (uuid 3266167c-74ca-40e6-a2cb-89f377db30eb))
+    (pin "4" (uuid 75875de9-0c81-48a1-9882-16eeb539e0be))
+    (pin "5" (uuid b942409c-4c0c-4c49-8109-46577b5eaa72))
+    (pin "6" (uuid 2b85138f-aac1-43fb-9486-51999afa728c))
+    (pin "7" (uuid 16aea480-b632-4877-9128-b67b6714d521))
+    (pin "8" (uuid cd9c9516-20a8-4e3d-b612-25e7eec5fa6c))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1884,8 +1884,8 @@
     (property "Datasheet" "~" (at 219.964 73.406 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 841713d7-af8c-4114-b7d4-05d8e1fad29e))
-    (pin "2" (uuid cdedbe6b-f200-46f8-939e-776db8ebc9fd))
+    (pin "1" (uuid b63ea63f-c961-46e1-a5ff-8d8a9fcaefa9))
+    (pin "2" (uuid d2f2bd38-57d3-46cf-a7f1-95df848a720d))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1921,8 +1921,8 @@
     (property "Datasheet" "~" (at 228.854 100.076 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56f18f95-8c09-4223-a484-5c25f5e1f166))
-    (pin "2" (uuid 7a42c7c0-ec4a-4921-bf5d-ee86c0126f2e))
+    (pin "1" (uuid 753b27d7-0822-4ec1-aeda-71f9de533c65))
+    (pin "2" (uuid ac5b3b8a-669b-4cfb-9e84-dbc902b5469f))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1958,8 +1958,8 @@
     (property "Datasheet" "~" (at 228.854 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1dfad331-756c-4340-ba45-bbeded10317e))
-    (pin "2" (uuid f6163f48-1959-434e-bb29-fa3b03aa225b))
+    (pin "1" (uuid 78631b28-96c8-4005-b6a3-4f07b7e72f4d))
+    (pin "2" (uuid 51563c50-e224-429b-bd52-67180c1ccb1e))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1995,8 +1995,8 @@
     (property "Datasheet" "~" (at 190.754 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8fc92a70-326a-40dc-8a09-7bc21633c69f))
-    (pin "2" (uuid fda42831-5833-42e2-b330-0136b21d610e))
+    (pin "1" (uuid 156a89b7-b45d-4ecf-a005-1802c1149b3f))
+    (pin "2" (uuid 0f9f775c-e823-48c5-9ab3-72730c59e28a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2032,8 +2032,8 @@
     (property "Datasheet" "~" (at 195.834 60.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b2c0ae9-8f10-4911-b222-0a1ca97230e0))
-    (pin "2" (uuid 6629b7cd-8a8a-43ef-b174-ee460ef89bef))
+    (pin "1" (uuid e0663e8b-e146-40ea-ae72-19fb45debcda))
+    (pin "2" (uuid 815bf1ff-ff9e-4e71-890b-34437ce5a02a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2069,9 +2069,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 171.958 91.186 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid cdd81bb4-39ae-4275-8ace-9d3e41eb6af9))
-    (pin "2" (uuid 19ea4222-9e41-482c-b803-f00ef5c39e5a))
-    (pin "3" (uuid 2eae948a-416f-43e3-8e70-9beeeff3e333))
+    (pin "1" (uuid 56da7328-f76b-4daf-8b25-b3d97d0fb5a5))
+    (pin "2" (uuid 82354f91-0e82-4522-bfe3-dc85730b4fcf))
+    (pin "3" (uuid a5ef8ca3-22e0-4374-8156-51a2642d5344))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -2102,7 +2102,7 @@
     (property "Datasheet" "" (at 183.134 83.566 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4e4bf00-15f1-4107-bb48-070c1fd948c4))
+    (pin "1" (uuid 08369b05-6b83-444e-9b84-f90f11dd4215))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2138,7 +2138,7 @@
     (property "Datasheet" "" (at 183.134 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2ec7e2c-7e29-4fe9-94f9-6849d0f68526))
+    (pin "1" (uuid ac774592-b27b-433d-8c55-29f393efdf57))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2174,12 +2174,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 223.774 81.026 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97fd27ee-63c1-4056-ba83-5f2e0d462660))
-    (pin "2" (uuid ddf3cb0e-a17d-49fa-bc2c-919ff33497ba))
-    (pin "6" (uuid 82acae51-bb1e-4b29-a818-76fa50dec3ed))
-    (pin "3" (uuid 83d2c003-032c-4cfe-baf2-e12834ac78c6))
-    (pin "4" (uuid 0412d2cf-a61e-43da-aa95-434d6d77bfea))
-    (pin "5" (uuid 94936b0a-b41e-4636-b1da-0266be9c32ea))
+    (pin "1" (uuid b8ec1ea7-d126-4d8a-b850-cff423b65446))
+    (pin "2" (uuid 552bdf3a-efd6-4ee0-9c2e-84bea7f52190))
+    (pin "6" (uuid 72488aec-b7c2-4691-9a72-e53e25426be8))
+    (pin "3" (uuid 812b8c91-54c1-4400-b627-58556d286fa4))
+    (pin "4" (uuid 5294c74b-0e48-440c-91ef-b0d9c43c4ad7))
+    (pin "5" (uuid eba6c14e-5fa0-4f16-9f12-a72482ddcfe4))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -2221,7 +2221,7 @@
     (property "Datasheet" "" (at 59.182 93.218 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e531cfa-f509-4d96-9059-44d10bf00724))
+    (pin "1" (uuid a9f5853d-b5b7-471d-833f-3dd6906e21ad))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2257,7 +2257,7 @@
     (property "Datasheet" "" (at 223.774 49.276 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40129b9e-d743-4d24-bffb-43835cfa32a2))
+    (pin "1" (uuid db1ac971-3693-43ce-a014-e7de9568c6af))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2293,8 +2293,8 @@
     (property "Datasheet" "~" (at 195.834 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 079a46f3-8b91-4724-939b-5efe844ab659))
-    (pin "2" (uuid e3e421a7-f0db-471f-b20a-b2bda2db224a))
+    (pin "1" (uuid fa29be19-8665-4ba2-8838-05b080b0e39a))
+    (pin "2" (uuid 647482a0-5615-4b12-8ae7-b105232c668b))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"

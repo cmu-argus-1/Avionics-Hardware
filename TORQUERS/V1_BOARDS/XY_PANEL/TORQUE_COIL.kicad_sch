@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid f1fdd7a3-97de-45fb-aa5c-6be4681d7f09)
+  (uuid b3c767a2-52a4-4bc0-b6bc-0582886082bc)
 
   (paper "A4")
 
@@ -1489,11 +1489,6 @@
     (uuid f8b6114f-9a95-4f98-9b3d-42b7c33a0eb7)
   )
 
-  (label "coils" (at 141.478 89.154 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ea717b71-dd5a-4c33-9cb6-38edb9d0b668)
-  )
-
   (global_label "VBATT" (shape bidirectional) (at 143.764 71.374 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 40c145e0-910a-4b5f-a63c-964643610bbe)
@@ -1557,6 +1552,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "coils" (shape input) (at 141.986 89.154 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d78e78a4-5b68-46c1-a739-d35ff3213b6e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 149.5069 89.154 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "SDA_TORQUE" (shape bidirectional) (at 258.826 58.166 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f0d0ac5d-90db-4669-8624-ae149b37c60b)
@@ -1587,8 +1589,8 @@
     (property "Datasheet" "~" (at 228.346 91.186 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 498a1082-365c-41b7-a0f7-84c49281591b))
-    (pin "2" (uuid 10480d4c-5792-41a3-bad1-56fdd4c5f938))
+    (pin "1" (uuid 21dcf258-7eed-4fb7-9f16-4e0f9fb6ffc3))
+    (pin "2" (uuid 0c102445-d467-4c65-80a3-d6718c1a3103))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1624,8 +1626,8 @@
     (property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" (at 131.572 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d75277e3-febd-4f79-808d-b35ddc6aa43d))
-    (pin "2" (uuid e3809fe4-91b4-48c9-981f-4925babd41d4))
+    (pin "1" (uuid cea49590-7872-48cf-a78b-5becec0d105d))
+    (pin "2" (uuid b14e0d46-cbd0-404b-8310-bcfacce91a07))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1656,8 +1658,8 @@
     (property "Datasheet" "~" (at 228.346 94.996 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c46c248-88ab-4545-89bc-969a9a0dc1b6))
-    (pin "2" (uuid 2c8ad26c-6c7f-49d6-92d3-d6439cd9ea29))
+    (pin "1" (uuid edb97e38-af05-4fd6-8259-0aedf5bff327))
+    (pin "2" (uuid 5bf336c3-a4c7-4849-98f0-59d9e9160221))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1693,8 +1695,8 @@
     (property "Datasheet" "~" (at 73.66 83.058 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8459d1e6-444f-4b09-ab6c-187f059f2503))
-    (pin "2" (uuid 9f9e636c-e11c-4091-b99d-5854c44a1ddf))
+    (pin "1" (uuid aa79cadd-f057-4579-b7fe-14096fcce978))
+    (pin "2" (uuid 5e4babf2-fa91-447e-a255-755b4febfd3b))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1730,8 +1732,8 @@
     (property "Datasheet" "~" (at 73.66 88.138 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 636b5223-6696-4d4f-8917-6056d66e0396))
-    (pin "2" (uuid 1dae5f89-365c-4ccf-b58a-ac901348c015))
+    (pin "1" (uuid 54c5ecdd-fe50-41bf-aee6-5e4ff774723e))
+    (pin "2" (uuid 4f9b7645-f5be-4850-948c-a45863773e24))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1770,8 +1772,8 @@
     (property "DNI" "DNI" (at 128.524 77.724 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid b030e649-ce4d-4ea7-9d71-85f34a95ba32))
-    (pin "2" (uuid ac2aed47-6dde-4c27-8d28-265a62afbfb8))
+    (pin "1" (uuid 25576149-806d-4168-b90c-b7da87b75c0a))
+    (pin "2" (uuid 8a45b7d2-e6b9-4948-9e74-277ff5b67b09))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1807,7 +1809,7 @@
     (property "Datasheet" "" (at 56.896 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97fadec3-ed03-4aa0-be44-05782be5063b))
+    (pin "1" (uuid 4a637103-54d6-4a70-9b52-ae732dd81073))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1843,8 +1845,8 @@
     (property "Datasheet" "~" (at 63.754 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03c77741-0feb-4314-a453-d97ff1b5d615))
-    (pin "2" (uuid a90224ca-aaf1-4dd8-8b6b-910417cf23fe))
+    (pin "1" (uuid f9a4dc63-f783-4364-914a-4cf802c55ecf))
+    (pin "2" (uuid 1fd1c41c-4217-4165-a9df-b39793518891))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1880,12 +1882,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 219.456 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d1d3b7aa-8055-4b75-9468-f076fbb9772a))
-    (pin "2" (uuid ca81101b-274b-4d2a-bb64-d5fde32d155a))
-    (pin "6" (uuid eedce3a3-00d2-43ee-b668-cbedf449be54))
-    (pin "3" (uuid d9ea58b3-b600-437c-a703-901843f02a35))
-    (pin "4" (uuid a8faf2bd-3b4a-4878-b375-7f2c9783f56c))
-    (pin "5" (uuid a426a913-92df-4abe-8781-6a1f40d89c9b))
+    (pin "1" (uuid b0a739ae-12d2-4468-a2bf-b1476473fad2))
+    (pin "2" (uuid e6f85dab-f7be-4eb5-963b-9fc58dc3ab60))
+    (pin "6" (uuid cda60e94-8397-4090-af87-63807e5b1989))
+    (pin "3" (uuid 439aef0e-8c9b-4072-a933-85c7d339bd8d))
+    (pin "4" (uuid 808bab84-7b17-4e62-a7de-e5699283a170))
+    (pin "5" (uuid a631c077-bc2d-4841-8f7e-af7e72150dbb))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -1915,10 +1917,10 @@
   (symbol (lib_id "Device:C") (at 165.862 81.788 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 273f3447-b52f-4494-96f8-bc419443c8f1)
-    (property "Reference" "C?" (at 147.955 80.6196 0)
+    (property "Reference" "C?" (at 169.164 79.502 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 147.955 82.931 0)
+    (property "Value" "0.1uF" (at 169.164 82.296 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 166.8272 85.598 0)
@@ -1927,8 +1929,8 @@
     (property "Datasheet" "~" (at 165.862 81.788 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14e5dd4a-0aa8-4e6e-968b-dc8956c4bf60))
-    (pin "2" (uuid bf3ed16a-762c-49ed-868c-7b3c5a9333ce))
+    (pin "1" (uuid d28a926e-f3f1-4187-98db-6b11f105f7a5))
+    (pin "2" (uuid 47f4ee16-6c5a-4d36-b6c0-30f1c3d9e16b))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1964,9 +1966,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 237.236 65.786 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 9b40c004-6f4d-47c6-9a51-5e54a1b00058))
-    (pin "2" (uuid d7cbbb76-1443-4f43-8e0c-da1eaf609add))
-    (pin "3" (uuid b68a9d24-d035-46e2-8639-df8fe0c517e7))
+    (pin "1" (uuid 80fbe0a1-f24b-45e2-a470-9be03230c51f))
+    (pin "2" (uuid f7a7a497-863f-488b-8ce7-4f7c6cfac7e8))
+    (pin "3" (uuid d46834b2-5689-4fa9-84a4-fd8719efdfe6))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -1997,8 +1999,8 @@
     (property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" (at 139.192 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a78a964-1795-485e-87be-c34fcb6441e9))
-    (pin "2" (uuid 8bdbf587-ed59-4965-89d4-6c680b93d4d3))
+    (pin "1" (uuid fa1cb20d-a2e4-449e-98d5-5bc1010d398f))
+    (pin "2" (uuid aafffde2-1483-467f-acf7-0917b034d729))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -2029,8 +2031,8 @@
     (property "Datasheet" "~" (at 215.646 48.006 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0de72c5-4b1e-46ff-a82d-c0d2a80b6a8d))
-    (pin "2" (uuid 0fcab523-331e-4ace-ba74-73c435e824a1))
+    (pin "1" (uuid d09548d4-7647-41d6-bbfc-212feeb2b4ba))
+    (pin "2" (uuid b95ef40b-0cec-4c55-bc1c-96c7f9a7b3f9))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2066,7 +2068,7 @@
     (property "Datasheet" "" (at 211.836 78.486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e22ee0d8-2ef8-4172-967e-ba252162db6a))
+    (pin "1" (uuid bd95936b-034b-4331-a8dc-210330cf7b12))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2102,9 +2104,9 @@
     (property "Datasheet" "~" (at 139.954 89.154 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0078c4a-8ae4-481c-a9b7-c904da7f5085))
-    (pin "2" (uuid 5df96fd3-6a83-4179-9f34-f6ae14498885))
-    (pin "3" (uuid eaca67bc-d194-40c8-911e-5cf3ab1ff65b))
+    (pin "1" (uuid 83e8dd11-d28f-4fc8-a298-a4a5ccd882dd))
+    (pin "2" (uuid a75a75c2-a17d-4b5d-8e94-3a353f7c4d3f))
+    (pin "3" (uuid be77784f-cd2b-4f5a-b372-62a4f50784b0))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -2138,8 +2140,8 @@
     (property "Datasheet" "~" (at 211.836 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70217726-7616-49d1-a1ec-27b8bb910e26))
-    (pin "2" (uuid 24d14da8-6cea-4070-96d9-0cf8f8c651f8))
+    (pin "1" (uuid 5d0010d9-e52a-4f58-98f8-ad555ad25a01))
+    (pin "2" (uuid f26c8e10-eec2-4bc2-b4d1-a5d0d63ecd7e))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2175,7 +2177,7 @@
     (property "Datasheet" "" (at 244.856 78.486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55150634-8983-40b2-81ef-3f13bf9f2c3e))
+    (pin "1" (uuid 358fdcaf-ab0a-4d7c-bfab-9eca6c4afb19))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2211,7 +2213,7 @@
     (property "Datasheet" "" (at 156.464 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e12882b2-288a-4a54-9556-78cbda77d1d0))
+    (pin "1" (uuid c908498d-d1fa-4f96-953a-a378106fd89a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2247,12 +2249,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 219.456 36.576 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abfc39d8-d0fb-4205-86be-10d48a80456c))
-    (pin "2" (uuid ca435700-6c80-4e25-bdcb-4f8bd774f087))
-    (pin "6" (uuid 8fd3a359-4bb1-4617-878a-6e2c99a5c5f8))
-    (pin "3" (uuid 0a77eef5-c508-4e5c-9491-ee6c6bdbcb06))
-    (pin "4" (uuid f48d1069-9cea-4c69-86e2-a5b36a65af67))
-    (pin "5" (uuid adb95fe5-ac5e-46bd-a44c-3b5075a50307))
+    (pin "1" (uuid feaf99af-4c0f-4107-a1ea-f995bda971a3))
+    (pin "2" (uuid 3d959d2e-1c57-47a4-95b0-39f0a944d2ba))
+    (pin "6" (uuid 927430b1-b03c-43d2-afd1-3adf5ee32050))
+    (pin "3" (uuid 6502c4ad-ee42-48b3-9f3c-8273c2a18781))
+    (pin "4" (uuid b07df265-d2d6-4652-bea2-1ccdfed4fcf0))
+    (pin "5" (uuid 02629653-8868-4281-b37c-177ea8b1fcb9))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -2294,12 +2296,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 252.476 36.576 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9162a9ee-50f7-483e-a35a-b6b3608486ca))
-    (pin "2" (uuid 494c5929-cb34-42e0-9c82-85957a127ae3))
-    (pin "6" (uuid 0f414d68-1058-46da-a3b1-ade406081369))
-    (pin "3" (uuid e480d8a0-e909-4282-aa8c-f0f985313fa4))
-    (pin "4" (uuid 7cd4b861-6872-41f4-8a17-8ab9e429bf80))
-    (pin "5" (uuid 1963951d-90c3-45e8-abd0-eb96e99a8a8e))
+    (pin "1" (uuid 42c350be-07f4-48c2-8870-452b49455270))
+    (pin "2" (uuid 6125c241-695a-4cf7-bcc0-a159b360c600))
+    (pin "6" (uuid 4065cd82-497e-4d84-a1dc-3f2468b5e3ae))
+    (pin "3" (uuid 2843befe-9135-4b6d-ac9f-b465d181e3d7))
+    (pin "4" (uuid 1fe82f6b-1c0c-4844-a134-0222c1b1ee21))
+    (pin "5" (uuid b144a973-a8fa-44dc-b730-f6cb32ac1c0a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -2341,7 +2343,7 @@
     (property "Datasheet" "" (at 73.66 77.978 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b7ca240-7ebe-4cb8-a2af-bffbe9ae1217))
+    (pin "1" (uuid 8044513c-572c-44d1-bc51-611013a097a4))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2365,7 +2367,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 66.294 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 495ca756-b3df-4b8f-89e1-804a785aec45)
-    (property "Reference" "R?" (at 67.4624 80.8482 0)
+    (property "Reference" "R?" (at 69.85 84.836 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0" (at 65.151 80.8482 0)
@@ -2377,8 +2379,8 @@
     (property "Datasheet" "~" (at 66.294 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f23191a9-c92f-490c-852b-c1fb110ce8a5))
-    (pin "2" (uuid 7d5da196-87e7-4de6-92ec-622c68b93849))
+    (pin "1" (uuid f10e8b82-d2f9-40cd-97ae-767a4f98cce0))
+    (pin "2" (uuid 14fc1144-edb9-4bf8-b978-ce8e768fd03a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2414,8 +2416,8 @@
     (property "Datasheet" "~" (at 244.856 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71c45e71-5b84-4028-ae87-60028c1455b8))
-    (pin "2" (uuid 7bc3dfcf-41c4-430d-8b78-9cf3f27bde6f))
+    (pin "1" (uuid e3381e2b-43e3-4081-994d-5f4a2900aec6))
+    (pin "2" (uuid 17a82129-a96e-4e36-a639-97b73cd9dfc4))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2451,7 +2453,7 @@
     (property "Datasheet" "" (at 80.772 95.758 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba4eb95f-b99b-48f9-b7f8-542303ab8189))
+    (pin "1" (uuid 7d3aca08-50bd-4f35-b98e-e44141d51f1f))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2487,7 +2489,7 @@
     (property "Datasheet" "" (at 165.862 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59a95dec-ff32-49cb-a19d-bcef43314f5f))
+    (pin "1" (uuid a8120522-0171-4851-a49c-6c7a2c1f47b9))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2523,8 +2525,8 @@
     (property "Datasheet" "~" (at 224.536 74.676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4327759-347c-470f-ae81-cc1dee57cebf))
-    (pin "2" (uuid 44a20618-96cd-4a28-99b8-20568c682067))
+    (pin "1" (uuid c6039b1f-ec3c-4d45-b3a1-b18b68224d24))
+    (pin "2" (uuid cef39e79-58ac-4efd-89de-94a2b9d5d2e7))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2560,7 +2562,7 @@
     (property "Datasheet" "" (at 244.856 58.166 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d2c361c-e7fe-4364-8785-137e35a2f8be))
+    (pin "1" (uuid e9da447c-0110-479f-9e7d-95bd503331c7))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2596,8 +2598,8 @@
     (property "Datasheet" "~" (at 224.536 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ede6bceb-5329-42a5-82dd-ec2a3b436772))
-    (pin "2" (uuid 6446643f-a0b9-4f28-81ba-88e47c51e901))
+    (pin "1" (uuid 93c2a358-361a-4774-ab62-affe89e1cd6e))
+    (pin "2" (uuid 56049748-8432-4eca-b21a-640b0e1716ea))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2633,8 +2635,8 @@
     (property "Datasheet" "~" (at 128.524 85.598 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25a0c077-c367-41a1-bd89-fb02f2d72557))
-    (pin "2" (uuid f7c4c4e3-e117-4783-bce4-815eee61839c))
+    (pin "1" (uuid 6e30c672-9224-4b74-b6e8-f94b4fa9b60e))
+    (pin "2" (uuid deba827f-1b4b-4ee3-a32b-1c45472bea21))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2670,9 +2672,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 247.65 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 7fb3c07d-c89f-44ae-93d2-728b48593fe5))
-    (pin "2" (uuid 5e69a1df-10d3-492a-8142-18dbba1b1990))
-    (pin "3" (uuid feda8f8f-ef3d-4336-9b7b-72892493b28d))
+    (pin "1" (uuid f32b0423-2cf8-4c56-aa5e-524093ccccec))
+    (pin "2" (uuid 252b1a00-55b3-455f-af72-eeed4643298e))
+    (pin "3" (uuid 637fa4d2-f777-44f0-a5e7-71ba5eefa8db))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -2703,7 +2705,7 @@
     (property "Datasheet" "" (at 211.836 58.166 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 851763e3-282c-4173-ae73-d30979bd729d))
+    (pin "1" (uuid b9c9ae39-575d-4080-aab3-1461bb796413))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2739,8 +2741,8 @@
     (property "Datasheet" "~" (at 248.666 48.006 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 82a3f8f1-e50a-4e24-88a7-23de8203f2db))
-    (pin "2" (uuid fcbf17ce-e7a1-476b-b162-00ad30dffcd0))
+    (pin "1" (uuid 7408102d-004c-42a4-beed-ea17d5ed9819))
+    (pin "2" (uuid 55049a65-30b7-445b-869d-a393f8b6bc11))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2776,7 +2778,7 @@
     (property "Datasheet" "" (at 123.444 71.374 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f3f8f08-d5f9-4ad2-9f8d-fa9e95e33d8b))
+    (pin "1" (uuid d9888dd3-2895-48cc-85e7-71f3c58b4bf2))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2798,12 +2800,12 @@
   )
 
   (symbol (lib_id "SparkFun-Capacitor:C_Polarized") (at 156.464 81.788 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 91de19cc-91f0-4fb8-ac45-11daca480e52)
-    (property "Reference" "C2" (at 160.528 77.343 0)
+    (property "Reference" "C2" (at 148.844 74.676 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 160.528 79.883 0)
+    (property "Value" "10uF" (at 148.844 77.216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 156.464 81.788 0)
@@ -2815,14 +2817,14 @@
     (property "PROD_ID" "CAP-00000" (at 156.464 94.488 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "100%" (at 160.528 82.423 0)
+    (property "Tolerance" "100%" (at 148.844 79.756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Voltage" "1kV" (at 160.528 84.963 0)
+    (property "Voltage" "1kV" (at 148.844 82.296 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (pin "1" (uuid 974e2a52-8935-43c6-ac15-15cfbdc5d8a8))
-    (pin "2" (uuid 87a6816a-7d72-4e9c-863c-00addfd1b486))
+    (pin "1" (uuid 8be696e1-2140-4e73-89ce-681c41426e70))
+    (pin "2" (uuid ce78b2a6-a357-4e3c-88ea-b7b8b2c0e2d6))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -2853,7 +2855,7 @@
     (property "Datasheet" "" (at 252.476 23.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f06ffdef-bf29-418a-8f44-54be26cf9bb2))
+    (pin "1" (uuid aac50672-50b4-419b-90dd-f3640e8aac42))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2889,7 +2891,7 @@
     (property "Datasheet" "" (at 126.492 105.918 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 723e4377-0bf3-49d9-a27e-631c69a470c7))
+    (pin "1" (uuid 19b7e8d3-6bc1-46c7-b96b-a0abda720ef4))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2925,8 +2927,8 @@
     (property "Datasheet" "~" (at 257.556 74.676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c24ff7b3-2c72-4835-9f82-ca629bd3d1b3))
-    (pin "2" (uuid bf14d26d-37f4-498e-99b3-f0eb72a70393))
+    (pin "1" (uuid a899d3ce-aaaa-4c10-811e-0b6da7a67f54))
+    (pin "2" (uuid 669ac1d5-86fd-41c0-a181-00a2b5e381aa))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2962,8 +2964,8 @@
     (property "Datasheet" "~" (at 224.536 67.056 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32433792-5555-4b2c-8fec-fd133fa02d22))
-    (pin "2" (uuid 1be4a2a1-fd0a-4626-8c9f-a60db6b30d9d))
+    (pin "1" (uuid d2f5d8d7-9c1a-405a-b025-7b197871ce8d))
+    (pin "2" (uuid 7b56d6fd-d81c-4966-a79c-25ddeca89b7f))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2999,7 +3001,7 @@
     (property "Datasheet" "" (at 73.66 93.726 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 819473c1-a61b-4761-92b7-3859b7a2e994))
+    (pin "1" (uuid 3fec7459-9194-4637-83ad-623e0f05fd28))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3035,7 +3037,7 @@
     (property "Datasheet" "" (at 61.976 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7527512-4cec-420c-8c01-c264eba5777a))
+    (pin "1" (uuid dff7205a-f9b1-4d3c-8ac8-635e4d252207))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3059,7 +3061,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 71.12 80.518 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3d35abc-a48e-4002-a7eb-6d1eea44a1bf)
-    (property "Reference" "R?" (at 69.4182 79.3496 0)
+    (property "Reference" "R?" (at 70.104 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0" (at 69.4182 81.661 0)
@@ -3071,8 +3073,8 @@
     (property "Datasheet" "~" (at 71.12 80.518 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 208b1573-fd57-41c2-8241-f112400cdd72))
-    (pin "2" (uuid 4ce0a591-0a47-4437-ae24-0374b8f16615))
+    (pin "1" (uuid dda9b893-8484-4ef0-946b-e497c4e440de))
+    (pin "2" (uuid d0a49055-14d5-4454-987b-e5f39ecb602d))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3108,8 +3110,8 @@
     (property "Datasheet" "~" (at 63.754 91.186 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20689395-ca4f-40f1-8cc5-0cd47ec7dbea))
-    (pin "2" (uuid 8a6f8a95-3785-4f68-a6fc-7673f517393f))
+    (pin "1" (uuid 5fae1eec-2b0c-4ca7-9a6d-028c3a3a5b41))
+    (pin "2" (uuid dca6c4f3-824c-4667-8a69-a95ef9b7f81a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3145,12 +3147,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 252.476 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee6bac86-1da7-4e64-bc96-5e4819c1efa5))
-    (pin "2" (uuid 52013cee-6550-494c-8601-88da9c6822f3))
-    (pin "6" (uuid 488c77a1-0a31-41be-9f30-80bd65297435))
-    (pin "3" (uuid 83d2c003-032c-4cfe-baf2-e12834ac78c5))
-    (pin "4" (uuid 0412d2cf-a61e-43da-aa95-434d6d77bfe9))
-    (pin "5" (uuid 94936b0a-b41e-4636-b1da-0266be9c32e9))
+    (pin "1" (uuid 51b8f52e-e9fd-4c32-8407-c7f36de2cd0b))
+    (pin "2" (uuid 2b487183-22b8-417e-8aa2-ed322a574e51))
+    (pin "6" (uuid 2a7ba741-ae11-4fa9-956a-cd61d03378c9))
+    (pin "3" (uuid d95cdc93-8a00-4c61-affb-c7652ae420a8))
+    (pin "4" (uuid 0ca0039a-8cbb-4c6f-a557-1a177716c7f2))
+    (pin "5" (uuid 0678731e-1200-4cf4-b919-79f93d6e2abc))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -3192,7 +3194,7 @@
     (property "Datasheet" "" (at 219.456 23.876 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 232e933a-a043-45d1-a6b5-887f8a3e8d78))
+    (pin "1" (uuid a5be602d-86b2-4e9e-8148-8961bcc12160))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3228,9 +3230,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 214.376 70.866 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 70fe0f73-3f53-45eb-9ea4-f1bf16bb58d9))
-    (pin "2" (uuid d583d69d-e581-40aa-a5d4-2fab5d2a0671))
-    (pin "3" (uuid 064913ed-e5a5-4086-bf84-0f91d5991917))
+    (pin "1" (uuid 1b228d9e-77b9-49e8-b227-f771a248f0f5))
+    (pin "2" (uuid 73fea7da-3ccb-487d-bc3f-239756152a18))
+    (pin "3" (uuid 8b521625-609f-4835-9c98-15a40a5c6af7))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -3261,8 +3263,8 @@
     (property "Datasheet" "~" (at 257.556 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e9891ee-da85-4c5e-8536-f848e59c88d7))
-    (pin "2" (uuid 80ace56e-9447-4c69-9780-c111f28c1095))
+    (pin "1" (uuid d8f7e3b1-0615-4d7e-bfa5-c9577cb77d21))
+    (pin "2" (uuid 9bec7369-c5a1-43f1-8d02-bc9c767a76f1))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3298,9 +3300,9 @@
     (property "Datasheet" "~" (at 147.574 89.154 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f787d1f-45b0-4a1b-b34d-56271288093d))
-    (pin "2" (uuid c747beab-0341-40ed-b98e-0a7c71e1e4f4))
-    (pin "3" (uuid daeaaebc-ca8a-4a0a-b485-4a1e5e19ade2))
+    (pin "1" (uuid 9bc389d7-afb3-4cc8-9158-a59ab0dc1e27))
+    (pin "2" (uuid 52d43108-d3d7-4edf-9c4f-4fe9c7518964))
+    (pin "3" (uuid 7248e848-2bd0-4b42-91a6-f73358c86e5b))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -3334,9 +3336,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 200.66 65.786 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid b32af05d-1b94-4fea-9f3f-5fb99d26f0a3))
-    (pin "2" (uuid ecefc058-5875-42d7-8efb-f974d1b2f157))
-    (pin "3" (uuid 98af6a4f-0285-4dec-9ee6-34b60ecc3ad3))
+    (pin "1" (uuid d3657728-6e32-4612-9bb7-aa51c959509d))
+    (pin "2" (uuid 88eb044a-2997-488c-a204-0114b5cef8c3))
+    (pin "3" (uuid bc602dd7-6782-48a6-a25e-9f3f65ce3bf9))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -3394,17 +3396,17 @@
     (property "Check_prices" "https://www.snapeda.com/parts/DRV8830DGQ/Texas+Instruments/view-part/?ref=eda" (at 105.156 93.218 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid e55ce28c-b16b-4c8c-84f0-26b17d9fdafa))
-    (pin "10" (uuid 3c79dfb7-246b-41ac-9888-58bfaa3dda07))
-    (pin "11" (uuid a3514b3a-5ef7-49bd-832f-de5f27facc6b))
-    (pin "2" (uuid 4f7dfddd-59d1-440c-8992-ecd99f0d58e1))
-    (pin "3" (uuid 49799337-efc5-4016-843c-e952b6e074a6))
-    (pin "4" (uuid 0d44c33c-2d11-4b1a-82fa-d3f73b974683))
-    (pin "5" (uuid e6f08e1a-7767-436e-9e69-763253e8f120))
-    (pin "6" (uuid f5f70926-0701-4bc2-aefb-23bb36dd925c))
-    (pin "7" (uuid 39d34210-dcb2-4e36-b283-5c94c1c1ffda))
-    (pin "8" (uuid bd536e63-ffef-45b6-85e4-2525f87773f4))
-    (pin "9" (uuid b01f07da-f21e-4c82-994f-e79a838edbf8))
+    (pin "1" (uuid 7f0f7a53-c07d-4340-9773-88f6d49ebab9))
+    (pin "10" (uuid 95a463ae-5022-4ccd-afae-50c24a30ee1d))
+    (pin "11" (uuid 6989d215-72bc-4969-ab89-b70873735931))
+    (pin "2" (uuid 72d38040-191b-4b60-869c-278e99b0dc3c))
+    (pin "3" (uuid 57e28cfb-47d6-454b-8c3f-b6a1506304ed))
+    (pin "4" (uuid 757b0da8-45c6-4f05-8029-bc9e40e9cdc5))
+    (pin "5" (uuid da980934-6ed2-483e-bb65-f40ec5a6e73d))
+    (pin "6" (uuid 24c3fb2b-0e66-417b-9d2b-1ebfc59648dc))
+    (pin "7" (uuid 09e56b17-87b0-4ed2-95db-eb6b6690e843))
+    (pin "8" (uuid 2c7ff38c-8d25-46e3-85ce-3c2a2c437b98))
+    (pin "9" (uuid 9d895079-6d3c-4e4e-95ae-074bd61fd380))
     (instances
       (project "Xpanel_V1_final"
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
@@ -3435,8 +3437,8 @@
     (property "Datasheet" "~" (at 63.754 88.392 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b256b97b-738a-4086-b6b0-715969698fed))
-    (pin "2" (uuid ea46bc2f-7e68-469c-92f1-511fa33183ab))
+    (pin "1" (uuid 371bebaf-1fc5-4a27-9e7c-5a33f871e949))
+    (pin "2" (uuid 929301cc-a8f1-430d-b4ba-d42caa988c66))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3472,8 +3474,8 @@
     (property "Datasheet" "~" (at 63.754 85.344 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b04bf718-8749-40cf-9a68-b7594c8efee5))
-    (pin "2" (uuid 90304db9-1983-403f-8683-3df9acbb7d73))
+    (pin "1" (uuid e49c3085-8d0c-4e13-ab68-102194af52e9))
+    (pin "2" (uuid 83ecf7a2-e5f3-4483-96cd-e5145ac04a2a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3509,8 +3511,8 @@
     (property "Datasheet" "~" (at 252.476 27.686 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 831423b0-5961-46c5-80e3-97a6099e7da9))
-    (pin "2" (uuid 517931c7-741b-4be0-9389-a1bf70dd2a9f))
+    (pin "1" (uuid d50df259-e141-43f8-b300-a006f2048e12))
+    (pin "2" (uuid 265303bd-dad8-44ad-9bba-b5bbb4960705))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3546,8 +3548,8 @@
     (property "Datasheet" "~" (at 128.524 88.138 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53713ef9-5eb0-44e0-aa0a-13ff6af96291))
-    (pin "2" (uuid 76630c23-9e97-433c-8414-5ad961f4d819))
+    (pin "1" (uuid 9f6a95f6-1944-41be-ba57-8c036520afdb))
+    (pin "2" (uuid 30415e94-9ea8-46d7-9cb2-797267e345d6))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3583,8 +3585,8 @@
     (property "Datasheet" "~" (at 257.556 67.056 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8bde9692-7e29-446e-b309-ab861add4c4f))
-    (pin "2" (uuid 105136b3-a77b-4b12-acac-f1ad49b21d28))
+    (pin "1" (uuid 8c136b4e-d803-43b2-b6bd-67867c82e869))
+    (pin "2" (uuid 995226c0-8368-4545-af69-9e3e9d7407d2))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3620,8 +3622,8 @@
     (property "Datasheet" "~" (at 63.754 96.774 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6733ac1a-e65c-4008-8569-6974cc0a6a81))
-    (pin "2" (uuid 80fcf149-4731-44ff-8c96-17df868532bc))
+    (pin "1" (uuid 4098c08b-f3e5-4e60-aa5a-91624dabcd70))
+    (pin "2" (uuid c4553cb9-e900-4438-a423-ad4b5747e8ef))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3657,8 +3659,8 @@
     (property "Datasheet" "~" (at 219.456 27.686 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 135ef929-657b-43bd-966c-627299828d40))
-    (pin "2" (uuid 27687a52-344c-4dc3-84d1-44c845abacd3))
+    (pin "1" (uuid 7109c0de-c5b1-458f-9bb8-df772d5ce1bf))
+    (pin "2" (uuid 00726fd9-5df4-440e-b6c0-eddd4cc6580b))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
