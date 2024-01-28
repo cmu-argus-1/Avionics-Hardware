@@ -30,7 +30,7 @@
 	(layer "?.Silkscreen"))
 
 (rule "Pad to Silkscreen"
-	(constraint silk_clearance (min 0.15mm))
+	(constraint silk_clearance (min 0.05mm))
 	(layer outer)
 	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
 
@@ -41,7 +41,7 @@
 
 # This would override board outline and milled areas
 #(rule "Trace to V-Cut"
-#	(constraint clearance (min 0.4mm))
+#	(constraint clearance (min 0.2mm))
 #	(condition "A.Type == 'track' && B.Layer == 'Edge.Cuts'"))
 
 # drill/hole size
