@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 39cf28b0-d395-4333-bc0e-a98538893595)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 39.878 42.672) (size 33.274 23.114) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 02f51ab8-9bf5-460b-98ef-c53969a9f1c8)
+    (property "Sheetname" "SUN_SENSOR" (at 39.878 41.9604 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SUN_SENSOR.kicad_sch" (at 39.878 66.3706 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 77.978 43.434) (size 30.734 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b8717c54-ec37-498b-9d48-acf0e788946a)
+    (property "Sheetname" "SOLAR_PANEL_ELECTRONICS" (at 77.978 42.7224 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "solar_panel_electronics.kicad_sch" (at 77.978 66.8786 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
