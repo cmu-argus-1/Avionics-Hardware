@@ -1,31 +1,99 @@
-(module NDS8434 (layer F.Cu) (tedit 60D23480)
+(footprint "NDS8434" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
   (descr "<b>Small Outline Package</b> Fits JEDEC packages (narrow SOIC-8)")
   (attr smd)
-  (fp_text reference REF** (at -0.457406 -0.203291) (layer F.SilkS)
-    (effects (font (size 0.320143 0.320143) (thickness 0.05)))
+  (fp_text reference "REF**" (at -0.457406 -0.203291) (layer "F.SilkS")
+      (effects (font (size 1.016 1.016) (thickness 0.1524)))
+    (tstamp 65952efd-8a61-486d-be6f-8bd344fbb2cc)
   )
-  (fp_text value NDS8434 (at -0.254493 0.432628) (layer F.SilkS) hide
-    (effects (font (size 0.320613 0.320613) (thickness 0.05)))
+  (fp_text value "NDS8434" (at -0.254493 0.432628) (layer "F.SilkS") hide
+      (effects (font (size 0.320613 0.320613) (thickness 0.05)))
+    (tstamp 19b2101c-dc6e-4299-baae-71fd236e39e8)
   )
-  (fp_poly (pts (xy -2.08677 1.8542) (xy -1.7272 1.8542) (xy -1.7272 2.87568) (xy -2.08677 2.87568)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy -0.813186 1.8542) (xy -0.4572 1.8542) (xy -0.4572 2.87156) (xy -0.813186 2.87156)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy 0.457555 1.8542) (xy 0.8128 1.8542) (xy 0.8128 2.87243) (xy 0.457555 2.87243)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy 1.7279 1.8542) (xy 2.0828 1.8542) (xy 2.0828 2.87136) (xy 1.7279 2.87136)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy -2.08389 -2.8702) (xy -1.7272 -2.8702) (xy -1.7272 -1.85517) (xy -2.08389 -1.85517)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy -0.813201 -2.8702) (xy -0.4572 -2.8702) (xy -0.4572 -1.85511) (xy -0.813201 -1.85511)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy 0.457335 -2.8702) (xy 0.8128 -2.8702) (xy 0.8128 -1.85475) (xy 0.457335 -1.85475)) (layer Eco2.User) (width 0))
-  (fp_poly (pts (xy 1.73027 -2.8702) (xy 2.0828 -2.8702) (xy 2.0828 -1.85749) (xy 1.73027 -1.85749)) (layer Eco2.User) (width 0))
-  (fp_line (start -2.6836 1.85) (end -2.6836 2.54) (layer F.SilkS) (width 0.3))
-  (pad 1 smd rect (at -1.905 2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.635 2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0.635 2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 1.905 2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 1.905 -2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd rect (at 0.635 -2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 7 smd rect (at -0.635 -2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd rect (at -1.905 -2.6162) (size 0.6096 2.2098) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step
-    (at (xyz 0 0 0))
+  (fp_line (start -2.6836 1.85) (end -2.6836 2.54)
+    (stroke (width 0.3) (type solid)) (layer "F.SilkS") (tstamp de9cd231-b87e-4d66-b247-b6181bf7150e))
+  (fp_poly
+    (pts
+      (xy -2.08677 1.8542)
+      (xy -1.7272 1.8542)
+      (xy -1.7272 2.87568)
+      (xy -2.08677 2.87568)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 3c4a3b5a-2d40-4206-9d75-9cf04de9da15))
+  (fp_poly
+    (pts
+      (xy -2.08389 -2.8702)
+      (xy -1.7272 -2.8702)
+      (xy -1.7272 -1.85517)
+      (xy -2.08389 -1.85517)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 4b90288e-ea20-4278-8a5b-5f66b27577a2))
+  (fp_poly
+    (pts
+      (xy -0.813201 -2.8702)
+      (xy -0.4572 -2.8702)
+      (xy -0.4572 -1.85511)
+      (xy -0.813201 -1.85511)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 1e38b854-0265-4d98-b10a-16356c401ce7))
+  (fp_poly
+    (pts
+      (xy -0.813186 1.8542)
+      (xy -0.4572 1.8542)
+      (xy -0.4572 2.87156)
+      (xy -0.813186 2.87156)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 3222f5f0-3464-4e11-8577-574790582706))
+  (fp_poly
+    (pts
+      (xy 0.457335 -2.8702)
+      (xy 0.8128 -2.8702)
+      (xy 0.8128 -1.85475)
+      (xy 0.457335 -1.85475)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 3e1979a7-7ff8-46b2-99e8-ee910add5502))
+  (fp_poly
+    (pts
+      (xy 0.457555 1.8542)
+      (xy 0.8128 1.8542)
+      (xy 0.8128 2.87243)
+      (xy 0.457555 2.87243)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp c27f5fbf-f2f5-4e0e-a0f7-5e20445095eb))
+  (fp_poly
+    (pts
+      (xy 1.7279 1.8542)
+      (xy 2.0828 1.8542)
+      (xy 2.0828 2.87136)
+      (xy 1.7279 2.87136)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp c5cbcf8c-61cd-4f0b-9e61-fd28f894df69))
+  (fp_poly
+    (pts
+      (xy 1.73027 -2.8702)
+      (xy 2.0828 -2.8702)
+      (xy 2.0828 -1.85749)
+      (xy 1.73027 -1.85749)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp eb73baf8-d01b-4478-a1e3-64f34b2fb460))
+  (pad "1" smd rect (at -1.905 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 00301b1b-3638-4b9a-ba3f-42aaddac731a))
+  (pad "2" smd rect (at -0.635 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5ab18c31-6c01-4a52-830b-f450d7730e57))
+  (pad "3" smd rect (at 0.635 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 74acb900-1ea0-47e7-854b-f2aacf43fd07))
+  (pad "4" smd rect (at 1.905 2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e30bc8db-e331-4603-950a-a92319821dca))
+  (pad "5" smd rect (at 1.905 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f0df7f99-c824-47b6-bd67-e72a1d51037b))
+  (pad "6" smd rect (at 0.635 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fc5f24be-e3a4-431a-8b0c-0b97c6fa554e))
+  (pad "7" smd rect (at -0.635 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp daf58ba3-ef64-44e6-95dc-ff37630135e6))
+  (pad "8" smd rect (at -1.905 -2.6162) (size 0.6096 2.2098) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df86a1f7-f093-455b-9f5d-90fedea109bb))
+  (model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )

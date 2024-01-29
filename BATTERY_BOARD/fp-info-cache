@@ -1,4 +1,4 @@
-22349743386504693
+22370343070551192
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84686,6 +84686,13 @@ rotary encoder
 7
 6
 SamacSys_Parts
+73412-0110
+73412-0110
+Connector
+0
+4
+4
+SamacSys_Parts
 914620389
 9-1462038-9-1
 Relay or Contactor
@@ -84735,6 +84742,27 @@ Capacitor
 2
 2
 SamacSys_Parts
+CPH3225A
+CPH3225A-1
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+ERA8KEB1004V
+ERA8K/V
+Resistor
+0
+2
+2
+SamacSys_Parts
+ERA8P
+ERA8P
+Resistor
+0
+2
+2
+SamacSys_Parts
 ERJ1GJJ2R4C
 ERJ1G_1023
 Resistor
@@ -84763,12 +84791,33 @@ Resistor
 2
 2
 SamacSys_Parts
+F3311A7H121008E200
+F3311A7H121008E200-1
+Connector
+0
+10
+10
+SamacSys_Parts
+F3311A7H121014E200
+F3311A7H121014E200-1
+Connector
+0
+16
+16
+SamacSys_Parts
 IRFR320TRPBFBE3
 DPAK (TO-252)_2022-3
 MOSFET (N-Channel)
 0
 3
 3
+SamacSys_Parts
+KEYSTONE-1042
+keystone-1042
+Undefined or Miscellaneous
+0
+2
+2
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
@@ -84780,6 +84829,13 @@ SamacSys_Parts
 PA5432223NLT
 PA5432.223NLT-2
 Inductor
+0
+2
+2
+SamacSys_Parts
+POWERDI_123
+PowerDI 123
+Diode
 0
 2
 2
@@ -84798,12 +84854,33 @@ Resistor
 2
 2
 SamacSys_Parts
+RESC3116X65N
+RC1206
+Resistor
+0
+2
+2
+SamacSys_Parts
 RFN10NS3STL
 LPDS_Master
 Schottky Diode
 0
 4
 4
+SamacSys_Parts
+SM02BSFHRSTFLFSN
+SM02B-SFHRS-TF(LF)(SN)-1
+Connector
+0
+4
+4
+SamacSys_Parts
+SOD3716X135N
+SOD-123
+Diode
+0
+2
+2
 SamacSys_Parts
 SOIC127P600X170-9N
 DDA0008J
@@ -84813,7 +84890,7 @@ Integrated Circuit
 9
 SamacSys_Parts
 SOIC127P600X175-8N
-8 SO
+SO 8_
 Integrated Circuit
 0
 8
@@ -84839,6 +84916,13 @@ Transistor BJT NPN
 0
 3
 3
+SamacSys_Parts
+SOT95P280X140-6N
+SOT-23-6
+Integrated Circuit
+0
+6
+6
 SamacSys_Parts
 SQS850ENT1_GE3
 PowerPAK 1212-8 Single
