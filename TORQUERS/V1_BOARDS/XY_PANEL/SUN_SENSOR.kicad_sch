@@ -796,10 +796,6 @@
     (stroke (width 0) (type default))
     (uuid 4228083c-b3ff-413a-9151-74c411b41beb)
   )
-  (wire (pts (xy 54.61 64.008) (xy 54.61 64.262))
-    (stroke (width 0) (type default))
-    (uuid 4492c0d5-a2e8-468a-aea3-eb7b82643b94)
-  )
   (wire (pts (xy 195.834 64.516) (xy 195.834 83.566))
     (stroke (width 0) (type default))
     (uuid 44fba339-f450-4cff-9692-2038ec1e7d95)
@@ -860,7 +856,7 @@
     (stroke (width 0) (type default))
     (uuid 831dd3b0-4456-4c11-bb8d-420d55a6a495)
   )
-  (wire (pts (xy 65.532 64.262) (xy 54.61 64.262))
+  (wire (pts (xy 65.532 64.262) (xy 55.88 64.262))
     (stroke (width 0) (type default))
     (uuid 8c79688a-61e4-46e9-a0a2-f7be552db51c)
   )
@@ -1707,6 +1703,42 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 55.88 64.262 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6c515f36-aedb-48bf-8b5d-c1d5c303781d)
+    (property "Reference" "#PWR?" (at 55.88 68.072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 54.61 62.992 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 55.88 64.262 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 55.88 64.262 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 387aa61c-9177-4c29-83e1-bea80562bc26))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR054") (unit 1)
         )
       )
     )
