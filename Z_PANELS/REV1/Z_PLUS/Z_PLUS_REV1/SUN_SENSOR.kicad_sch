@@ -784,6 +784,9 @@
   (junction (at 228.854 96.266) (diameter 0) (color 0 0 0 0)
     (uuid 1eab2b13-5d65-461a-8b3f-807ad7b495a3)
   )
+  (junction (at 65.786 125.222) (diameter 0) (color 0 0 0 0)
+    (uuid 21bb7dc3-9140-413f-af38-299fbd76e574)
+  )
   (junction (at 172.974 73.406) (diameter 0) (color 0 0 0 0)
     (uuid 26f3de25-bb84-45b9-bd1e-407fdeeee5da)
   )
@@ -793,11 +796,23 @@
   (junction (at 190.754 56.896) (diameter 0) (color 0 0 0 0)
     (uuid 2af5de75-5ed2-4a93-8e49-0df3a74d1eb1)
   )
+  (junction (at 70.104 125.222) (diameter 0) (color 0 0 0 0)
+    (uuid 390edb29-c82d-4add-9035-4871a2b26f99)
+  )
   (junction (at 228.854 64.516) (diameter 0) (color 0 0 0 0)
     (uuid 58da510a-e48c-4f37-9e66-075719eaf4b3)
   )
+  (junction (at 65.786 116.586) (diameter 0) (color 0 0 0 0)
+    (uuid 7677c5ca-66ef-499c-a060-605f0a936504)
+  )
   (junction (at 218.694 77.216) (diameter 0) (color 0 0 0 0)
     (uuid 7b75e4c0-af8a-470c-8f64-9475c92eae30)
+  )
+  (junction (at 68.834 107.188) (diameter 0) (color 0 0 0 0)
+    (uuid 7c6c9025-f1f1-41a3-bed3-661f2ebbd85b)
+  )
+  (junction (at 116.078 131.572) (diameter 0) (color 0 0 0 0)
+    (uuid 81f3762a-929f-4663-89e6-c221b4b6bbec)
   )
   (junction (at 223.774 56.896) (diameter 0) (color 0 0 0 0)
     (uuid 8c2198b1-9fd4-458f-b943-edb94a77d0ab)
@@ -805,11 +820,17 @@
   (junction (at 195.834 96.266) (diameter 0) (color 0 0 0 0)
     (uuid 8ca1c179-976b-4596-949a-d59c72c70325)
   )
+  (junction (at 123.19 134.874) (diameter 0) (color 0 0 0 0)
+    (uuid 9f7b5b38-a840-4b94-a395-44e3ea94ee55)
+  )
   (junction (at 216.154 91.186) (diameter 0) (color 0 0 0 0)
     (uuid aa858da8-748d-4164-9093-bd54209cef80)
   )
   (junction (at 195.834 64.516) (diameter 0) (color 0 0 0 0)
     (uuid ae85a797-6254-42da-9314-a671437c24f2)
+  )
+  (junction (at 123.19 131.572) (diameter 0) (color 0 0 0 0)
+    (uuid b8dcb5d4-259b-425f-a52a-842a24e008ec)
   )
   (junction (at 183.134 103.886) (diameter 0) (color 0 0 0 0)
     (uuid b948204f-da34-46f8-a85b-c0ab2f0dd6b8)
@@ -832,13 +853,20 @@
   (junction (at 195.834 83.566) (diameter 0) (color 0 0 0 0)
     (uuid e096e0f1-5650-4f51-baaa-39e984d80cec)
   )
+  (junction (at 73.152 117.602) (diameter 0) (color 0 0 0 0)
+    (uuid e70cbd4f-632c-4c26-b4f1-374a60f3fa82)
+  )
   (junction (at 185.674 78.486) (diameter 0) (color 0 0 0 0)
     (uuid fa9ad39c-0617-480b-bec5-cd47162b6c08)
+  )
+  (junction (at 115.316 131.572) (diameter 0) (color 0 0 0 0)
+    (uuid faf53af8-a438-4786-be4b-1a6d7263dec9)
   )
 
   (no_connect (at 106.172 69.342) (uuid 32b9e0e0-3ca2-487c-87ae-6f2968ab0ef1))
   (no_connect (at 106.172 71.882) (uuid c0636950-c4ac-439d-afb0-37af545e7038))
   (no_connect (at 106.172 64.262) (uuid e904f0a7-56a0-4b38-9631-594317fe3382))
+  (no_connect (at 108.712 127.762) (uuid fa48a7c6-d6a3-47e1-9332-b6704214a129))
 
   (wire (pts (xy 59.182 93.218) (xy 58.166 93.218))
     (stroke (width 0) (type default))
@@ -851,6 +879,10 @@
   (wire (pts (xy 169.418 73.406) (xy 172.974 73.406))
     (stroke (width 0) (type default))
     (uuid 0a778570-5878-45c1-a4c2-f1090e44cd26)
+  )
+  (wire (pts (xy 123.444 134.874) (xy 123.19 134.874))
+    (stroke (width 0) (type default))
+    (uuid 0d7f1fe1-7369-483c-856e-914cd8096fb4)
   )
   (wire (pts (xy 172.974 56.896) (xy 190.754 56.896))
     (stroke (width 0) (type default))
@@ -868,6 +900,10 @@
     (stroke (width 0) (type default))
     (uuid 24a15882-eaff-4a00-af87-c51633db8f5e)
   )
+  (wire (pts (xy 116.078 131.572) (xy 116.078 134.874))
+    (stroke (width 0) (type default))
+    (uuid 2583cf6a-a77a-4fda-b9af-024fbc9b81e0)
+  )
   (wire (pts (xy 195.834 88.646) (xy 195.834 83.566))
     (stroke (width 0) (type default))
     (uuid 2b4db1ab-eb79-4e69-ad80-03a65881cdc8)
@@ -875,6 +911,10 @@
   (wire (pts (xy 185.674 64.516) (xy 185.674 78.486))
     (stroke (width 0) (type default))
     (uuid 3181c25a-9eb8-45c6-a3c4-d7b60066afed)
+  )
+  (wire (pts (xy 65.786 116.586) (xy 65.786 117.602))
+    (stroke (width 0) (type default))
+    (uuid 329e9609-230e-4bd8-a2fc-4a3e3ae2772d)
   )
   (wire (pts (xy 183.134 103.886) (xy 195.834 103.886))
     (stroke (width 0) (type default))
@@ -884,6 +924,10 @@
     (stroke (width 0) (type default))
     (uuid 34cb49d4-a4b4-4107-b17c-109661004ece)
   )
+  (wire (pts (xy 73.152 117.602) (xy 73.152 120.142))
+    (stroke (width 0) (type default))
+    (uuid 356565a9-95c2-4872-8af3-b97657652e16)
+  )
   (wire (pts (xy 216.408 101.6) (xy 216.154 101.6))
     (stroke (width 0) (type default))
     (uuid 371e8279-f750-4af2-9460-417103f1c68a)
@@ -892,13 +936,29 @@
     (stroke (width 0) (type default))
     (uuid 3cedd130-5745-4338-b51e-971bdf2060c7)
   )
+  (wire (pts (xy 65.786 114.808) (xy 65.786 116.586))
+    (stroke (width 0) (type default))
+    (uuid 3d5e7776-e602-46c4-b6c3-335b69746bd1)
+  )
+  (wire (pts (xy 113.792 148.844) (xy 113.792 142.494))
+    (stroke (width 0) (type default))
+    (uuid 3e9b3ff0-4e12-480f-8ec3-6d1d4dc4145a)
+  )
   (wire (pts (xy 230.124 83.566) (xy 228.854 83.566))
     (stroke (width 0) (type default))
     (uuid 3f75edf9-1fea-481f-980b-1e04f1bbb5b7)
   )
+  (wire (pts (xy 118.872 148.844) (xy 129.54 148.844))
+    (stroke (width 0) (type default))
+    (uuid 416921ae-f6d5-4262-9a0c-0a0c6d1ea603)
+  )
   (wire (pts (xy 52.578 81.534) (xy 58.166 81.534))
     (stroke (width 0) (type default))
     (uuid 4228083c-b3ff-413a-9151-74c411b41beb)
+  )
+  (wire (pts (xy 65.786 107.188) (xy 68.834 107.188))
+    (stroke (width 0) (type default))
+    (uuid 43fbbb07-3497-498d-a7fe-893982817370)
   )
   (wire (pts (xy 54.61 64.008) (xy 54.61 64.262))
     (stroke (width 0) (type default))
@@ -908,9 +968,17 @@
     (stroke (width 0) (type default))
     (uuid 44fba339-f450-4cff-9692-2038ec1e7d95)
   )
+  (wire (pts (xy 114.808 120.142) (xy 108.712 120.142))
+    (stroke (width 0) (type default))
+    (uuid 490dfff3-1033-43f7-8b6a-580e01919f95)
+  )
   (wire (pts (xy 218.694 64.516) (xy 218.694 77.216))
     (stroke (width 0) (type default))
     (uuid 4c2be7cc-d733-430e-950e-c2e8f74b7ec6)
+  )
+  (wire (pts (xy 109.474 134.62) (xy 109.474 131.572))
+    (stroke (width 0) (type default))
+    (uuid 4e678297-9125-462b-a1a5-85803c0f2be1)
   )
   (wire (pts (xy 169.418 103.886) (xy 183.134 103.886))
     (stroke (width 0) (type default))
@@ -923,6 +991,10 @@
   (wire (pts (xy 48.006 82.804) (xy 46.482 82.804))
     (stroke (width 0) (type default))
     (uuid 50e470dc-a764-49c3-a6ee-99e468c2771e)
+  )
+  (wire (pts (xy 70.104 125.222) (xy 73.152 125.222))
+    (stroke (width 0) (type default))
+    (uuid 577ae54f-96e7-49b7-af55-a4a307ace0ae)
   )
   (wire (pts (xy 48.006 71.882) (xy 48.006 69.342))
     (stroke (width 0) (type default))
@@ -948,6 +1020,14 @@
     (stroke (width 0) (type default))
     (uuid 6ef56e03-acf3-4308-980c-c8dc83b83293)
   )
+  (wire (pts (xy 73.152 122.682) (xy 70.866 122.682))
+    (stroke (width 0) (type default))
+    (uuid 7583a014-a588-4c00-821c-d1006a2c770f)
+  )
+  (wire (pts (xy 129.54 131.572) (xy 129.54 135.128))
+    (stroke (width 0) (type default))
+    (uuid 7b192e1d-4add-4dcc-a0e1-6ea2898b348a)
+  )
   (wire (pts (xy 195.834 116.586) (xy 193.294 116.586))
     (stroke (width 0) (type default))
     (uuid 7be38ae7-3eb6-4946-b264-1f89e4178838)
@@ -964,13 +1044,53 @@
     (stroke (width 0) (type default))
     (uuid 831dd3b0-4456-4c11-bb8d-420d55a6a495)
   )
+  (wire (pts (xy 70.104 127.762) (xy 70.104 125.222))
+    (stroke (width 0) (type default))
+    (uuid 83f92a5e-ae66-4f33-80ff-00197c0bba82)
+  )
+  (wire (pts (xy 114.808 117.602) (xy 108.712 117.602))
+    (stroke (width 0) (type default))
+    (uuid 84b89dc6-03b0-411b-ac00-1e602bbbbce7)
+  )
+  (wire (pts (xy 73.152 127.762) (xy 70.104 127.762))
+    (stroke (width 0) (type default))
+    (uuid 85450fe4-fb4b-4b17-9193-30721ed436bc)
+  )
+  (wire (pts (xy 111.252 142.24) (xy 111.252 148.844))
+    (stroke (width 0) (type default))
+    (uuid 8b1c5505-6a82-4317-8455-41574feba3c2)
+  )
   (wire (pts (xy 65.532 64.262) (xy 54.61 64.262))
     (stroke (width 0) (type default))
     (uuid 8c79688a-61e4-46e9-a0a2-f7be552db51c)
   )
+  (wire (pts (xy 62.992 125.222) (xy 65.786 125.222))
+    (stroke (width 0) (type default))
+    (uuid 8f6d6f51-d241-4069-9c8f-12210cbc0390)
+  )
+  (wire (pts (xy 70.866 116.586) (xy 65.786 116.586))
+    (stroke (width 0) (type default))
+    (uuid 95e16125-3ad2-4a6b-9d38-3183ecad46b2)
+  )
+  (wire (pts (xy 114.808 122.682) (xy 108.712 122.682))
+    (stroke (width 0) (type default))
+    (uuid 98545ee2-6ffb-4f30-b601-6e6ba3699f62)
+  )
   (wire (pts (xy 228.854 56.896) (xy 228.854 49.276))
     (stroke (width 0) (type default))
     (uuid 9b201440-f85d-47ca-bd8a-2b103635b820)
+  )
+  (wire (pts (xy 70.866 122.682) (xy 70.866 116.586))
+    (stroke (width 0) (type default))
+    (uuid 9d216acc-3537-4940-8440-b1f0b71a1db0)
+  )
+  (wire (pts (xy 123.19 142.494) (xy 123.19 143.51))
+    (stroke (width 0) (type default))
+    (uuid 9f6039cb-2828-4762-a975-44c71f9ae276)
+  )
+  (wire (pts (xy 123.19 131.572) (xy 129.54 131.572))
+    (stroke (width 0) (type default))
+    (uuid 9f99b7bd-8e1c-4882-b910-dd6877f072c5)
   )
   (wire (pts (xy 205.994 86.106) (xy 205.994 73.406))
     (stroke (width 0) (type default))
@@ -984,6 +1104,14 @@
     (stroke (width 0) (type default))
     (uuid a51f893a-5ff9-4ce0-a1f0-37e7693d5ebb)
   )
+  (wire (pts (xy 109.474 142.24) (xy 111.252 142.24))
+    (stroke (width 0) (type default))
+    (uuid a6c9ebb2-81fa-4324-9450-44623fff9de6)
+  )
+  (wire (pts (xy 73.152 107.188) (xy 73.152 117.602))
+    (stroke (width 0) (type default))
+    (uuid ad4c8cf0-2967-42ea-9149-92f28bb3d9e8)
+  )
   (wire (pts (xy 218.694 77.216) (xy 218.694 83.566))
     (stroke (width 0) (type default))
     (uuid b19ac5f8-c67b-4c4f-aa5d-731c0f554418)
@@ -996,6 +1124,10 @@
     (stroke (width 0) (type default))
     (uuid b32c9998-f736-4690-a3c9-0ecf65b91dd1)
   )
+  (wire (pts (xy 114.808 125.222) (xy 108.712 125.222))
+    (stroke (width 0) (type default))
+    (uuid b3cc8123-f0e0-4d6a-834b-bc78f63eb238)
+  )
   (wire (pts (xy 45.974 69.342) (xy 48.006 69.342))
     (stroke (width 0) (type default))
     (uuid b7580357-cb53-4705-bb75-b2097017a058)
@@ -1007,6 +1139,10 @@
   (wire (pts (xy 195.834 49.276) (xy 190.754 49.276))
     (stroke (width 0) (type default))
     (uuid ba6e9794-bab4-445b-9f88-afce67d31bf0)
+  )
+  (wire (pts (xy 123.19 143.51) (xy 116.332 143.51))
+    (stroke (width 0) (type default))
+    (uuid bb08f426-93df-4c38-8ef9-8203ad182ad2)
   )
   (wire (pts (xy 228.854 49.276) (xy 223.774 49.276))
     (stroke (width 0) (type default))
@@ -1024,6 +1160,10 @@
     (stroke (width 0) (type default))
     (uuid c149a5f8-dfb6-4bb0-8a95-4b3a11412547)
   )
+  (wire (pts (xy 129.54 148.844) (xy 129.54 142.748))
+    (stroke (width 0) (type default))
+    (uuid c7087c0a-d368-4bb7-bba9-133261768a3f)
+  )
   (wire (pts (xy 183.134 73.406) (xy 172.974 73.406))
     (stroke (width 0) (type default))
     (uuid c87b92f8-df5a-4588-9fc1-6c3761918db9)
@@ -1035,6 +1175,10 @@
   (wire (pts (xy 225.298 96.52) (xy 225.298 96.266))
     (stroke (width 0) (type default))
     (uuid c8c887cc-ecfa-4b14-9b22-a04f84b96428)
+  )
+  (wire (pts (xy 115.316 131.572) (xy 116.078 131.572))
+    (stroke (width 0) (type default))
+    (uuid cca6c0f9-f692-4045-b26e-43bc97d5ec83)
   )
   (wire (pts (xy 228.854 103.886) (xy 216.154 103.886))
     (stroke (width 0) (type default))
@@ -1048,6 +1192,14 @@
     (stroke (width 0) (type default))
     (uuid d3b5e9ec-a614-4ac6-b16a-0bf108e6ea6a)
   )
+  (wire (pts (xy 109.474 131.572) (xy 115.316 131.572))
+    (stroke (width 0) (type default))
+    (uuid d9085fd3-8c01-4193-9414-51423083af44)
+  )
+  (wire (pts (xy 68.834 107.188) (xy 73.152 107.188))
+    (stroke (width 0) (type default))
+    (uuid db9302ab-aae5-41a9-a5da-2ebd2a3ffa23)
+  )
   (wire (pts (xy 207.264 120.396) (xy 203.454 120.396))
     (stroke (width 0) (type default))
     (uuid dd7d1b19-9c0d-4e7f-87be-24ed598826ab)
@@ -1055,6 +1207,14 @@
   (wire (pts (xy 216.154 101.6) (xy 216.154 103.886))
     (stroke (width 0) (type default))
     (uuid e0a9b250-623f-4bcb-9183-fc2fffcf71ba)
+  )
+  (wire (pts (xy 116.332 143.51) (xy 116.332 148.844))
+    (stroke (width 0) (type default))
+    (uuid e171230c-811f-402c-b50b-d88a2c86c557)
+  )
+  (wire (pts (xy 65.786 125.222) (xy 70.104 125.222))
+    (stroke (width 0) (type default))
+    (uuid e1f70059-d333-4ad1-81ce-d65c5cdd7256)
   )
   (wire (pts (xy 169.418 86.106) (xy 169.418 73.406))
     (stroke (width 0) (type default))
@@ -1067,6 +1227,10 @@
   (wire (pts (xy 48.006 69.342) (xy 65.532 69.342))
     (stroke (width 0) (type default))
     (uuid e4caa52a-0e28-4069-a6a4-c918c1a67b6c)
+  )
+  (wire (pts (xy 113.792 142.494) (xy 116.078 142.494))
+    (stroke (width 0) (type default))
+    (uuid eaee7acd-90ae-4f29-b2f8-dfaa9bced11c)
   )
   (wire (pts (xy 205.994 56.896) (xy 223.774 56.896))
     (stroke (width 0) (type default))
@@ -1084,6 +1248,10 @@
     (stroke (width 0) (type default))
     (uuid f2e439e7-5600-4169-b1ff-968b9531407e)
   )
+  (wire (pts (xy 123.19 134.874) (xy 123.19 131.572))
+    (stroke (width 0) (type default))
+    (uuid f4d9e639-e8a8-4329-a8d0-44cbc9bf581b)
+  )
   (wire (pts (xy 216.408 91.44) (xy 216.408 91.186))
     (stroke (width 0) (type default))
     (uuid fa02cf90-7223-4d21-bba6-56feeff7a7c6)
@@ -1091,6 +1259,10 @@
   (wire (pts (xy 190.754 96.266) (xy 195.834 96.266))
     (stroke (width 0) (type default))
     (uuid fb9efd1c-8ec1-4888-87bf-eb1446e2c5e8)
+  )
+  (wire (pts (xy 116.078 131.572) (xy 123.19 131.572))
+    (stroke (width 0) (type default))
+    (uuid ff37f89e-cc35-4263-ae36-03d6c54a60fe)
   )
 
   (text "Isolation Bypass sun sensor" (at 213.614 110.236 0)
@@ -1100,6 +1272,10 @@
   (text "SUN SENSOR\n\n" (at 70.358 57.15 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 541ce1f9-34c0-4bf5-966e-cb2c6bc8a949)
+  )
+  (text "i2c address \n0x42\n" (at 64.516 133.096 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ba770eab-4bd1-4074-a278-103b990004f6)
   )
 
   (label "+3.3v" (at 58.166 64.262 0) (fields_autoplaced)
@@ -1118,11 +1294,32 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SDA_SUN" (shape bidirectional) (at 116.332 148.844 270)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 13ca26fe-e00e-43e3-8cf8-d4dab088f9af)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 116.332 148.844 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
   (global_label "SDA1_b4iso" (shape bidirectional) (at 217.424 77.216 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 17cf9dc4-08cc-49c3-a2d2-0aec7d9a5e20)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 217.424 77.216 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SDA_SUN" (shape bidirectional) (at 114.808 120.142 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 18a62b9f-cb7b-4d4e-a782-2f21b77df439)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.808 120.142 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SDA_4001" (shape input) (at 113.792 148.844 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1b5d13ce-de2d-40ef-9b9d-189e19abf908)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.792 161.2029 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "SCL_SUN" (shape bidirectional) (at 210.566 116.586 0)
@@ -1132,10 +1329,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "SDA_SUN" (shape bidirectional) (at 63.246 71.882 180)
+  (global_label "SCL_4001" (shape bidirectional) (at 111.252 148.844 270)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 50dac207-59d1-4bf8-9133-504539630c25)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 63.246 71.882 0)
+    (uuid 5245699f-e2a2-4747-a9cc-bc910f63faaf)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 111.252 148.844 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1153,6 +1350,27 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SCL_4001" (shape bidirectional) (at 114.808 125.222 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5d94fc88-9e76-438f-b022-a59ce4312ed2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.808 125.222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SCL_SUN" (shape bidirectional) (at 118.872 148.844 270)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6b407070-810f-4ffe-9975-df978645bc12)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 118.872 148.844 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SDA_4001" (shape input) (at 114.808 122.682 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7af81465-3a75-435c-9a11-346ce5031302)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 127.1669 122.682 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "SDA_SUN" (shape bidirectional) (at 207.264 120.396 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7e70fdb9-3e10-40a3-977c-88752fd28659)
@@ -1160,10 +1378,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "SCL_SUN" (shape bidirectional) (at 45.974 69.342 180)
+  (global_label "SCL_4001" (shape bidirectional) (at 46.228 69.342 180)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9bacd055-7993-40c3-951d-5ce00ef07bc6)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 45.974 69.342 0)
+    (uuid c2420f12-e20d-4d22-9fdb-c466d54546e3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 46.228 69.342 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1174,6 +1392,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SDA_4001" (shape input) (at 63.5 71.882 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e7f6fe8c-48af-410b-a7a4-a7218d28b204)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 51.1411 71.882 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "SCL_SUN" (shape bidirectional) (at 197.104 83.566 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e9f52c55-f1f6-4a7c-b0bd-b32e3facd2c6)
@@ -1181,11 +1406,52 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "SDA_SUN" (shape bidirectional) (at 46.482 82.804 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ef2f4991-31f6-498a-a153-fde1ae53ac1b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 46.482 82.804 0)
+  (global_label "SCL_SUN" (shape bidirectional) (at 114.808 117.602 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ff565a08-8fd3-42e1-ab5f-7bd147733d29)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.808 117.602 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 90.932 145.542 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0e638ac9-70de-43e7-8337-2c4545cd60b3)
+    (property "Reference" "#PWR?" (at 90.932 151.892 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 91.059 148.7932 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 90.932 145.542 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.932 145.542 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 08180ba8-d923-456f-9be0-0bbd1d9e26eb))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR022") (unit 1)
+        )
+      )
     )
   )
 
@@ -1214,7 +1480,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1226,6 +1492,51 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 129.54 138.938 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 18a65f73-c881-4bfe-ae1f-65acc2578e2d)
+    (property "Reference" "R?" (at 131.2672 137.7696 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 131.2672 140.081 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 128.524 138.684 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 129.54 138.938 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 129.54 138.938 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f98801e-eddc-430b-a4f0-e54b5fbf27b2))
+    (pin "2" (uuid c8d9343d-14f2-4a78-ba01-e8d4b06bf3f7))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "R22") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "R19") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1266,7 +1577,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q?") (unit 2)
+          (reference "Q6") (unit 2)
         )
       )
       (project "Xpanel_V1_final"
@@ -1286,7 +1597,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 185.674 96.266 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ad254fc-edae-4f21-82be-185d0c3229c9)
-    (property "Reference" "Q11" (at 179.324 94.996 0)
+    (property "Reference" "Q2" (at 179.324 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138" (at 179.324 97.536 0)
@@ -1304,7 +1615,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q11") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1356,7 +1667,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q?") (unit 2)
+          (reference "Q3") (unit 2)
         )
       )
       (project "Xpanel_V1_final"
@@ -1398,7 +1709,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1453,6 +1764,51 @@
     )
   )
 
+  (symbol (lib_id "Device:R_US") (at 116.078 138.684 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 22afe93d-a586-4ebb-a734-63b3a2eda205)
+    (property "Reference" "R?" (at 117.8052 137.5156 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 117.8052 139.827 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 115.062 138.43 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 116.078 138.684 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 116.078 138.684 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 883e711f-3606-44e9-ac18-db0388591289))
+    (pin "2" (uuid 88ebcf5f-303a-48a0-8ca3-51e2341b17a6))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "R22") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "R19") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 195.834 100.076 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 275a9bf2-6313-4a7c-9e84-fede75b1608e)
@@ -1478,7 +1834,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1520,7 +1876,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1532,6 +1888,47 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R33") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 115.316 131.572 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 332633db-f7f4-446e-a67e-21877b49549d)
+    (property "Reference" "#PWR?" (at 115.316 135.382 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 114.046 130.302 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 115.316 131.572 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 115.316 131.572 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1c243288-5f44-4efe-ae92-b0ce337dab79))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1562,7 +1959,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1582,7 +1979,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 218.948 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c75ee86-1a59-4429-aece-aa8a1b390f1a)
-    (property "Reference" "Q14" (at 212.598 95.25 0)
+    (property "Reference" "Q5" (at 212.598 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138" (at 212.598 97.79 0)
@@ -1600,7 +1997,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q14") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1612,6 +2009,51 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "Q9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 65.786 110.998 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 44e0136d-035b-4164-bfd4-0a6bc8b9906e)
+    (property "Reference" "R?" (at 67.5132 109.8296 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "182K" (at 67.5132 112.141 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 64.77 110.744 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 65.786 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 65.786 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e1b05ad5-1cd8-4180-afa0-ce3249f59089))
+    (pin "2" (uuid 0a37776f-59b2-4e90-ac60-816e4d62b8dc))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "R22") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "R19") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1642,7 +2084,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1662,7 +2104,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 208.534 91.186 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51093c56-ef60-4fd0-8f3e-90ad8bfa2936)
-    (property "Reference" "Q13" (at 202.184 89.916 0)
+    (property "Reference" "Q4" (at 202.184 89.916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138" (at 202.184 92.456 0)
@@ -1680,7 +2122,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q13") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1692,6 +2134,48 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "Q7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 65.786 121.412 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 57ed7056-c36e-4722-85cd-68f08f990760)
+    (property "Reference" "R?" (at 67.5132 120.2436 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "976k" (at 67.5132 122.555 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 64.77 121.158 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 65.786 121.412 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c9d5db54-aa3f-4c96-ba3d-62ff71cb2816))
+    (pin "2" (uuid 33d7dc70-656b-4766-ab90-43fab50572fb))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "R2") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "R22") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "R19") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1721,7 +2205,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1763,7 +2247,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1805,7 +2289,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1884,7 +2368,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1984,7 +2468,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2025,7 +2509,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2077,7 +2561,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q?") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2097,7 +2581,7 @@
   (symbol (lib_id "OPT4001DTST:OPT4001DTST") (at 65.532 64.262 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e41b931-9789-40e2-849b-c8f74e11177b)
-    (property "Reference" "U2" (at 85.852 53.848 0)
+    (property "Reference" "U1" (at 85.852 53.848 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "OPT4001DTST" (at 85.852 56.388 0)
@@ -2120,7 +2604,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2132,6 +2616,51 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 109.474 138.43 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7f96f29f-067e-4581-aafb-c10c700f4c49)
+    (property "Reference" "R?" (at 111.2012 137.2616 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 111.2012 139.573 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 108.458 138.176 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.474 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 109.474 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 86737c8e-1565-4514-9c46-64dfc0b0e01e))
+    (pin "2" (uuid 07d2018e-79ab-490b-8aaf-9ff2138cf254))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "R22") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "R19") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2162,7 +2691,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2204,7 +2733,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2246,7 +2775,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2258,6 +2787,51 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 123.19 138.684 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a0733c51-dd0b-4939-b33f-d1a9f1bd2ca5)
+    (property "Reference" "R?" (at 124.9172 137.5156 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 124.9172 139.827 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 122.174 138.43 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 123.19 138.684 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 123.19 138.684 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 59049962-1569-4b79-8f12-1d56bfdaf012))
+    (pin "2" (uuid a139f021-e877-4a39-88bf-f4eb6a118636))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "R22") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "R19") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2288,7 +2862,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2300,6 +2874,47 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 62.992 125.222 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b2ea396a-acef-4b80-ba73-9a2a1e2eace0)
+    (property "Reference" "#PWR?" (at 62.992 129.032 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 61.722 123.952 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 62.992 125.222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 62.992 125.222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f1c3a939-b642-46aa-bbba-7c2a2fef8b1d))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2330,7 +2945,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2350,7 +2965,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 171.958 91.186 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb0185d1-1d7a-449c-bfb1-f67ad00bc16d)
-    (property "Reference" "Q10" (at 166.624 89.916 0)
+    (property "Reference" "Q1" (at 166.624 89.916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138" (at 166.624 92.456 0)
@@ -2368,7 +2983,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q10") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2380,6 +2995,47 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 68.834 107.188 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cc9eef69-c09b-4cf9-b232-a1a703a82041)
+    (property "Reference" "#PWR?" (at 68.834 100.838 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 68.707 103.9368 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 68.834 107.188 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 68.834 107.188 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1d7277f8-d262-483b-a2db-3c8e08b3019a))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2409,7 +3065,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2450,7 +3106,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2502,7 +3158,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "Q?") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2543,7 +3199,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2584,7 +3240,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2626,7 +3282,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
