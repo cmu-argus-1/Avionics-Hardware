@@ -1,4 +1,4 @@
-22365096133611510
+22414597189824383
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84707,6 +84707,20 @@ Connector
 262
 262
 SamacSys_Parts
+C0805
+C0805
+Capacitor
+0
+2
+2
+SamacSys_Parts
+C2220
+C2220
+Capacitor
+0
+2
+2
+SamacSys_Parts
 CAPC1005X55N
 C0402(BB)
 Capacitor
@@ -84716,6 +84730,13 @@ Capacitor
 SamacSys_Parts
 CAPC1005X70N
 0402 (1005M)_2023-1
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC1005X80N
+0402
 Capacitor
 0
 2
@@ -84737,6 +84758,55 @@ Capacitor
 SamacSys_Parts
 CAPC2012X150N
 CL31A107MPKNNWE
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC3216X180N
+MLASU31LBB5106KTNA01
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC3225X170N
+VJ1210
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC3225X230N
+C3225 [EIA CC1210] Thickness 2.5
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC3225X279N
+12103D476MAT2A
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC3326X125N
+1210_(H=1.25mm)
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC4532X218N
+1812_2022
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC5750X310N
+C5750X7R1E476M230KB
 Capacitor
 0
 2
@@ -84770,6 +84840,13 @@ Resistor
 2
 2
 SamacSys_Parts
+ERJ2RKD1004X
+ERJ-2R(0402)
+Resistor
+0
+2
+2
+SamacSys_Parts
 ERJ6_B_BW_R_LW_CW_D
 ERJ6_B_BW_R_LW_CW_D
 Resistor
@@ -84791,6 +84868,20 @@ Resistor
 2
 2
 SamacSys_Parts
+ERJS08_U08__1206_
+ERJS08_U08_(1206)
+Resistor
+0
+2
+2
+SamacSys_Parts
+ERJUP3
+ERJUP3
+Resistor
+0
+2
+2
+SamacSys_Parts
 F3311A7H121008E200
 F3311A7H121008E200-1
 Connector
@@ -84805,12 +84896,33 @@ Connector
 16
 16
 SamacSys_Parts
+INDPM5350X300N
+MPX1D0530
+Inductor
+0
+2
+2
+SamacSys_Parts
 IRFR320TRPBFBE3
 DPAK (TO-252)_2022-3
 MOSFET (N-Channel)
 0
 3
 3
+SamacSys_Parts
+KEYSTONE-1042
+keystone-1042
+Undefined or Miscellaneous
+0
+2
+2
+SamacSys_Parts
+MAX77961EFV06T
+MAX77961EFV06+T
+Integrated Circuit
+0
+31
+31
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
@@ -84822,6 +84934,20 @@ SamacSys_Parts
 PA5432223NLT
 PA5432.223NLT-2
 Inductor
+0
+2
+2
+SamacSys_Parts
+POWERDI_123
+PowerDI 123
+Diode
+0
+2
+2
+SamacSys_Parts
+RCC0805_e3
+RCC0805_e3
+Resistor
 0
 2
 2
@@ -84840,12 +84966,54 @@ Resistor
 2
 2
 SamacSys_Parts
+RESC2013X65N
+RESC2013X65N
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC3116X65N
+RC1206
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC3216X50N
+1206_R
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC3216X70N
+ERA8A
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC3264X70N
+LTR100
+Resistor
+0
+2
+2
+SamacSys_Parts
 RFN10NS3STL
 LPDS_Master
 Schottky Diode
 0
 4
 4
+SamacSys_Parts
+SE20NJM3H
+DFN3820A
+Schottky Diode
+0
+3
+3
 SamacSys_Parts
 SM02BSFHRSTFLFSN
 SM02B-SFHRS-TF(LF)(SN)-1
@@ -84857,6 +85025,13 @@ SamacSys_Parts
 SOD3716X135N
 SOD-123
 Diode
+0
+2
+2
+SamacSys_Parts
+SODFL5226X100N
+D0-221AC (SlimSMA)
+Schottky Diode
 0
 2
 2
@@ -84895,6 +85070,13 @@ Transistor BJT NPN
 0
 3
 3
+SamacSys_Parts
+SOT95P280X140-6N
+SOT-23-6
+Integrated Circuit
+0
+6
+6
 SamacSys_Parts
 SQS850ENT1_GE3
 PowerPAK 1212-8 Single
@@ -85476,6 +85658,27 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Symbol
+Argus LOGO
+
+
+0
+0
+0
+Symbol
+Argus LOGO 10x6.4
+
+
+0
+0
+0
+Symbol
+Argus LOGO 15x9.6
+
+
+0
+0
+0
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

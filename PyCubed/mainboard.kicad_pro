@@ -55,14 +55,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|144656600|59486800|07e45118-c62b-4442-88e2-f6085bd8fb4b|bc99e697-5c6e-4b13-b416-65f87fefb738",
+        "hole_clearance|144856600|59486800|07e45118-c62b-4442-88e2-f6085bd8fb4b|74a3da37-638a-44b0-ada6-8a5ef9fc37d0",
+        "hole_clearance|145313401|59283605|097ac518-a80d-4f84-a525-2996fe1392bc|07e45118-c62b-4442-88e2-f6085bd8fb4b",
+        "hole_clearance|145313401|59283605|df994853-5f1d-4f23-863f-f1abe315d1b4|07e45118-c62b-4442-88e2-f6085bd8fb4b",
+        "hole_clearance|150256600|59486800|2c92be03-a278-422f-81e6-886e6137b472|d2adbc8a-d269-4e60-bc16-754efdec5804",
+        "hole_clearance|150456600|59486800|2c92be03-a278-422f-81e6-886e6137b472|688c0d4d-bc09-4b20-b1c8-09a242213d6e",
+        "solder_mask_bridge|144656600|59486800|07e45118-c62b-4442-88e2-f6085bd8fb4b|bc99e697-5c6e-4b13-b416-65f87fefb738",
+        "solder_mask_bridge|150456600|59486800|2c92be03-a278-422f-81e6-886e6137b472|688c0d4d-bc09-4b20-b1c8-09a242213d6e",
+        "starved_thermal|105435400|80742000|00000000-0000-0000-0000-000060c25651|ab911d30-146c-43a0-9299-2bd66fc4a59a|B.Cu",
+        "starved_thermal|105649220|96130000|00000000-0000-0000-0000-000060c25651|b56e5622-f0c6-45ff-9aed-f46e73c0a6cb|B.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -74,7 +85,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
         "isolated_copper": "ignore",
@@ -97,7 +108,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "ignore",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
@@ -1444,7 +1455,7 @@
       "idf": "",
       "netlist": "mainboard.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mainboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
