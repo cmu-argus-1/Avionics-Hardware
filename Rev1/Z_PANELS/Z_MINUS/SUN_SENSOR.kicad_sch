@@ -1445,7 +1445,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1601,16 +1601,16 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS138") (at 185.674 96.266 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Transistor_FET:BSS138") (at 185.674 96.266 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ad254fc-edae-4f21-82be-185d0c3229c9)
-    (property "Reference" "Q2" (at 179.324 94.996 0)
+    (property "Reference" "Q2" (at 179.324 97.536 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (at 179.324 97.536 0)
+    (property "Value" "BSS138" (at 179.324 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 180.594 94.361 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 180.594 98.171 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 185.674 96.266 0)
@@ -1924,7 +1924,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1942,7 +1942,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 199.644 120.396 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3b7ba219-5510-4797-a56a-9d0194b7b891)
     (property "Reference" "R?" (at 199.644 123.2662 90)
       (effects (font (size 1.27 1.27)))
@@ -1983,16 +1983,16 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS138") (at 218.948 96.52 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Transistor_FET:BSS138") (at 218.948 96.52 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c75ee86-1a59-4429-aece-aa8a1b390f1a)
-    (property "Reference" "Q5" (at 212.598 95.25 0)
+    (property "Reference" "Q5" (at 212.598 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (at 212.598 97.79 0)
+    (property "Value" "BSS138" (at 212.598 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 213.868 94.615 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 213.868 98.425 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 218.948 96.52 0)
@@ -2108,16 +2108,16 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS138") (at 208.534 91.186 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Transistor_FET:BSS138") (at 208.534 91.186 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 51093c56-ef60-4fd0-8f3e-90ad8bfa2936)
-    (property "Reference" "Q4" (at 202.184 89.916 0)
+    (property "Reference" "Q4" (at 202.184 92.456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (at 202.184 92.456 0)
+    (property "Value" "BSS138" (at 202.184 89.916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 203.454 89.281 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 203.454 93.091 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 208.534 91.186 0)
@@ -2212,7 +2212,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2272,7 +2272,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 199.644 116.586 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 601e83d8-af07-442b-80fc-ac54ceba1de3)
     (property "Reference" "R?" (at 199.644 111.379 90)
       (effects (font (size 1.27 1.27)))
@@ -2375,7 +2375,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2475,7 +2475,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2516,7 +2516,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2910,7 +2910,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2969,16 +2969,16 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS138") (at 171.958 91.186 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Transistor_FET:BSS138") (at 171.958 91.186 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid cb0185d1-1d7a-449c-bfb1-f67ad00bc16d)
-    (property "Reference" "Q1" (at 166.624 89.916 0)
+    (property "Reference" "Q1" (at 166.624 92.456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (at 166.624 92.456 0)
+    (property "Value" "BSS138" (at 166.624 89.916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 166.878 89.281 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 166.878 93.091 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 171.958 91.186 0)
@@ -3031,7 +3031,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3072,7 +3072,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3113,7 +3113,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3206,7 +3206,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3247,7 +3247,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
