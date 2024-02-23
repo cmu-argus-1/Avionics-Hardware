@@ -1,6 +1,6 @@
-#Check off list
-##Please check the box add your name and time.
-##add "[x]" for checking off a list item, please make sure you edit the readme file and then commit and push or else the change wont take place.
+# Check off list
+## Please check the box add your name and time.
+## add "[x]" for checking off a list item, please make sure you edit the readme file and then commit and push or else the change wont take place.
 
 - [ ] Avionics Signoff made by __ at time __ and date __
 - [ ] Mechanical Signoff made by __ at time __ and date __
