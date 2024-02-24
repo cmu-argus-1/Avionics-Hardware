@@ -1453,7 +1453,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Z_MINUS_REV1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
