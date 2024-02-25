@@ -2,7 +2,7 @@
 ## Please check the box add your name and time.
 ## add "[x]" for checking off a list item, please make sure you edit the readme file and then commit and push or else the change wont take place.
 - [x] Nischal received cutouts from colton (Z_Keep_Out_Zones_Feb_23_2024.dxf )on 23rd Feb. 6.00PM
-- [ ] Avionics Signoff made by __ at time __ and date __
+- [x] Avionics Signoff made by Nischal at time 8.02 PM on 24th Feb 
 - [ ] Mechanical Signoff made by __ at time __ and date __
 - [ ] TA signoff by __ at time __ and date __
 - [ ] Board list sent by -- to -- at time __ and date __
@@ -16,4 +16,3 @@
 - [ ] Boards ready at time __ and date __
 
 
-    
