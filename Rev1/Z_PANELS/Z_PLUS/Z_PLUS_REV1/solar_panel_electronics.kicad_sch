@@ -1665,8 +1665,8 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/rb521s30t1g/on-semiconductor?region=europe" (at 133.858 57.912 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid a92d4e20-f22c-450b-ab5d-6a66ca5725f3))
-    (pin "2" (uuid a0cc44a0-7142-40bf-949e-f364ecda1e8a))
+    (pin "1" (uuid 97cc8e87-0d71-4533-a64b-fcacd0d62265))
+    (pin "2" (uuid e12af368-90b4-419c-8ca6-2307e58a99bb))
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
@@ -1912,8 +1912,8 @@
     (property "Datasheet" "~" (at 145.034 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c363a34c-a986-4f69-a85a-9810ba74c6cd))
-    (pin "2" (uuid 6d5cfdb0-fac3-42b8-a57a-1b16afec2387))
+    (pin "1" (uuid faf10696-5f71-4c51-bf56-a34c676fc462))
+    (pin "2" (uuid 43bdaf3c-ca72-48a7-8eb5-99781f44afb9))
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"

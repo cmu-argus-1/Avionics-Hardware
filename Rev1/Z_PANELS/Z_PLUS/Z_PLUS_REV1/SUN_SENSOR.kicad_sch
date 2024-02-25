@@ -1471,7 +1471,7 @@
     (property "Value" "10K" (at 217.8812 88.519 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 215.138 87.122 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 215.138 87.122 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 216.154 87.376 0)
@@ -1513,7 +1513,7 @@
     (property "Value" "10K" (at 131.2672 140.081 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 128.524 138.684 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 128.524 138.684 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 138.938 0)
@@ -1616,9 +1616,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 185.674 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 50f6237f-1a39-45b0-908c-7cdfaf34849d))
-    (pin "2" (uuid 7f3494b9-dbed-4b8d-962a-3771c510b96d))
-    (pin "3" (uuid b699f763-d745-4f2c-baa3-d5d0745747a6))
+    (pin "1" (uuid b7de19be-8140-4ca0-9319-1a3daa6eb710))
+    (pin "2" (uuid aee1b718-5cf6-4b77-bbde-4d2de78db184))
+    (pin "3" (uuid 38fefc22-14f3-439e-9a0f-dfd8de3d8051))
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
@@ -1654,12 +1654,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 190.754 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 274af7e5-618b-43e8-907b-7f85b63a5e5b))
-    (pin "2" (uuid 21e7e6ec-7aca-41e1-b4ca-e198a37fcbb1))
-    (pin "6" (uuid baa0b1f7-844c-40a9-b140-72df4517a8d8))
-    (pin "3" (uuid 9852c9ce-4ee4-4d2c-ad5e-4b7c4bfe28da))
-    (pin "4" (uuid 56edeb42-4389-45d8-a66a-fe9b0b946e7a))
-    (pin "5" (uuid 6591c7e4-e2be-4a47-81f6-87463f609e38))
+    (pin "1" (uuid 48994d7c-07e9-45c6-bf27-dff5145701c1))
+    (pin "2" (uuid fc5232d0-1a26-4a4e-bcec-48e28ed425ed))
+    (pin "6" (uuid 38a649fc-9043-4c97-82d1-049b9d77f874))
+    (pin "3" (uuid 91344c2e-63cc-4641-b643-7a4cf2acdc56))
+    (pin "4" (uuid ed31b122-809c-488e-bc52-54a00d8b33ef))
+    (pin "5" (uuid b55fdf46-18f8-4f3a-84d7-7dd6bbd60925))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -1700,7 +1700,7 @@
     (property "Value" "10K" (at 222.0468 54.229 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 224.79 53.34 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 224.79 53.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 223.774 53.086 0)
@@ -1780,7 +1780,7 @@
     (property "Value" "10K" (at 117.8052 139.827 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 115.062 138.43 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 115.062 138.43 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.078 138.684 0)
@@ -1831,8 +1831,8 @@
     (property "Datasheet" "~" (at 195.834 100.076 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b8dde60-1c5c-4a9c-b3b6-be740a0312eb))
-    (pin "2" (uuid 4cc85237-7999-4275-bd35-bacf53ebd632))
+    (pin "1" (uuid 54772090-7230-41c0-abac-dadb6b976a9f))
+    (pin "2" (uuid f5ec0fa1-843c-4078-830f-be1f17a4d6eb))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -1867,7 +1867,7 @@
     (property "Value" "10K" (at 230.5812 61.849 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 227.838 60.452 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 227.838 60.452 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.854 60.706 0)
@@ -2030,7 +2030,7 @@
     (property "Value" "182K" (at 67.5132 112.141 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 64.77 110.744 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 64.77 110.744 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.786 110.998 0)
@@ -2075,14 +2075,14 @@
     (property "Value" "600" (at 189.484 70.866 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 187.198 72.39 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 187.198 72.39 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.944 73.406 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 308e6fb5-a829-4e80-8952-b515d277b3a0))
-    (pin "2" (uuid 04187373-3280-46db-a51e-76e72eb645b0))
+    (pin "1" (uuid 9706ee66-2d95-4e09-b97e-3b2bf347d3ff))
+    (pin "2" (uuid d32ac78b-87ae-4a9b-9822-44c945e04766))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2103,6 +2103,47 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 54.61 64.008 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 498c4021-4e33-4660-a538-17cf5a414186)
+    (property "Reference" "#PWR?" (at 54.61 67.818 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 53.34 62.738 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 54.61 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 54.61 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 60c35d7f-1632-4797-abb2-39eca148cb6b))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR034") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2155,7 +2196,7 @@
     (property "Value" "976k" (at 67.5132 122.555 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 64.77 121.158 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 64.77 121.158 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.786 121.412 0)
@@ -2238,14 +2279,14 @@
     (property "Value" "10K" (at 184.8612 88.519 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 182.118 87.122 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 182.118 87.122 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 183.134 87.376 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ea9c70d-fa32-4a6b-bb6a-b3d662728610))
-    (pin "2" (uuid 8c55ca2e-22ea-4a79-8bd8-30751db79d81))
+    (pin "1" (uuid f9c88c77-bc90-45bb-8866-d9a3b59acf2d))
+    (pin "2" (uuid 382fe25e-2e08-47fb-b9b1-05cf0c2f3385))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2507,7 +2548,7 @@
     (property "Datasheet" "" (at 190.754 49.276 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 12f0dc4c-c71a-453c-aff4-746c1ff2c401))
+    (pin "1" (uuid 35d9e087-0a85-43e0-87be-4b811ee75ef3))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2548,12 +2589,12 @@
     (property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF" (at 190.754 81.026 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b376c69-0b74-4063-8d16-d90694659eb8))
-    (pin "2" (uuid 94a4515f-9275-4899-b56c-b48c9e99bcae))
-    (pin "6" (uuid 4ab334f9-dfbe-4ab1-a39c-78acf71370b4))
-    (pin "3" (uuid 6a181aa7-ae68-4d8e-8b0d-e91738f0a6b1))
-    (pin "4" (uuid dd1afec0-20ca-48f6-8158-6e9c91b0106e))
-    (pin "5" (uuid 7418958d-124a-4152-8beb-c751f5bb9220))
+    (pin "1" (uuid 3f6e99c2-3a57-47af-905c-4bfe5cb828bc))
+    (pin "2" (uuid 6b3c8db8-bd81-4aef-a1b9-9aced9f026ba))
+    (pin "6" (uuid 17cbeb5b-4079-4a83-a729-bc1d6cd70f83))
+    (pin "3" (uuid 1f5b1573-f2bd-4cb7-8f8e-0f1db3ebdf00))
+    (pin "4" (uuid 3b6b0589-8a67-43c5-a7b9-2199d7d1a287))
+    (pin "5" (uuid 687ed9e6-4c90-4cee-b236-4d3392658936))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24/00000000-0000-0000-0000-00005cec5dde"
@@ -2637,7 +2678,7 @@
     (property "Value" "10K" (at 111.2012 139.573 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 108.458 138.176 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 108.458 138.176 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.474 138.43 0)
@@ -2682,7 +2723,7 @@
     (property "Value" "600" (at 222.504 70.866 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 219.71 74.422 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 219.71 74.422 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.964 73.406 0)
@@ -2766,7 +2807,7 @@
     (property "Value" "100K" (at 230.5812 93.599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 227.838 92.202 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 227.838 92.202 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.854 92.456 0)
@@ -2808,7 +2849,7 @@
     (property "Value" "10K" (at 124.9172 139.827 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 122.174 138.43 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 122.174 138.43 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 138.684 0)
@@ -2853,14 +2894,14 @@
     (property "Value" "10K" (at 189.0268 54.229 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 191.77 53.34 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 191.77 53.34 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.754 53.086 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 156a89b7-b45d-4ecf-a005-1802c1149b3f))
-    (pin "2" (uuid 0f9f775c-e823-48c5-9ab3-72730c59e28a))
+    (pin "1" (uuid c927db3e-fb36-48cc-911a-022c518d48e5))
+    (pin "2" (uuid e27ba2ca-6c18-4135-bb0f-f03dc8af64f2))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2927,6 +2968,47 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 52.578 81.534 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bc95e253-1f5a-4438-b1af-90f6ebaf8d7b)
+    (property "Reference" "#PWR?" (at 52.578 85.344 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 51.308 80.264 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 52.578 81.534 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 52.578 81.534 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 54b3619c-92f3-4a20-9145-64058694c35c))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 195.834 60.706 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c69e91fe-f63a-4138-9422-4c94f79d9cf2)
@@ -2936,14 +3018,14 @@
     (property "Value" "10K" (at 197.5612 61.849 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 194.818 60.452 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 194.818 60.452 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 195.834 60.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0663e8b-e146-40ea-ae72-19fb45debcda))
-    (pin "2" (uuid 815bf1ff-ff9e-4e71-890b-34437ce5a02a))
+    (pin "1" (uuid 6f0097ad-ee67-4fe1-ad52-7b9308b13270))
+    (pin "2" (uuid 26efcf48-e8c1-4565-a82a-f0989e162ee5))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -2984,9 +3066,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 171.958 91.186 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 3a285875-af61-4828-968d-57c758a70de4))
-    (pin "2" (uuid 4d27581c-c4cd-4831-ab34-c981df52a648))
-    (pin "3" (uuid 1b1d7bb5-98a5-4b7e-964c-c4fa119a0063))
+    (pin "1" (uuid 5f1cd3b0-6e04-4a47-9b3a-5c38c9b65dc6))
+    (pin "2" (uuid 760b1374-8ea8-42e1-ae42-88b1ec9653a6))
+    (pin "3" (uuid 966cd8f4-b01c-4c23-baa4-cbffe2248c26))
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
@@ -3063,7 +3145,7 @@
     (property "Datasheet" "" (at 183.134 83.566 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08369b05-6b83-444e-9b84-f90f11dd4215))
+    (pin "1" (uuid dd219bd3-f3ab-4352-8d54-8f34ed72fa2a))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3104,7 +3186,7 @@
     (property "Datasheet" "" (at 183.134 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac774592-b27b-433d-8c55-29f393efdf57))
+    (pin "1" (uuid 684c2aaf-8cbb-4e19-9c6f-509c46691877))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
@@ -3273,14 +3355,14 @@
     (property "Value" "100K" (at 197.5612 93.599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 194.818 92.202 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 194.818 92.202 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 195.834 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa29be19-8665-4ba2-8838-05b080b0e39a))
-    (pin "2" (uuid 647482a0-5615-4b12-8ae7-b105232c668b))
+    (pin "1" (uuid 3af07257-2aa5-4c15-a60c-6276dda0adb0))
+    (pin "2" (uuid cdd11d1d-9845-444d-8fc4-39c2ae289435))
     (instances
       (project "xpanel"
         (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"

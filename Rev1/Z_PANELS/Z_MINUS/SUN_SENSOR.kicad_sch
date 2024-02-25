@@ -3302,4 +3302,86 @@
       )
     )
   )
+
+  (symbol (lib_id "power:+3.3V") (at 52.578 81.534 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f5b37fcd-7dc6-44bb-87ea-ad727c44c9de)
+    (property "Reference" "#PWR?" (at 52.578 85.344 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 51.308 80.264 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 52.578 81.534 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 52.578 81.534 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9399eb39-9e1f-44ca-8e15-d8b761adf9f3))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_MINUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 54.61 64.008 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ff308645-df00-41f4-830b-a28527d9bf0a)
+    (property "Reference" "#PWR?" (at 54.61 67.818 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 53.34 62.738 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 54.61 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 54.61 64.008 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27c62619-1f80-4c34-a604-0152221ca975))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_MINUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
 )
