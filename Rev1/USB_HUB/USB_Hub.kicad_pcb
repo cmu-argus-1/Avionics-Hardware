@@ -1,7 +1,7 @@
 (kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
-    (thickness 0.8)
+    (thickness 1)
   )
 
   (paper "A4")
@@ -47,7 +47,7 @@
       (layer "F.Cu" (type "copper") (thickness 0.05))
       (layer "dielectric 1" (type "prepreg") (thickness 0.22 locked) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "In1.Cu" (type "copper") (thickness 0.02))
-      (layer "dielectric 2" (type "core") (thickness 0.2 locked) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "dielectric 2" (type "core") (thickness 0.4 locked) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "In2.Cu" (type "copper") (thickness 0.02))
       (layer "dielectric 3" (type "prepreg") (thickness 0.22 locked) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.05))
@@ -88,7 +88,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory "")
     )
