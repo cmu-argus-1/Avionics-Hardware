@@ -7,7 +7,7 @@
 - [ ] Mechanical Signoff made by __ at time __ and date __
 - [ ] TA signoff by __ at time __ and date __
 - [ ] Board list sent by -- to -- at time __ and date __
-- [ ] Parts list by -- to -- at time __ and date __
+- [ ] Parts list sent by -- to -- at time __ and date __
 - [ ] Board ordered by -- at time __ and date __
 - [ ] Parts Ordered by -- at time __ and date __
 - [ ] Board received -- at time __ and date __
