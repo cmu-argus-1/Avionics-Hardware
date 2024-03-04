@@ -463,6 +463,15 @@
     (uuid 5e2a1fd4-830e-4e03-8772-c17459d2ad34)
   )
 
+  (label "1-" (at 108.966 139.192 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b4dc486c-9d06-4166-b4ac-585fa8cfb2b9)
+  )
+  (label "1+" (at 108.966 136.652 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ffc887c0-ccbf-41ae-a2b2-f63efb743f62)
+  )
+
   (global_label "VSOLAR" (shape input) (at 185.166 52.324 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 01e4de51-2d34-45a9-a70e-2b48d15d41e4)
