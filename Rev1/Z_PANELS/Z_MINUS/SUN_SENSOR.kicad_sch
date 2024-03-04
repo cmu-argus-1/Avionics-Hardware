@@ -329,6 +329,57 @@
         )
       )
     )
+    (symbol "PCM_Capacitor_AKL:C_0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_0805" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Capacitor_SMD_AKL:C_0805_2012Metric" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD 0805 MLCC capacitor, Alternate KiCad Library" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0805_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_0805_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "SparkFun-Jumper:SolderJumper_3_Open_No_Silk" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at -2.54 -2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -799,6 +850,9 @@
   (junction (at 70.104 125.222) (diameter 0) (color 0 0 0 0)
     (uuid 390edb29-c82d-4add-9035-4871a2b26f99)
   )
+  (junction (at 113.03 47.752) (diameter 0) (color 0 0 0 0)
+    (uuid 54bfcd96-73b7-4dc5-821c-3c3cb3804d7b)
+  )
   (junction (at 228.854 64.516) (diameter 0) (color 0 0 0 0)
     (uuid 58da510a-e48c-4f37-9e66-075719eaf4b3)
   )
@@ -841,6 +895,9 @@
   (junction (at 61.976 76.962) (diameter 0) (color 0 0 0 0)
     (uuid ca9c353d-1fc7-4f84-9e72-b52e2566e214)
   )
+  (junction (at 113.03 39.624) (diameter 0) (color 0 0 0 0)
+    (uuid cb03994b-b3e4-4916-976a-672c048e8162)
+  )
   (junction (at 183.134 91.186) (diameter 0) (color 0 0 0 0)
     (uuid cc37b8c0-9951-4424-bbbd-2a35184688f8)
   )
@@ -865,6 +922,10 @@
   (no_connect (at 106.172 64.262) (uuid e904f0a7-56a0-4b38-9631-594317fe3382))
   (no_connect (at 108.712 127.762) (uuid fa48a7c6-d6a3-47e1-9332-b6704214a129))
 
+  (wire (pts (xy 118.364 39.624) (xy 118.364 39.878))
+    (stroke (width 0) (type default))
+    (uuid 05dd731f-dd47-4a88-819f-a92afb69e8e0)
+  )
   (wire (pts (xy 59.182 93.218) (xy 58.166 93.218))
     (stroke (width 0) (type default))
     (uuid 08750ed7-a623-4d39-bf94-ea95e8082493)
@@ -877,9 +938,21 @@
     (stroke (width 0) (type default))
     (uuid 0a778570-5878-45c1-a4c2-f1090e44cd26)
   )
+  (wire (pts (xy 108.204 47.244) (xy 108.204 47.752))
+    (stroke (width 0) (type default))
+    (uuid 0ce535c4-2789-4ac0-9347-97eb09cbbd72)
+  )
   (wire (pts (xy 123.19 134.874) (xy 128.27 134.874))
     (stroke (width 0) (type default))
     (uuid 0d7f1fe1-7369-483c-856e-914cd8096fb4)
+  )
+  (wire (pts (xy 108.204 39.624) (xy 113.03 39.624))
+    (stroke (width 0) (type default))
+    (uuid 13870f9c-6aec-4dab-86f4-4318590d78d2)
+  )
+  (wire (pts (xy 108.204 47.752) (xy 113.03 47.752))
+    (stroke (width 0) (type default))
+    (uuid 154c0e4e-7219-4c05-bada-6664b6c05a16)
   )
   (wire (pts (xy 172.974 56.896) (xy 190.754 56.896))
     (stroke (width 0) (type default))
@@ -900,6 +973,10 @@
   (wire (pts (xy 116.078 131.572) (xy 116.078 134.874))
     (stroke (width 0) (type default))
     (uuid 2583cf6a-a77a-4fda-b9af-024fbc9b81e0)
+  )
+  (wire (pts (xy 118.364 47.752) (xy 118.364 47.498))
+    (stroke (width 0) (type default))
+    (uuid 27f3a9af-e03d-4e72-92ae-238e7d5dfb9f)
   )
   (wire (pts (xy 195.834 88.646) (xy 195.834 83.566))
     (stroke (width 0) (type default))
@@ -1145,6 +1222,10 @@
     (stroke (width 0) (type default))
     (uuid bbc2ce25-3ddc-47be-9cc6-1ebba3323227)
   )
+  (wire (pts (xy 113.03 39.624) (xy 118.364 39.624))
+    (stroke (width 0) (type default))
+    (uuid bf48e6e8-3088-4dc8-a32b-d06bc53cf009)
+  )
   (wire (pts (xy 177.038 91.186) (xy 183.134 91.186))
     (stroke (width 0) (type default))
     (uuid c0536758-d086-4e86-b16e-04385c0bd401)
@@ -1200,6 +1281,10 @@
   (wire (pts (xy 207.264 120.396) (xy 203.454 120.396))
     (stroke (width 0) (type default))
     (uuid dd7d1b19-9c0d-4e7f-87be-24ed598826ab)
+  )
+  (wire (pts (xy 113.03 47.752) (xy 118.364 47.752))
+    (stroke (width 0) (type default))
+    (uuid df71abc2-23ff-4c81-b614-0cd6c0fa3c73)
   )
   (wire (pts (xy 216.154 101.6) (xy 216.154 103.886))
     (stroke (width 0) (type default))
@@ -1442,7 +1527,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1541,6 +1626,52 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 113.03 47.752 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 18b49176-b2b1-46a8-824f-6a2257edd417)
+    (property "Reference" "#PWR?" (at 113.03 54.102 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 113.157 51.0032 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 113.03 47.752 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 47.752 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d75b5e5-f579-4395-892e-e6655489c65c))
+    (instances
+      (project "SUN_SENSOR"
+        (path "/243f9c7d-dafd-4c5d-914e-463e1656a936"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_MINUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR018") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR028") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1838,7 +1969,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1897,6 +2028,40 @@
     )
   )
 
+  (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 108.204 43.434 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2a37181e-9949-41b0-8509-134080b44cb6)
+    (property "Reference" "C4" (at 112.014 42.164 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 112.014 44.704 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 109.1692 47.244 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 108.204 43.434 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba2aa82c-0745-426a-8379-e58a50b0a59c))
+    (pin "2" (uuid 32d85e48-0272-4199-a3fd-622ba4b0f9d4))
+    (instances
+      (project "SUN_SENSOR"
+        (path "/243f9c7d-dafd-4c5d-914e-463e1656a936"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "Z_MINUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
+          (reference "C4") (unit 1)
+        )
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 115.316 131.572 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 332633db-f7f4-446e-a67e-21877b49549d)
@@ -1921,7 +2086,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2105,6 +2270,40 @@
     )
   )
 
+  (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 118.364 43.688 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4cb46470-e738-4f4d-8eae-f4f652473077)
+    (property "Reference" "C4" (at 122.174 42.418 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 122.174 44.958 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 119.3292 47.498 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.364 43.688 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ebf1644-ea8e-4f71-96b6-1cb81a4c803e))
+    (pin "2" (uuid b770ee59-4b45-4bc5-b93d-d696564facc7))
+    (instances
+      (project "SUN_SENSOR"
+        (path "/243f9c7d-dafd-4c5d-914e-463e1656a936"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "Z_MINUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
+          (reference "C4") (unit 1)
+        )
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Transistor_FET:BSS138") (at 208.534 91.186 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51093c56-ef60-4fd0-8f3e-90ad8bfa2936)
@@ -2209,7 +2408,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2372,7 +2571,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2472,7 +2671,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2513,7 +2712,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2670,6 +2869,52 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 113.03 39.624 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8415e10a-f187-40ad-aa56-ce5f9222879e)
+    (property "Reference" "#PWR?" (at 113.03 43.434 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 111.76 38.354 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 113.03 39.624 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 39.624 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca7442a3-f074-4e83-bbc6-f1100fe3e626))
+    (instances
+      (project "SUN_SENSOR"
+        (path "/243f9c7d-dafd-4c5d-914e-463e1656a936"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_MINUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 219.964 73.406 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e91297a-4ad4-4233-b6f0-4beacd7fab60)
@@ -2737,7 +2982,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2907,7 +3152,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3028,7 +3273,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3069,7 +3314,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3110,7 +3355,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3203,7 +3448,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3244,7 +3489,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3327,7 +3572,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3368,7 +3613,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/02f51ab8-9bf5-460b-98ef-c53969a9f1c8"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "Xpanel_V1_final"

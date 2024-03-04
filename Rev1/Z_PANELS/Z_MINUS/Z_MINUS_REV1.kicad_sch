@@ -286,7 +286,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -324,7 +324,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -362,7 +362,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -463,7 +463,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -501,7 +501,7 @@
       )
       (project "Z_MINUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
