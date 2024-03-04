@@ -509,7 +509,7 @@
   (symbol (lib_id "AA_AUTO_LOADER:73412-0114") (at 62.992 154.432 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 117f5aad-ec44-4866-9add-6620d4386e64)
-    (property "Reference" "J2" (at 83.058 136.9761 90)
+    (property "Reference" "J1" (at 83.058 136.9761 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "73412-0114" (at 83.058 139.5161 90)
@@ -552,7 +552,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -582,7 +582,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -620,7 +620,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -658,7 +658,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -696,7 +696,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -734,7 +734,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -772,7 +772,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -810,7 +810,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -848,7 +848,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -917,7 +917,7 @@
   (symbol (lib_id "F3311A7H121008E200:F3311A7H121014E200") (at 159.766 52.324 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d44455b7-123c-4935-8235-1ee7e7fe887b)
-    (property "Reference" "J1" (at 172.466 44.704 0)
+    (property "Reference" "J3" (at 172.466 44.704 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "F3311A7H121014E200" (at 172.466 47.244 0)
@@ -963,7 +963,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1001,7 +1001,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1018,7 +1018,7 @@
   (symbol (lib_id "Connector:Tape_measure_antenna") (at 119.634 137.668 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f032b072-c631-4261-b7af-28e251e99e7e)
-    (property "Reference" "J3" (at 125.73 136.398 0)
+    (property "Reference" "J2" (at 125.73 136.398 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Tape_Measure_Antenna" (at 125.73 138.938 0)
@@ -1035,7 +1035,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
