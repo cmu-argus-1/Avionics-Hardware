@@ -701,6 +701,9 @@
   (junction (at 176.53 104.648) (diameter 0) (color 0 0 0 0)
     (uuid 326f0540-c442-4d4d-a9bf-093b9fd2ed45)
   )
+  (junction (at 138.938 84.328) (diameter 0) (color 0 0 0 0)
+    (uuid 3fc141c9-88f9-4fdd-b604-403c881e3e69)
+  )
   (junction (at 236.22 94.488) (diameter 0) (color 0 0 0 0)
     (uuid 66a3a071-e288-4d15-9a37-0357ce78b4ed)
   )
@@ -722,17 +725,11 @@
   (junction (at 85.598 110.744) (diameter 0) (color 0 0 0 0)
     (uuid 93e9c3ec-9f0a-4c84-ad0a-d12a2141cfb5)
   )
-  (junction (at 244.602 105.156) (diameter 0) (color 0 0 0 0)
-    (uuid b06a1d49-6e5f-4488-8de6-ecd21e5b38f1)
-  )
   (junction (at 177.292 86.868) (diameter 0) (color 0 0 0 0)
     (uuid c3e30618-a9b4-44d1-a76b-b93635837973)
   )
   (junction (at 231.394 74.168) (diameter 0) (color 0 0 0 0)
     (uuid cbed82e2-fb4b-4443-8bb5-7efdc35fac95)
-  )
-  (junction (at 161.29 101.346) (diameter 0) (color 0 0 0 0)
-    (uuid ce6134a5-98c9-465a-9d4c-dc52bc566876)
   )
   (junction (at 246.38 92.456) (diameter 0) (color 0 0 0 0)
     (uuid d48604ae-46e6-4631-bd13-ee1eb55ebb78)
@@ -778,7 +775,7 @@
     (stroke (width 0) (type default))
     (uuid 1adc204f-e1a9-4992-b550-f577f83ef33d)
   )
-  (wire (pts (xy 135.636 84.328) (xy 145.034 84.328))
+  (wire (pts (xy 135.636 84.328) (xy 138.938 84.328))
     (stroke (width 0) (type default))
     (uuid 1da68495-3fb3-4417-a4e9-9e6009335595)
   )
@@ -806,10 +803,6 @@
     (stroke (width 0) (type default))
     (uuid 29bcba3c-26b2-4d9d-acac-0f20138e90a6)
   )
-  (wire (pts (xy 242.824 102.108) (xy 242.824 105.156))
-    (stroke (width 0) (type default))
-    (uuid 31500401-e1b2-4dba-ba39-edec51ce8447)
-  )
   (wire (pts (xy 246.38 92.456) (xy 248.92 92.456))
     (stroke (width 0) (type default))
     (uuid 34749166-d55b-4525-b2ee-6c2cb6a8135d)
@@ -822,6 +815,14 @@
     (stroke (width 0) (type default))
     (uuid 3d1a739e-595e-4613-bcfd-f0d6da1d9b6a)
   )
+  (wire (pts (xy 138.938 97.536) (xy 138.938 97.028))
+    (stroke (width 0) (type default))
+    (uuid 45ba4f9b-26dc-4c4c-9e4c-fd6f3fc9f13b)
+  )
+  (wire (pts (xy 138.938 89.408) (xy 138.938 84.328))
+    (stroke (width 0) (type default))
+    (uuid 47170b90-c57d-4fa5-8b03-f037990bd720)
+  )
   (wire (pts (xy 180.34 81.788) (xy 180.34 69.088))
     (stroke (width 0) (type default))
     (uuid 517a3bbc-c9fe-4a34-90b5-1ae894d9a3a3)
@@ -833,14 +834,6 @@
   (wire (pts (xy 177.292 89.408) (xy 180.34 89.408))
     (stroke (width 0) (type default))
     (uuid 57de0e0d-f998-4e24-afda-483d8fa510f3)
-  )
-  (wire (pts (xy 161.29 96.774) (xy 161.29 101.346))
-    (stroke (width 0) (type default))
-    (uuid 597f7699-5d92-4e3b-9333-ec6d0cc9fe6b)
-  )
-  (wire (pts (xy 244.602 105.156) (xy 245.872 105.156))
-    (stroke (width 0) (type default))
-    (uuid 5ab07241-1405-4320-9df3-518acf162066)
   )
   (wire (pts (xy 177.292 89.154) (xy 177.292 89.408))
     (stroke (width 0) (type default))
@@ -857,10 +850,6 @@
   (wire (pts (xy 70.612 110.744) (xy 58.166 110.744))
     (stroke (width 0) (type default))
     (uuid 673ee18c-38c8-4e79-89f5-1bcee14632c9)
-  )
-  (wire (pts (xy 245.872 102.108) (xy 246.38 102.108))
-    (stroke (width 0) (type default))
-    (uuid 6abd4d7a-d539-4cbd-9f53-7807ed3e1649)
   )
   (wire (pts (xy 58.166 81.788) (xy 57.15 81.788))
     (stroke (width 0) (type default))
@@ -894,10 +883,6 @@
     (stroke (width 0) (type default))
     (uuid 7b19ed6b-a431-444a-ae59-7a5bb6d1d3b0)
   )
-  (wire (pts (xy 161.29 101.346) (xy 161.29 101.6))
-    (stroke (width 0) (type default))
-    (uuid 801587ab-405a-4b52-a285-7d7e9123923d)
-  )
   (wire (pts (xy 241.046 97.028) (xy 241.046 92.456))
     (stroke (width 0) (type default))
     (uuid 84d7c575-91e1-40ea-84f2-420a13e3f5ff)
@@ -922,6 +907,10 @@
     (stroke (width 0) (type default))
     (uuid 98dcf675-1c02-46b4-870d-9c03023141e2)
   )
+  (wire (pts (xy 138.938 84.328) (xy 145.034 84.328))
+    (stroke (width 0) (type default))
+    (uuid 9f66ef20-6f7e-436d-8528-16ab080065dd)
+  )
   (wire (pts (xy 231.14 89.408) (xy 231.14 86.868))
     (stroke (width 0) (type default))
     (uuid a9247eda-ade0-4e59-9094-421b1e1f2156)
@@ -930,11 +919,7 @@
     (stroke (width 0) (type default))
     (uuid aa803b36-3438-4d32-a025-ed1637cd644e)
   )
-  (wire (pts (xy 231.14 102.108) (xy 242.824 102.108))
-    (stroke (width 0) (type default))
-    (uuid ac5811c1-e11b-4a2c-a382-b44479b0d1e8)
-  )
-  (wire (pts (xy 245.872 105.156) (xy 245.872 102.108))
+  (wire (pts (xy 246.38 105.156) (xy 246.38 102.108))
     (stroke (width 0) (type default))
     (uuid b15a5785-8ce3-43b8-be5a-a091a94e18e4)
   )
@@ -954,7 +939,7 @@
     (stroke (width 0) (type default))
     (uuid b9672cae-daca-4693-b4bd-978dfe8bc0b5)
   )
-  (wire (pts (xy 161.29 89.154) (xy 177.292 89.154))
+  (wire (pts (xy 167.64 89.154) (xy 177.292 89.154))
     (stroke (width 0) (type default))
     (uuid bfef9f12-b178-4456-b80b-b654608fd7f2)
   )
@@ -973,6 +958,10 @@
   (wire (pts (xy 177.292 89.154) (xy 177.292 86.868))
     (stroke (width 0) (type default))
     (uuid d62937f2-a572-4f42-952c-869ccd435be4)
+  )
+  (wire (pts (xy 167.64 100.076) (xy 167.64 96.774))
+    (stroke (width 0) (type default))
+    (uuid daddd948-9f35-42b6-9c6c-96ad9a2cd37e)
   )
   (wire (pts (xy 104.902 81.788) (xy 104.902 83.82))
     (stroke (width 0) (type default))
@@ -1021,10 +1010,6 @@
   (wire (pts (xy 246.38 92.456) (xy 246.38 94.488))
     (stroke (width 0) (type default))
     (uuid f6ace29c-30a4-47d5-b51c-706b00a9914b)
-  )
-  (wire (pts (xy 242.824 105.156) (xy 244.602 105.156))
-    (stroke (width 0) (type default))
-    (uuid f98645b3-64da-49f1-afee-92e72ad90b18)
   )
   (wire (pts (xy 176.53 106.68) (xy 176.53 104.648))
     (stroke (width 0) (type default))
@@ -1084,7 +1069,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1300,19 +1285,95 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 161.29 101.346 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 231.14 102.108 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 31e4e287-d080-41e7-b6ef-13a970c6d379)
-    (property "Reference" "#PWR?" (at 161.29 107.696 0)
+    (uuid 2b3f6ff8-ed1f-44a7-94f3-695a2b12b7ae)
+    (property "Reference" "#PWR?" (at 237.49 102.108 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 160.02 105.156 0)
+    (property "Value" "GND" (at 233.68 101.854 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 161.29 101.346 0)
+    (property "Footprint" "" (at 231.14 102.108 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 161.29 101.346 0)
+    (property "Datasheet" "" (at 231.14 102.108 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b46f48bd-8da1-4ee9-84fd-fd70de0cea32))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
+          (reference "#PWR035") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR037") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 138.938 97.536 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2f63e989-8457-4c7e-8225-72bca6965bff)
+    (property "Reference" "#PWR?" (at 138.938 103.886 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 137.668 101.346 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 138.938 97.536 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 138.938 97.536 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1004ec68-feae-4e38-8504-cb5171c97806))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR041") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 167.64 100.076 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 31e4e287-d080-41e7-b6ef-13a970c6d379)
+    (property "Reference" "#PWR?" (at 167.64 106.426 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 166.37 103.886 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 167.64 100.076 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 100.076 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 43d0a735-8355-4cbc-acfa-1e04224fa10a))
@@ -1324,7 +1385,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1379,7 +1440,7 @@
   (symbol (lib_id "AA_AUTO_LOADER:CGA3E2X7R1H223K080AA") (at 236.22 94.488 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4995eeaa-598f-4f89-88ce-3e4145a554aa)
-    (property "Reference" "C9" (at 240.538 86.868 90)
+    (property "Reference" "C10" (at 240.538 86.868 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CGA3E2X7R1H223K080AA" (at 240.538 89.408 90)
@@ -1420,7 +1481,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1458,7 +1519,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1530,7 +1591,7 @@
   (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 176.53 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72cdc1c3-65af-480e-b218-9ed153546815)
-    (property "Reference" "C7" (at 180.34 109.22 0)
+    (property "Reference" "C8" (at 180.34 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 180.34 111.76 0)
@@ -1547,7 +1608,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1577,7 +1638,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1615,7 +1676,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1653,7 +1714,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1670,10 +1731,10 @@
   (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 246.38 98.298 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8364615c-9d31-4dea-8a49-bf3271e41017)
-    (property "Reference" "C10" (at 250.19 97.028 0)
+    (property "Reference" "C11" (at 250.19 97.028 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7uF" (at 250.19 99.568 0)
+    (property "Value" "47uF" (at 250.19 99.568 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 247.3452 102.108 0)
@@ -1687,7 +1748,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1744,12 +1805,12 @@
   )
 
   (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 145.034 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 98ee5de7-cee3-4f8d-95be-ce3c421ba273)
-    (property "Reference" "C5" (at 148.844 88.9 0)
+    (property "Reference" "C6" (at 145.288 93.218 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47uF" (at 148.844 91.44 0)
+    (property "Value" "47uF" (at 145.288 95.758 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 145.9992 93.98 0)
@@ -1763,7 +1824,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1927,19 +1988,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 244.602 105.156 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 246.38 105.156 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3c63ae0-7c6c-49ee-96b6-56b1abcf3c81)
-    (property "Reference" "#PWR?" (at 244.602 111.506 0)
+    (property "Reference" "#PWR?" (at 246.38 111.506 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 241.046 103.124 90)
+    (property "Value" "GND" (at 246.634 107.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 244.602 105.156 0)
+    (property "Footprint" "" (at 246.38 105.156 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 244.602 105.156 0)
+    (property "Datasheet" "" (at 246.38 105.156 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 03455468-6840-4b39-a44d-7a03e0977e85))
@@ -1951,7 +2012,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -1968,7 +2029,7 @@
   (symbol (lib_id "AA_AUTO_LOADER:CGA3E2X7R1H223K080AA") (at 210.566 69.088 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b76d7dde-5342-4705-8497-6851acb759a5)
-    (property "Reference" "C8" (at 204.216 61.468 0)
+    (property "Reference" "C9" (at 204.216 61.468 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CGA3E2X7R1H223K080AA" (at 204.216 64.008 0)
@@ -2009,7 +2070,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2029,8 +2090,8 @@
     (property "Reference" "#PWR?" (at 237.49 84.328 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 234.95 85.598 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "GND" (at 229.362 83.058 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "" (at 231.14 84.328 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2047,7 +2108,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2117,7 +2178,7 @@
     (property "Reference" "#PWR?" (at 237.49 104.648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 234.95 105.918 0)
+    (property "Value" "GND" (at 233.68 105.156 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (at 231.14 104.648 0)
@@ -2135,7 +2196,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2155,8 +2216,8 @@
     (property "Reference" "#PWR?" (at 238.506 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 235.966 88.138 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "GND" (at 234.95 86.614 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "" (at 232.156 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2173,7 +2234,7 @@
       )
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2182,6 +2243,32 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
           (reference "#PWR048") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 138.938 93.218 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d36b9991-6974-4aa9-84e2-44346a768e2f)
+    (property "Reference" "C5" (at 134.112 91.186 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4.7uF" (at 131.572 93.472 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 139.9032 97.028 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 138.938 93.218 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 79b55b63-5530-4035-a6be-5b28b9f67451))
+    (pin "2" (uuid 162ce4ea-3c95-45e3-99c8-6e69ceadd590))
+    (instances
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2245,19 +2332,19 @@
     )
   )
 
-  (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 161.29 92.964 0) (unit 1)
+  (symbol (lib_id "PCM_Capacitor_AKL:C_0805") (at 167.64 92.964 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f47e353f-abf7-453b-b440-720ae0d6a64a)
-    (property "Reference" "C6" (at 165.1 91.694 0)
+    (property "Reference" "C7" (at 171.45 91.694 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (at 165.1 94.234 0)
+    (property "Value" "1uF" (at 171.45 94.234 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 162.2552 96.774 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 168.6052 96.774 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 161.29 92.964 0)
+    (property "Datasheet" "~" (at 167.64 92.964 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0c6517f5-48f4-4782-8df4-f8cf634450d0))
@@ -2265,7 +2352,7 @@
     (instances
       (project "Z_PLUS_REV1"
         (path "/39cf28b0-d395-4333-bc0e-a98538893595/b8717c54-ec37-498b-9d48-acf0e788946a"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
