@@ -1225,8 +1225,14 @@
   (junction (at 112.522 46.228) (diameter 0) (color 0 0 0 0)
     (uuid 36c133a3-c528-4f8c-b332-a0511dcc3007)
   )
+  (junction (at 25.146 108.966) (diameter 0) (color 0 0 0 0)
+    (uuid 36cbd98a-be2d-4982-8850-369104dd3133)
+  )
   (junction (at 37.084 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 3bb556d1-39f8-4c83-98d4-6314aff3d817)
+  )
+  (junction (at 25.146 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 3cbde2be-2960-4eaa-9e72-388ce7921b25)
   )
   (junction (at 256.286 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 3e321c90-b30d-4eff-a31c-7c7b11659e9d)
@@ -1249,11 +1255,11 @@
   (junction (at 248.666 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 60989983-9004-4c7a-a824-bed0e2f0dec5)
   )
+  (junction (at 25.146 124.206) (diameter 0) (color 0 0 0 0)
+    (uuid 60f75c76-3e84-4295-b59a-eef18e08ecb4)
+  )
   (junction (at 51.562 35.052) (diameter 0) (color 0 0 0 0)
     (uuid 61edb540-4be0-4c7f-9c38-567e0f9ac82d)
-  )
-  (junction (at 46.482 124.206) (diameter 0) (color 0 0 0 0)
-    (uuid 621c5fe5-0946-41d9-a8e0-98c0e35aecdb)
   )
   (junction (at 42.164 56.134) (diameter 0) (color 0 0 0 0)
     (uuid 63a86edf-c67c-46e7-b5ae-c72d6c84eddd)
@@ -1266,6 +1272,9 @@
   )
   (junction (at 223.266 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 749a7d93-8e08-476c-a599-446b3fa40b31)
+  )
+  (junction (at 25.146 109.22) (diameter 0) (color 0 0 0 0)
+    (uuid 79607738-75e5-42f7-9205-12cd40b902df)
   )
   (junction (at 248.666 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 7a36f6bc-a129-498a-a48e-c6c520402ab2)
@@ -1282,9 +1291,6 @@
   (junction (at 51.816 45.212) (diameter 0) (color 0 0 0 0)
     (uuid 976c8f62-8f2e-4864-a66d-47ec5d9f5c11)
   )
-  (junction (at 46.482 115.57) (diameter 0) (color 0 0 0 0)
-    (uuid b3904283-c68c-4600-8a26-1ab7336c5e6d)
-  )
   (junction (at 205.486 76.2) (diameter 0) (color 0 0 0 0)
     (uuid bcf53e6a-2cab-44da-baec-d10e2da3a207)
   )
@@ -1293,6 +1299,9 @@
   )
   (junction (at 228.346 99.06) (diameter 0) (color 0 0 0 0)
     (uuid c0e38b1b-de32-4364-ad3c-2c1dc38be61e)
+  )
+  (junction (at 205.486 122.682) (diameter 0) (color 0 0 0 0)
+    (uuid c3d96ae7-e01b-45a2-8d79-ce2de30d580e)
   )
   (junction (at 112.522 56.388) (diameter 0) (color 0 0 0 0)
     (uuid c43777b7-b588-4696-a34e-30fab9591fce)
@@ -1341,17 +1350,11 @@
   )
 
   (no_connect (at 58.42 127.254) (uuid 1221b9ac-ac96-4947-aba3-a73906464c36))
-  (no_connect (at 175.514 150.114) (uuid 24c0f306-7e7b-4cbe-8999-9cd75b25c01f))
   (no_connect (at 91.44 114.554) (uuid 3053c418-ce21-4377-8c23-e06c7ae70abf))
   (no_connect (at 98.806 45.212) (uuid 3cea67d9-5408-4a86-8afc-4fcc5d2de0c1))
-  (no_connect (at 175.514 119.634) (uuid 57d8711d-be77-4a5c-b576-9aedaaae04ac))
-  (no_connect (at 175.514 147.574) (uuid 6e051112-0de1-47be-9fcd-cccbb20cd52e))
-  (no_connect (at 175.514 152.654) (uuid ba9382a9-dca7-4127-810e-389101f9c4cb))
-  (no_connect (at 175.514 124.714) (uuid cd45f8bb-bb4b-4796-9cf0-d1267762dfe2))
-  (no_connect (at 175.514 122.174) (uuid ee39f53d-5550-4112-acc6-226162047430))
   (no_connect (at 91.44 104.394) (uuid f2f26323-7ef9-4724-ac70-4e4ef3041e54))
 
-  (wire (pts (xy 46.482 123.952) (xy 46.482 124.206))
+  (wire (pts (xy 25.146 121.92) (xy 25.146 124.206))
     (stroke (width 0) (type default))
     (uuid 00ce75af-94ce-4218-b2e6-35e1cc4833cc)
   )
@@ -1359,13 +1362,25 @@
     (stroke (width 0) (type default))
     (uuid 0164aec5-925d-42ec-a011-e70a07b165c5)
   )
+  (wire (pts (xy 24.638 107.442) (xy 25.146 107.442))
+    (stroke (width 0) (type default))
+    (uuid 05007fca-0ce5-4621-9a6a-044027fa4b7c)
+  )
   (wire (pts (xy 119.888 33.274) (xy 122.428 33.274))
     (stroke (width 0) (type default))
     (uuid 055488e1-ccc7-48b6-bb8e-c4250adb51d1)
   )
+  (wire (pts (xy 205.486 122.682) (xy 205.486 123.952))
+    (stroke (width 0) (type default))
+    (uuid 05699cf0-6e3a-4281-9115-d97469d2cc9e)
+  )
   (wire (pts (xy 229.616 86.36) (xy 228.346 86.36))
     (stroke (width 0) (type default))
     (uuid 0720c2e4-e998-4a14-ab65-ff1606cf78d2)
+  )
+  (wire (pts (xy 25.146 90.17) (xy 25.146 91.186))
+    (stroke (width 0) (type default))
+    (uuid 089ecc9c-438b-4169-83e7-bff93f002e89)
   )
   (wire (pts (xy 238.506 76.2) (xy 238.506 59.69))
     (stroke (width 0) (type default))
@@ -1411,9 +1426,9 @@
     (stroke (width 0) (type default))
     (uuid 1c50b1a1-6ad4-4292-83cc-17496e3915de)
   )
-  (wire (pts (xy 46.482 115.57) (xy 49.784 115.57))
+  (wire (pts (xy 25.146 124.206) (xy 51.054 124.206))
     (stroke (width 0) (type default))
-    (uuid 20322a24-5d44-4003-8fed-a94f19dd1960)
+    (uuid 20737ca8-4d5b-40b4-8e92-6ae3fab3977c)
   )
   (wire (pts (xy 98.806 68.072) (xy 102.362 68.072))
     (stroke (width 0) (type default))
@@ -1427,7 +1442,11 @@
     (stroke (width 0) (type default))
     (uuid 24bce918-a81c-4aad-891a-65afe60a7e2a)
   )
-  (wire (pts (xy 46.482 115.57) (xy 46.482 116.332))
+  (wire (pts (xy 36.068 106.172) (xy 36.068 104.394))
+    (stroke (width 0) (type default))
+    (uuid 27fa643d-70dd-45fa-b4a2-38ecbbb70e36)
+  )
+  (wire (pts (xy 25.146 115.57) (xy 25.146 114.3))
     (stroke (width 0) (type default))
     (uuid 2805ff79-cc88-46c6-8378-e04e38f0c52a)
   )
@@ -1446,6 +1465,10 @@
   (wire (pts (xy 59.944 66.294) (xy 63.246 66.294))
     (stroke (width 0) (type default))
     (uuid 332fca4f-63fa-456b-a6e1-0bfc8d0fafb1)
+  )
+  (wire (pts (xy 17.78 124.206) (xy 25.146 124.206))
+    (stroke (width 0) (type default))
+    (uuid 33691eb8-afd7-4aa2-83d3-46e8221c0a94)
   )
   (wire (pts (xy 49.53 127.762) (xy 51.054 127.762))
     (stroke (width 0) (type default))
@@ -1519,13 +1542,13 @@
     (stroke (width 0) (type default))
     (uuid 54f132d4-4b17-43e7-b192-301dbd395dd5)
   )
-  (wire (pts (xy 46.482 124.206) (xy 51.054 124.206))
-    (stroke (width 0) (type default))
-    (uuid 55057e07-1802-45d0-adc1-15cedb6d8340)
-  )
   (wire (pts (xy 51.816 45.212) (xy 56.896 45.212))
     (stroke (width 0) (type default))
     (uuid 572d0924-bf89-42a3-baf5-a3e51a7b795c)
+  )
+  (wire (pts (xy 25.146 109.22) (xy 29.21 109.22))
+    (stroke (width 0) (type default))
+    (uuid 579b846c-8000-4852-87a3-ec0f5b281948)
   )
   (wire (pts (xy 98.552 119.634) (xy 98.552 124.714))
     (stroke (width 0) (type default))
@@ -1563,6 +1586,10 @@
     (stroke (width 0) (type default))
     (uuid 6e1febc5-9467-4c1f-8785-4505325ff6f6)
   )
+  (wire (pts (xy 17.78 109.728) (xy 17.78 111.506))
+    (stroke (width 0) (type default))
+    (uuid 6eb99555-0090-4618-b029-1de476aa0b94)
+  )
   (wire (pts (xy 63.246 40.132) (xy 63.246 45.212))
     (stroke (width 0) (type default))
     (uuid 7025e133-f51e-41b3-9246-e8fe3090e62a)
@@ -1578,6 +1605,10 @@
   (wire (pts (xy 262.636 86.36) (xy 261.366 86.36))
     (stroke (width 0) (type default))
     (uuid 742cb74d-2409-4499-8915-a37a12f222ea)
+  )
+  (wire (pts (xy 25.146 109.22) (xy 25.146 114.3))
+    (stroke (width 0) (type default))
+    (uuid 754e3681-70ba-4ac4-81c3-fa29cef31250)
   )
   (wire (pts (xy 91.44 124.714) (xy 92.202 124.714))
     (stroke (width 0) (type default))
@@ -1618,6 +1649,10 @@
   (wire (pts (xy 242.316 42.672) (xy 238.506 42.672))
     (stroke (width 0) (type default))
     (uuid 83a28da9-84b6-4e18-9a4d-50844d4c123a)
+  )
+  (wire (pts (xy 205.486 121.412) (xy 205.486 122.682))
+    (stroke (width 0) (type default))
+    (uuid 84aa4e5b-756d-465d-99ce-1d68ea62f1b4)
   )
   (wire (pts (xy 42.164 53.34) (xy 42.164 56.134))
     (stroke (width 0) (type default))
@@ -1667,10 +1702,6 @@
     (stroke (width 0) (type default))
     (uuid 9f7666a3-e8f6-4e16-b6bf-8177050419fc)
   )
-  (wire (pts (xy 43.434 124.206) (xy 46.482 124.206))
-    (stroke (width 0) (type default))
-    (uuid a024d79b-f2b8-46b3-9bdf-cacb7592f356)
-  )
   (wire (pts (xy 37.084 50.546) (xy 37.084 51.054))
     (stroke (width 0) (type default))
     (uuid a3747efa-1066-4b01-a75d-e3e0a2b26ecc)
@@ -1691,7 +1722,7 @@
     (stroke (width 0) (type default))
     (uuid aa5b9c65-5446-469e-8c2b-9741edcae829)
   )
-  (wire (pts (xy 58.42 104.394) (xy 49.784 104.394))
+  (wire (pts (xy 36.068 106.172) (xy 29.21 106.172))
     (stroke (width 0) (type default))
     (uuid aa88c2b2-3711-4979-a5a1-b35089ed57f0)
   )
@@ -1731,15 +1762,23 @@
     (stroke (width 0) (type default))
     (uuid babf5ad0-51a7-42ae-b245-cffe3e6ec505)
   )
+  (wire (pts (xy 25.146 107.442) (xy 25.146 108.966))
+    (stroke (width 0) (type default))
+    (uuid bbb8f9ed-34ed-48a8-bbab-033e6f081ebb)
+  )
   (wire (pts (xy 256.286 78.74) (xy 256.286 76.2))
     (stroke (width 0) (type default))
     (uuid c0e5aed0-f4c1-4b13-9f10-59c1296289a1)
+  )
+  (wire (pts (xy 36.068 104.394) (xy 58.42 104.394))
+    (stroke (width 0) (type default))
+    (uuid c1a56ece-83ec-4d23-bbba-b325596cd5cc)
   )
   (wire (pts (xy 91.44 109.474) (xy 91.44 112.014))
     (stroke (width 0) (type default))
     (uuid c2b70ba5-7afb-40cd-8b07-cddc2a3ed5f5)
   )
-  (wire (pts (xy 49.784 104.394) (xy 49.784 115.57))
+  (wire (pts (xy 29.21 106.172) (xy 29.21 109.22))
     (stroke (width 0) (type default))
     (uuid c47ae388-c79a-42f7-a813-4de00b73c1d8)
   )
@@ -1807,7 +1846,7 @@
     (stroke (width 0) (type default))
     (uuid dca699a1-2c26-4bc6-a9a2-3b23adaf835b)
   )
-  (wire (pts (xy 46.482 115.062) (xy 46.482 115.57))
+  (wire (pts (xy 25.146 108.966) (xy 25.146 109.22))
     (stroke (width 0) (type default))
     (uuid dffabd9c-6c78-4b75-9b8e-80a33e40e0a9)
   )
@@ -1904,11 +1943,11 @@
     (uuid fdb6308d-8c02-478d-a44d-3d302cbe57af)
   )
 
-  (text "Torque Coil driver boost\n\n" (at 53.848 100.33 0)
+  (text "Torque Coil driver buck\n\n" (at 53.848 100.33 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 0f5bc6f4-01c3-42ff-990b-43535827fe34)
   )
-  (text "check voltage paths\nput pins for vbatt\n" (at 112.522 102.616 0)
+  (text "Stepping down voltage to 5V\n" (at 58.928 137.668 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6887f167-ac73-4a2f-9dac-600c805eb6cb)
   )
@@ -1948,10 +1987,24 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "VBATT" (shape input) (at 175.514 122.174 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 225fe66a-17cc-4dbe-bbd3-8f7ab4bb2f6e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 183.8816 122.174 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "5V" (shape bidirectional) (at 49.53 127.762 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 22ef2a85-fb31-4fb0-9d57-8953a73eafb5)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 49.53 127.762 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VBATT" (shape input) (at 175.514 124.714 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 251a5ee9-b865-4f19-981f-7f9595e7137a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 183.8816 124.714 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1983,6 +2036,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "VSOLAR" (shape bidirectional) (at 175.514 152.654 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 50bbf037-8cce-4e2c-a419-98134935fbab)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 186.6258 152.654 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "SDA1_b4iso" (shape bidirectional) (at 175.514 137.414 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 591285a8-1492-48b3-96e2-67c2ff9e243c)
@@ -1997,6 +2057,20 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "VBATT" (shape input) (at 230.886 149.352 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 59d3323a-8a55-4152-86d9-9ba704a8c075)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 239.2536 149.352 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VSOLAR" (shape bidirectional) (at 175.514 119.634 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7044c45b-3b94-4e7c-8941-27c72be37f3a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 186.6258 119.634 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "SDA_TORQUE" (shape bidirectional) (at 242.316 42.672 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8a3832da-5f9f-4512-95be-7f30b0b471e2)
@@ -2009,6 +2083,34 @@
     (uuid 8ba87d5b-4777-45cb-85ce-6b5c568a958e)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 245.618 38.862 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "VBATT" (shape input) (at 230.886 151.892 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 906aecfa-952a-4457-b13e-82efe2622620)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 239.2536 151.892 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VBATT" (shape input) (at 175.514 150.114 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9166f82a-5cef-4bf0-ba61-298cbd9b35a5)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 183.8816 150.114 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VBATT" (shape input) (at 230.886 126.492 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid acad7f2c-1f81-4f88-87b5-4660bfcf65ff)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 239.2536 126.492 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VBATT" (shape input) (at 230.886 123.952 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ad53878e-1916-44b8-aef9-9000f2d00559)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 239.2536 123.952 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "SDA1_b4iso" (shape bidirectional) (at 228.346 42.672 180)
@@ -2032,10 +2134,38 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "SCL1_b4iso" (shape bidirectional) (at 230.886 134.112 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b7631f9f-b54d-4430-bc5c-1426a315db55)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 230.886 134.112 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
   (global_label "SCL_TORQUE" (shape bidirectional) (at 59.182 53.594 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c30be7ac-7a55-4c03-b3ae-2c3c338fc42a)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 59.182 53.594 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SDA1_b4iso" (shape bidirectional) (at 230.886 139.192 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c5b688ba-919b-4737-9135-d01226786ea8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 230.886 139.192 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SDA1_b4iso" (shape bidirectional) (at 230.886 136.652 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c72bfcad-8d72-407f-915d-76e61b4f62f9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 230.886 136.652 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "SCL1_b4iso" (shape bidirectional) (at 230.886 141.732 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d59e627a-552b-4cb3-8af0-7d127ec685e4)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 230.886 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2053,10 +2183,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "VSOLAR" (shape bidirectional) (at 230.886 121.412 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f2aec967-9298-4cba-9aad-9b91cb47bfb9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 241.9978 121.412 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "5V" (shape bidirectional) (at 119.888 33.274 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid fab95505-5f54-424c-b2fd-b528d74a3cdd)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.888 33.274 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VSOLAR" (shape bidirectional) (at 230.886 154.432 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid fc25d5d3-5ffa-429e-b78d-41a566a2b64c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 241.9978 154.432 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2065,6 +2209,13 @@
     (uuid fd926b3a-9a67-4c1a-addb-31ad4b819a42)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 175.514 139.954 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "VBATT" (shape input) (at 175.514 147.574 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid fe351e91-6199-4ce6-815a-f1a5771d4407)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 183.8816 147.574 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
@@ -2155,7 +2306,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q9") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2207,7 +2358,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R34") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2259,7 +2410,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R33") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2359,19 +2510,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 43.434 111.506 0) (mirror x) (unit 1)
+  (symbol (lib_id "power:GND") (at 17.78 109.728 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 129e4bf8-394e-4702-b255-29b386c7be25)
-    (property "Reference" "#PWR?" (at 43.434 105.156 0)
+    (property "Reference" "#PWR?" (at 17.78 103.378 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 44.704 107.696 0)
+    (property "Value" "GND" (at 19.05 105.918 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 43.434 111.506 0)
+    (property "Footprint" "" (at 17.78 109.728 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 43.434 111.506 0)
+    (property "Datasheet" "" (at 17.78 109.728 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 76a1373e-cee1-4ccf-9813-11415e4a1d31))
@@ -2429,7 +2580,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2478,7 +2629,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R26") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2528,7 +2679,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R19") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2574,7 +2725,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2673,7 +2824,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R37") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2825,7 +2976,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q9") (unit 2)
+          (reference "Q3") (unit 2)
         )
       )
       (project "Z_PLUS_REV1"
@@ -2850,7 +3001,7 @@
   (symbol (lib_id "SparkFun-Jumper:SolderJumper_3_Open_No_Silk") (at 129.794 51.308 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36cb34e9-67e7-4bed-aec0-49ecfe497590)
-    (property "Reference" "JP2" (at 132.842 51.308 0)
+    (property "Reference" "JP4" (at 132.842 51.308 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "~" (at 132.588 51.308 0)
@@ -2868,7 +3019,7 @@
     (instances
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "JP2") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2888,6 +3039,49 @@
       (project "TORQUE_COIL"
         (path "/b3c767a2-52a4-4bc0-b6bc-0582886082bc"
           (reference "JP2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 230.886 144.272 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3701a13c-3c3e-40dc-81b1-edff6f352810)
+    (property "Reference" "#PWR?" (at 227.076 144.272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 233.68 144.272 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 230.886 144.272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 230.886 144.272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6575f07c-798e-49e0-80fc-f991be99b1f0))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_TORQUE_REV1"
+        (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2917,7 +3111,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -2979,7 +3173,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q12") (unit 2)
+          (reference "Q6") (unit 2)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3030,7 +3224,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3076,7 +3270,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3124,7 +3318,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q11") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3170,7 +3364,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3187,6 +3381,74 @@
       (project "TORQUE_COIL"
         (path "/b3c767a2-52a4-4bc0-b6bc-0582886082bc"
           (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "F3311A7H121008E200:F3311A7H121014E200") (at 205.486 121.412 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 47762962-728f-46f1-aa1f-8c9fac627e9c)
+    (property "Reference" "J2" (at 218.186 113.792 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "F3311A7H121014E200" (at 218.186 116.332 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "F3311A7H121014E200" (at 227.076 216.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/flex/ffc_fpc_050mm_f331.pdf" (at 227.076 316.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.12" (at 227.076 516.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "" (at 227.076 616.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "" (at 227.076 716.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Amphenol Communications Solutions" (at 227.076 816.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "F3311A7H121014E200" (at 227.076 916.332 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "1" (uuid 34ce27ab-75fc-45c9-af7e-0c5fb5c4a39c))
+    (pin "10" (uuid da8e44c6-6547-48c4-a005-2c244f0e208b))
+    (pin "11" (uuid 6b7f20e5-1e48-4092-8e9a-a41f7072d87a))
+    (pin "12" (uuid 689d33c9-75b2-4ff0-bffe-f2d253f8be78))
+    (pin "13" (uuid 2741dfa5-2cff-4d33-853c-ca5226272fe5))
+    (pin "14" (uuid 9e64ee5d-5f39-4e21-a150-7352c07052b9))
+    (pin "2" (uuid d3174d57-5b79-469b-8fd1-46376431fd4b))
+    (pin "3" (uuid 10dfb523-6137-45d3-bb86-c005f86bc0bc))
+    (pin "4" (uuid bdb11089-10b1-4b29-869c-39d7ef3ad675))
+    (pin "5" (uuid 1164c9ed-9c84-4243-90b2-d89dc3a3fccd))
+    (pin "6" (uuid fa7d4ea6-d118-41b6-a898-baccbc29797d))
+    (pin "7" (uuid 97ba7ba7-331c-41c3-a7d8-1bbbfdb1ba81))
+    (pin "8" (uuid f6bae786-bb98-4757-a948-f22aaf146e0b))
+    (pin "9" (uuid 36992641-d321-408d-a0b2-cb62b58f9a61))
+    (pin "MP1" (uuid 10ef6196-8cb1-4c11-94ab-385d73d70bc2))
+    (pin "MP2" (uuid 32b12fd8-85aa-4e44-8333-3c8f26170d4d))
+    (instances
+      (project "Z_TORQUE_REV1"
+        (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595"
+          (reference "J3") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "J2") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3216,7 +3478,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3262,7 +3524,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3328,6 +3590,49 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 205.486 122.682 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4bc7d813-53ec-428b-a70b-ec366c037255)
+    (property "Reference" "#PWR?" (at 199.136 122.682 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 202.2348 122.809 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 205.486 122.682 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 205.486 122.682 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f46ed8b8-bb30-4974-b187-2ce36248497e))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_TORQUE_REV1"
+        (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 91.44 109.474 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52f46bd3-4739-4ce0-a6b1-4d8c07b7e265)
@@ -3352,7 +3657,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3483,7 +3788,7 @@
   (symbol (lib_id "SparkFun-Jumper:SolderJumper_3_Open_No_Silk") (at 46.99 40.132 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6db1c862-4808-43ec-b16e-01459bc346a9)
-    (property "Reference" "JP4" (at 43.942 40.132 0)
+    (property "Reference" "JP1" (at 43.942 40.132 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "~" (at 44.196 40.132 0)
@@ -3501,7 +3806,7 @@
     (instances
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "JP4") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3521,6 +3826,49 @@
       (project "TORQUE_COIL"
         (path "/b3c767a2-52a4-4bc0-b6bc-0582886082bc"
           (reference "JP2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 230.886 131.572 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74a454e1-bb43-4664-a552-b51288eecfa4)
+    (property "Reference" "#PWR?" (at 227.076 131.572 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 234.188 131.572 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 230.886 131.572 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 230.886 131.572 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9b702116-431a-4d3e-aa35-b8055fbba8e8))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_TORQUE_REV1"
+        (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3555,7 +3903,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3607,7 +3955,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R27") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3624,6 +3972,92 @@
         )
         (path "/97119169-578f-44be-8822-faf8f0e4fcd6/06756695-4e8e-4b7d-905d-85546769f1f1"
           (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 230.886 129.032 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 84fb79f1-c846-4cfc-b211-c12e7f7a645f)
+    (property "Reference" "#PWR?" (at 237.236 129.032 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 234.1372 128.905 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 230.886 129.032 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 230.886 129.032 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 00a67668-46b3-411b-b629-666ed703a034))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_TORQUE_REV1"
+        (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR024") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 230.886 146.812 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8560e1c4-4767-4e48-8c61-9a3bf1bc3d1f)
+    (property "Reference" "#PWR?" (at 237.236 146.812 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 234.1372 146.685 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 230.886 146.812 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 230.886 146.812 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 208356fa-e68b-4fad-9f83-9d1f825bc965))
+    (instances
+      (project "xpanel"
+        (path "/30bf83b4-3f3b-46f2-ac0f-8077e2dc1b24"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Z_TORQUE_REV1"
+        (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
+          (reference "#PWR028") (unit 1)
+        )
+      )
+      (project "Z_PLUS_REV1"
+        (path "/39cf28b0-d395-4333-bc0e-a98538893595"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Xpanel_V1_final"
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/97119169-578f-44be-8822-faf8f0e4fcd6/db306d3f-1ab7-4e38-afab-c78bdb56c587"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3770,7 +4204,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q7") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3816,7 +4250,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -3868,7 +4302,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R28") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3920,7 +4354,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R35") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -3945,7 +4379,7 @@
   (symbol (lib_id "SparkFun-Jumper:SolderJumper_3_Open_No_Silk") (at 112.522 51.308 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c16b8a2-52f4-47ee-b1d9-0889a7bae646)
-    (property "Reference" "JP1" (at 109.474 51.308 0)
+    (property "Reference" "JP3" (at 109.474 51.308 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "~" (at 109.728 51.308 0)
@@ -3963,7 +4397,7 @@
     (instances
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "JP1") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -4017,7 +4451,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4111,7 +4545,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R12") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -4160,7 +4594,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -4182,43 +4616,43 @@
     )
   )
 
-  (symbol (lib_id "AA_AUTO_LOADER:GRM033R60J224KE15D") (at 43.434 124.206 90) (unit 1)
+  (symbol (lib_id "AA_AUTO_LOADER:GRM033R60J224KE15D") (at 17.78 124.206 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b44b1363-c18e-4d63-8a6b-ad56fc4dc9f3)
-    (property "Reference" "C1" (at 47.498 116.586 90)
+    (property "Reference" "C1" (at 21.844 116.586 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "GRM033R60J224KE15D" (at 47.498 119.126 90)
+    (property "Value" "GRM033R60J224KE15D" (at 21.844 119.126 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "CAPC0603X33N" (at 42.164 115.316 0)
+    (property "Footprint" "CAPC0603X33N" (at 16.51 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" (at 44.704 115.316 0)
+    (property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" (at 19.05 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "MURATA - GRM033R60J224KE15D - CAP, 0.22UF, 6.3V, MLCC, 0201" (at 47.244 115.316 0)
+    (property "Description" "MURATA - GRM033R60J224KE15D - CAP, 0.22UF, 6.3V, MLCC, 0201" (at 21.59 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Height" "0.33" (at 49.784 115.316 0)
+    (property "Height" "0.33" (at 24.13 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Name" "Murata Electronics" (at 52.324 115.316 0)
+    (property "Manufacturer_Name" "Murata Electronics" (at 26.67 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "GRM033R60J224KE15D" (at 54.864 115.316 0)
+    (property "Manufacturer_Part_Number" "GRM033R60J224KE15D" (at 29.21 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Part Number" "81-GRM33R60J224KE15D" (at 57.404 115.316 0)
+    (property "Mouser Part Number" "81-GRM33R60J224KE15D" (at 31.75 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R60J224KE15D?qs=2W5sgKM%2F372eQsbMkBhO2Q%3D%3D" (at 59.944 115.316 0)
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R60J224KE15D?qs=2W5sgKM%2F372eQsbMkBhO2Q%3D%3D" (at 34.29 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Part Number" "GRM033R60J224KE15D" (at 62.484 115.316 0)
+    (property "Arrow Part Number" "GRM033R60J224KE15D" (at 36.83 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm033r60j224ke15d/murata-manufacturing?region=nac" (at 65.024 115.316 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm033r60j224ke15d/murata-manufacturing?region=nac" (at 39.37 115.316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid ab32f1ba-af66-41cf-9835-f85d0715ce15))
@@ -4270,7 +4704,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R20") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -4317,7 +4751,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R13") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -4450,7 +4884,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "C8") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4555,7 +4989,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q12") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4603,7 +5037,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q10") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4628,7 +5062,7 @@
   (symbol (lib_id "SparkFun-Jumper:SolderJumper_3_Open_No_Silk") (at 56.896 40.132 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4a79775-4165-45ee-9fc0-a2469d8eb9c3)
-    (property "Reference" "JP3" (at 53.848 40.132 0)
+    (property "Reference" "JP2" (at 53.848 40.132 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "~" (at 54.102 40.132 0)
@@ -4646,7 +5080,7 @@
     (instances
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "JP3") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
@@ -4671,19 +5105,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 46.482 97.282 0) (mirror x) (unit 1)
+  (symbol (lib_id "power:GND") (at 25.146 90.17 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c77ac1f9-4a9b-4f48-b66f-55bbd0a257c0)
-    (property "Reference" "#PWR?" (at 46.482 90.932 0)
+    (property "Reference" "#PWR?" (at 25.146 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 47.752 93.472 0)
+    (property "Value" "GND" (at 26.416 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 46.482 97.282 0)
+    (property "Footprint" "" (at 25.146 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 46.482 97.282 0)
+    (property "Datasheet" "" (at 25.146 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fd8306b8-60f7-425a-a151-fcc567da2f8a))
@@ -4746,7 +5180,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4798,7 +5232,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R30") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4820,43 +5254,43 @@
     )
   )
 
-  (symbol (lib_id "AA_AUTO_LOADER:RMCF0603FT19K1") (at 46.482 115.062 90) (unit 1)
+  (symbol (lib_id "AA_AUTO_LOADER:RMCF0603FT19K1") (at 25.146 108.966 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d10c59ef-e0c5-4ca0-88db-d45eedfed034)
-    (property "Reference" "R1" (at 49.276 104.902 90)
+    (property "Reference" "R1" (at 27.94 98.806 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "RMCF0603FT19K1" (at 49.276 107.442 90)
+    (property "Value" "RMCF0603FT19K1" (at 27.94 101.346 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "RESC1608X55N" (at 45.212 101.092 0)
+    (property "Footprint" "RESC1608X55N" (at 23.876 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 47.752 101.092 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 26.416 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Description" "RES, 0603, 19.1 Kohm, 1%, 0.1W" (at 50.292 101.092 0)
+    (property "Description" "RES, 0603, 19.1 Kohm, 1%, 0.1W" (at 28.956 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Height" "0.55" (at 52.832 101.092 0)
+    (property "Height" "0.55" (at 31.496 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Name" "Stackpole Electronics, Inc." (at 55.372 101.092 0)
+    (property "Manufacturer_Name" "Stackpole Electronics, Inc." (at 34.036 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer_Part_Number" "RMCF0603FT19K1" (at 57.912 101.092 0)
+    (property "Manufacturer_Part_Number" "RMCF0603FT19K1" (at 36.576 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Part Number" "" (at 60.452 101.092 0)
+    (property "Mouser Part Number" "" (at 39.116 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Mouser Price/Stock" "" (at 62.992 101.092 0)
+    (property "Mouser Price/Stock" "" (at 41.656 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Part Number" "RMCF0603FT19K1" (at 65.532 101.092 0)
+    (property "Arrow Part Number" "RMCF0603FT19K1" (at 44.196 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft19k1/stackpole-electronics" (at 68.072 101.092 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/rmcf0603ft19k1/stackpole-electronics" (at 46.736 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 69162a1a-52f1-4cef-8959-78285b905e9d))
@@ -4904,7 +5338,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -4953,7 +5387,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R29") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -5004,7 +5438,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -5056,7 +5490,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -5078,19 +5512,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 46.482 120.142 180) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 25.146 118.11 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea1d2d24-79d2-42d2-99f0-3011be522d99)
-    (property "Reference" "R?" (at 48.2092 118.9736 0)
+    (property "Reference" "R?" (at 26.8732 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100K" (at 48.2092 121.285 0)
+    (property "Value" "100K" (at 26.8732 119.253 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 45.466 119.888 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 24.13 117.856 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 46.482 120.142 0)
+    (property "Datasheet" "~" (at 25.146 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c993df94-0d57-436a-bb13-df023965e2c4))
@@ -5158,7 +5592,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "R36") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -5209,7 +5643,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -5257,7 +5691,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "Q8") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
       (project "Z_PLUS_REV1"
@@ -5363,7 +5797,7 @@
       )
       (project "Z_TORQUE_REV1"
         (path "/322af49d-8a37-44c9-a7c5-5ac9f75606cd"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "Xpanel_V1_final"
