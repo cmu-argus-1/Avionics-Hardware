@@ -2,9 +2,9 @@
 ## Please check the box add your name and time.
 ## add "[x]" for checking off a list item, please make sure you edit the readme file and then commit and push or else the change wont take place.
 
-- [x] Design Signoff made by Rohit Bangal at time 02:12 PM and date 02/27/2024
-- [x] Avionics Signoff made by Harry Rosmann at time 4:11 PM and date 2/27/2024
-- [x] Mechanical Signoff made by Allison Weller at time 5:20 PM and date 2/28/2024
+- [x] Design Signoff made by Rohit Bangal at time 11:53 PM and date 04/03/2024
+- [ ] Avionics Signoff made by _ at time _ PM and date _
+- [ ] Mechanical Signoff made by _ at time _ PM and date _
 - [ ] TA signoff by __ at time __ and date __
 - [ ] Board list sent by -- to -- at time __ and date __
 - [ ] Parts list sent by -- to -- at time __ and date __

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAV99-TP
+D Diode Array 1 Pair Series Connection 70 V 200mA Surface Mount TO-236-3, SC-59, SOT-23-3
+K
+F https://mccsemi.com/pdf/Products/BAV99(SOT-23).pdf
+$ENDCMP
+#
+#End Doc Library

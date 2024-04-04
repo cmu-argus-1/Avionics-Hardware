@@ -1,9 +1,0 @@
-Manufacturer=MCC
-PartNumber=BAV99-TP
-PartCategory=Diode
-PackageCategory=SOT23 (3-Pin)
-PinCount=3
-Version=6.1
-Released=2023-11-04 11:31:53
-Downloaded=2024-01-26 06:46:00
-3D=Y
