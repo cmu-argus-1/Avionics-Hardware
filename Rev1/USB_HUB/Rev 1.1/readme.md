@@ -3,7 +3,7 @@
 ## add "[x]" for checking off a list item, please make sure you edit the readme file and then commit and push or else the change wont take place.
 
 - [x] Design Signoff made by Rohit Bangal at time 11:53 PM and date 04/03/2024
-- [ ] Avionics Signoff made by _ at time _ PM and date _
+- [x] Avionics Signoff made by Harry Rosmann at time 12:21 PM and date 04/05/2024
 - [ ] Mechanical Signoff made by _ at time _ PM and date _
 - [ ] TA signoff by __ at time __ and date __
 - [ ] Board list sent by -- to -- at time __ and date __
