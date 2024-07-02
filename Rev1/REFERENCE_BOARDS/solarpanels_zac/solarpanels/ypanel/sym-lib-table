@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "ypanel")(type "Legacy")(uri "${KIPRJMOD}/ypanel.lib")(options "")(descr ""))
-  (lib (name "ypanel-rescue")(type "Legacy")(uri "${KIPRJMOD}/ypanel-rescue.lib")(options "")(descr ""))
-)

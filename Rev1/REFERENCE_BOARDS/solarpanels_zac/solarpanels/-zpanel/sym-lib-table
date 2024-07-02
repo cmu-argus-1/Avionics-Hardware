@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "-zpanel-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/-zpanel-eagle-import.lib")(options "")(descr ""))
-  (lib (name "-zpanel-rescue")(type "KiCad")(uri "${KIPRJMOD}/-zpanel-rescue.kicad_sym")(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name -zpanel)(type KiCad)(uri "$(KIPRJMOD)/-zpanel.pretty")(options "")(descr ""))
-)
