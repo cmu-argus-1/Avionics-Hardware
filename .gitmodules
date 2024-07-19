@@ -16,3 +16,6 @@
 [submodule "KiCad-Libraries"]
 	path = KiCad-Libraries
 	url = git@github.com:cmu-spacecraft-design-build-fly-2023/KiCad-Libraries.git
+[submodule "Avionics-JetsonCarrier"]
+	path = Avionics-JetsonCarrier
+	url = git@github.com:cmu-spacecraft-design-build-fly-2023/Avionics-JetsonCarrier.git
