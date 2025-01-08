@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Coil Tester Board")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Coil Tester Board.pretty")(options "")(descr ""))
+)
